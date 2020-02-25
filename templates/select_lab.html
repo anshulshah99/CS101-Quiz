@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Statistics</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+</head>
+
+<h3 style="text-align: center">Select the lab sections you want to analyze</h3>
+<form action='' method="POST">
+    <div style="text-align:center">
+{% for i in labs %}
+<input type='checkbox' value='{{i}}' name='{{i}}'>{{i}}</input>
+<br>
+{% endfor %}
+
+<h3 style="text-align: center">Select the concepts you want to analyze</h3>
+{% for i in con %}
+<input type='checkbox' value='{{i}}' name='{{i}}'>{{i}}</input>
+<br>
+{% endfor %}
+<br>
+<button type="submit" value="submit">Submit</button>
+</div>
+</form>
+</body>
+
+</html>

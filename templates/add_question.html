@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Question</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+</head>
+<body>
+<div class="container">
+<h2 style="text-align:center">Add a Question to the Database</h2>
+<form action="" method="POST" role="form">
+<div style="text-align:center" class="form-group">
+    <label for="choices">Question Type:</label>
+    <select name = "values" style="width:100px; height:35px; background-color:white; font-weight: bold; font-size: 100%;" id = "choices">
+    {% for c in concepts %}
+        <option value= "{{c}}">{{c}}</option>
+    {% endfor %}
+
+    </select>
+<br>
+
+<label for="text">Question Text:</label>
+<textarea cols="50" rows="6" class="form-control" id="text" name="text">Type text here</textarea><br>
+
+<label for="correct_ans">Correct Answer:</label>
+<input type="text" class="form-control" id="correct_ans" name="correct_ans" >
+    <br>
+
+    <label for="wrong_ans1">Wrong Answer 1:</label>
+<input type="text" class="form-control" id="wrong_ans1" name="wrong_ans1"> <br>
+
+    <label for="wrong_ans2">Wrong Answer 2:</label>
+<input type="text" class="form-control" id="wrong_ans2" name="wrong_ans2"> <br>
+
+    <label for="wrong_ans3">Wrong Answer 3:</label>
+<input type="text" class="form-control" id="wrong_ans3" name="wrong_ans3"> <br>
+
+    <br>
+    <br>
+
+
+    <button type="submit" value="Next">Insert Question</button>
+    </div>
+
+</form>
+</div>
+</body>
+</html>

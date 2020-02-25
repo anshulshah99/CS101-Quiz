@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Concept</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+</head>
+<body>
+
+<h1 style="text-align:center">Concepts</h1>
+<h3 style="text-align: center">Select the concepts you want in your quiz</h3>
+
+<form action='' method="POST">
+    <div style="text-align:center">
+{% for i in concepts %}
+<input type='checkbox' value='{{i}}' name='{{i}}' style="font-size: 150%;">{{i}}</input>
+<br>
+        <br>
+{% endfor %}
+
+        <h3 style="text-align: center">Choose the Number of Questions</h3>
+<input type="number" value = "5" style="width:200px; height:45px; background-color:white; font-size: 100%;" class="form-control" id="num" name="num"> <br>
+<br>
+
+    <button type="submit" value="Get questions">Get Questions</button>
+</div>
+</form>
+<br>
+<br>
+<br>
+<p align = "center">Click <a href="{{ url_for('analyze_student') }}"> here</a> to analyze your own statistics!</p>
+
+</body>
+</html>

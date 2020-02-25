@@ -1,0 +1,28 @@
+<head>
+    <title>What Will Python Display?</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+  </head>
+
+
+<div class="container">
+
+
+<h2 style="text-align:center">Login Form</h2>
+    <form action="" method="POST" role="form">
+
+    <div style="text-align:center" class="form-group">
+    <label for="lab sections">Lab Section:</label>
+    <select name = "lab sections" style="width:260px; height:45px; background-color:white; font-size: 100%;" id = "lab sections">
+    {% for c in sections %}
+        <option value= "{{c}}">{{c}}</option>
+    {% endfor %}
+    </select>
+    <br>
+    <br>
+
+
+    <button type="submit" value="Next">Next</button>
+    </div>
+
+</form>
+    </div>

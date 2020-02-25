@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab Statistics</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+
+</head>
+<h2 align="center">Lab Results</h2>
+<body>
+<table class = "table" align="center">
+    <tbody>
+    <tr>
+    <th>Lab Section</th>
+    <th>Concept</th>
+    <th>Correct</th>
+    <th>Total</th>
+        <th>Percent</th>
+
+        {% for i in labs %}
+
+</tr>
+    <tr>
+    <td>{{i[0]}}</td>
+    <td>{{i[1]}}</td>
+    <td>{{i[2]}}</td>
+    <td>{{i[3]}}</td>
+        <td>{{i[2]/i[3] * 100}}</td>
+</tr>
+    {% endfor %}
+    </tbody>
+
+</table>
+
+</body>
+</html>

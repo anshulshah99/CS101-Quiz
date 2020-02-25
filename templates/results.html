@@ -1,0 +1,25 @@
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+</head>
+
+<h1>Quiz Results</h1>
+<form action='' method='POST'>
+    <ol>
+
+        {% for i in q %}
+        {% autoescape false %}
+            <li style= 'font-family:Courier New;'> {{i}}</li>
+        {% endautoescape %}
+        <p>Your response: <u>{% autoescape false %}{{a[i]}}{% endautoescape %}</u><br><br>Correct response: <u>{% autoescape false %}{{c[i]}}{% endautoescape %}</u><br><br>You are <b><u>{{o[i]}}</u></b></p>
+            <br>
+        {% endfor %}
+    </ol>
+    <button type="submit" name = "choose" value="Choose a new concept">Change Quiz Settings</button>
+    <button type="submit" name = "stay" value="More questions from this concept">Generate New Quiz (Same Settings)</button>
+
+</form>
+<br>
+<br>
+<p>We would really appreciate any feedback you have on this study tool. Click <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2Zfaya2YsaVcsnho9XXyIRKBO_WPe3SlArgKv28iKeLjtZw/viewform?usp=sf_link">here</a> to submit an optional feedback survey about your experience using this website.</p>

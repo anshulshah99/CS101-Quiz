@@ -1,0 +1,122 @@
+<style>
+    .container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+ 	top: 6px;
+	left: 6px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: white;
+}
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+</head>
+
+<h1>Quiz</h1>
+<p>What will the code snippets display?</p>
+<form action='' method="POST">
+    <ol>
+    {% for i in q %}
+        {% autoescape false %}
+            <li style= 'font-family:Courier New;'>{{i}}</li>
+            <br>
+        {% endautoescape %}
+    <label class="container">
+  <input type="radio" value='{{o[i][0]}}' name="{{i}}">{% autoescape false %}{{o[i][0]}}{% endautoescape %}
+  <span class="checkmark"></span>
+</label>
+      <br>
+<label class="container">
+  <input type="radio" value='{{o[i][1]}}' name="{{i}}">{% autoescape false %}{{o[i][1]}}{% endautoescape %}
+  <span class="checkmark"></span>
+</label>
+        <br>
+<label class="container">
+  <input type="radio" value='{{o[i][2]}}' name="{{i}}">{% autoescape false %}{{o[i][2]}}{% endautoescape %}
+  <span class="checkmark"></span>
+</label>
+        <br>
+<label class="container">
+  <input type="radio" value='{{o[i][3]}}' name="{{i}}">{% autoescape false %}{{o[i][3]}}{% endautoescape %}
+  <span class="checkmark"></span>
+</label>
+        <br>
+
+    {% endfor %}
+        </ol>
+    <!--<ol>
+        {% for i in q %}
+        {% autoescape false %}
+            <li style= 'font-family:Courier New;'><u>{{i}}</u></li>
+        {% endautoescape %}
+            <input type='radio' value='{{o[i][0]}}' name='{{i}}' >{{o[i][0]}}
+            <br>
+            <input type='radio' value='{{o[i][1]}}' name='{{i}}' >{{o[i][1]}}
+            <br>
+            <input type='radio' value='{{o[i][2]}}' name='{{i}}' >{{o[i][2]}}
+            <br>
+            <input type='radio' value='{{o[i][3]}}' name='{{i}}' >{{o[i][3]}}
+
+            <br>
+            <br>
+        {% endfor %}
+    </ol>-->
+    <button type="submit" value="submit">Submit</button>
+</form>

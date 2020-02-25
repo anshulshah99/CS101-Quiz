@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Analyze Student</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+</head>
+<h2 align="center">Student Results</h2>
+<body>
+
+{% if student|length == 0 %}
+<h3 align = "center">Oops! We don't have any entries for that netID</h3>
+{% endif %}
+<table class = "table" align="center">
+    <tbody>
+    <tr>
+    <th>NetID</th>
+    <th>Concept</th>
+        <th>Function</th>
+    <th>Correct</th>
+    <th>Total</th>
+        <th>Percent</th>
+
+        {% for i in student %}
+
+</tr>
+    <tr>
+    <td>{{i[0]}}</td>
+    <td>{{i[1]}}</td>
+    <td>{{i[2]}}</td>
+    <td>{{i[3]}}</td>
+        <td>{{i[4]}}</td>
+        <td>{{i[3]/i[4] * 100}}</td>
+</tr>
+    {% endfor %}
+    </tbody>
+
+</table>
+
+
+</body>
+</html>
