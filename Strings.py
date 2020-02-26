@@ -74,6 +74,6 @@ def change_case(word):
 if __name__ == '__main__':
     x = get_words()
     q, a = create(x)
-   # print(q)
-    #print(a)
+    print(q)
+    print(a)
     

@@ -20,7 +20,7 @@ while i < len(lst):
 (1 == 1) and (2 != 3 or 1/0 == 0)
 
 def end_value():
-    
+
     return None
 
 if __name__ == '__main__':

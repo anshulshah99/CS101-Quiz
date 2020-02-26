@@ -200,11 +200,11 @@ def select_student():
 
 @app.route('/analyze_student', methods=["GET", 'POST'])
 def analyze_student():
-    student_netid = session['uid']
+    student_netid = session['student']
     if type(student_netid) != str:
         student_netid = session['student'][0]
     cur.execute("""SELECT tot_num.netid, tot_num.concept, tot_num.function, correct_num.tot_correct, tot_num.tot_responses 
-                FROM (SELECT responses.netid, questions.concept, questions.function, COUNT(*) as tot_correct
+                FROM (SELECT responses.netid, questions.concept, questions.function , COUNT(*) as tot_correct
                 FROM responses, questions
                 WHERE questions.qid = responses.qid and responses.semester = 'Spring 20'
                 AND questions.correct_ans = responses.ans_choice
@@ -283,7 +283,9 @@ def confirm_add_question():
 
 
 if __name__ == '__main__':
-
+    #
+    #select concept, function, count(*), timestamp from responses r, questions q where netid = 'orp' and r.qid = q.qid and r.ans_choice = q.correct_ans group by concept, function, timestamp
+    #select concept, function, count(*), timestamp from responses r, questions q where netid = 'orp' and r.qid = q.qid group by concept, function, timestamp;
     #cur.execute("""SELECT * FROM Questions""")
     app.run()
     con.commit()
