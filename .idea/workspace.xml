@@ -34,13 +34,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="52" />
-          <entry key="py" value="1661" />
+          <entry key="py" value="2214" />
           <entry key="sql" value="284" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1713" />
+          <entry key="Python" value="2266" />
           <entry key="Scratch" value="284" />
         </counts>
       </usages-collector>
@@ -51,8 +51,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/while_loops.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+            <state relative-caret-position="360">
+              <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+              <folding>
+                <element signature="e#586#1318#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -251,12 +254,12 @@
       <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Python Console" visible="true" weight="0.32954547" />
+      <window_info anchor="bottom" id="Python Console" weight="0.32954547" />
       <window_info anchor="bottom" id="Terminal" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -321,8 +324,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/while_loops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+        <state relative-caret-position="360">
+          <caret line="98" column="24" selection-start-line="98" selection-start-column="24" selection-end-line="98" selection-end-column="24" />
+          <folding>
+            <element signature="e#586#1318#0" />
+          </folding>
         </state>
       </provider>
     </entry>
