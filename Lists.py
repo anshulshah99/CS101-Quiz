@@ -265,33 +265,11 @@ def pointers():
 
         return ("INSERT INTO questions VALUES({}, 'Lists', 'Pointers', '{}', '{}', '{}', '{}', '{}');".format(qid, question.replace("'", "''"), str(correct).replace("'", "''"), str(wrong1).replace( "'","''"), str(wrong2).replace("'", "''"), str(wrong3).replace( "'", "''")))
 
-def create():
+def parallel():
+    #rand1 =
     return
 
-#Types of questions
 
-## Appending/Concatenating Lists
-#.append()
-# [x] + [y]
-
-## List comprehension- DONE
-# What list is outputted by the following comprehension
-# Is this the correct format for list comprehension
-
-## Strings
-    # join ( ' '.join('h     th'.split())
-    # slicing + indexing
-    # strip (\n is also removed)
-    # find + index
-
-
-## Memory and pointers
-    # inner list
-        # concatenation
-    # reassignment
-    # clone (a = b, a = b[:])
-        # cloning with an inner list too! + mutations
-## .index()
 
 
 

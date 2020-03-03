@@ -19,11 +19,10 @@ while i < len(lst):
 
 #error, true, or false
 
-(1 == 1) and (2 != 3 or 1/0 == 0)
 #How to get out of a while loop
 
 def while_true():
-    stop = ["continue", "break", "return", "print"]
+    stop = ["return", "print"]
     for s in stop:
         hit_cond = random.choice([0, 1, 1])
         if s == "continue":
@@ -48,7 +47,7 @@ def while_true():
             if i_incr == 1:
                 check = random.randint(1, 50) * -1
             if i_incr in (2, 3):
-                check = i_incr * random.randint(10, 25) + 1
+                check = i_incr * random.randint(5, 15) + 1
             if hit_cond == 0:
                 question = rf"What will the value of i be when the code below is done executing?\ni = 0\nwhile True:\n\ti += {i_incr}\n\tif i == {check}:\n\t\tbreak"
                 correct = "The code above creates an infinite loop"
@@ -58,7 +57,7 @@ def while_true():
                 if wrong3 == wrong1:
                     wrong3 = check - i_incr
             if hit_cond == 1:
-                check = i_incr * random.randint(10, 25)
+                check = i_incr * random.randint(5, 15)
             if hit_cond == 1:
                 question = rf"What will the value of i be when the code below is done executing?\ni = 0\nwhile True:\n\tif i == {check}:\n\t\tbreak\n\ti += {i_incr}"
                 correct = check
@@ -94,6 +93,7 @@ def while_true():
                 wrong3 = check + i_incr
             print(question, correct, wrong1, wrong2, wrong3)
         if s == "print":
+            #have options about what will be printed and whether the loop will end
             i_incr = random.choice([1, 2, 3])
             check = i_incr * random.randint(10, 25)
             question = rf"What will the value of i be when the code below is done executing?\ni = 0\nwhile True:\n\tif i == {check}:\n\t\tprint(i)\n\ti += {i_incr}"
@@ -103,6 +103,9 @@ def while_true():
             wrong3 = "Error: Invalid print statement"
             print(question, correct, wrong1, wrong2, wrong3)
     return question
+
+def hailstone():
+    return
 
 
 if __name__ == '__main__':
