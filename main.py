@@ -31,7 +31,9 @@ def concept():
     students = [s[0] for s in studs]
     cur.execute("""Select concept, function FROM questions;""")
     concepts = set(cur.fetchall())
-    temp = [c for c in concepts if str(c[0]) in ('Lists', 'Strings', 'Math operators')]
+    temp = [c for c in concepts if str(c[0]) in ('Lists', 'Strings', 'Math operators', "While Loops", "Tuples")]
+    #if uid in set(["bal46", "rl194", "oa55", "js803", "pk169", "bes41", "as817", "jkk22", "Mp341", "ak410", "gs214", "tgh16", "olr", "mko13", "jun", "mk374", "mss91", "sks47", "bev6", "yv10"]):
+        #temp = [c for c in concepts if str(c[0])]
     choices = sorted([str(c[0]) if c[1] is None else str(c[0]) + " - " + str(c[1]) for c in temp])
     if request.method == "POST":
         x = list(dict(request.form).values())
@@ -60,10 +62,15 @@ def quiz():
             number = number - (number//remaining)
             remaining -= 1
             questions.extend(ret)
-        qids = [questions[i][0] for i in range(len(questions))]
-        final_questions = [questions[i][1].replace(r'\r\n', '<br>').replace(r'\n', '<br>') for i in range(len(questions))]
-        random.shuffle(final_questions)
-        final_answers = [[questions[i][2].replace(r'\n', '<br>'), questions[i][3].replace(r'\n', '<br>'), questions[i][4].replace(r'\n', '<br>'), questions[i][5].replace(r'\n', '<br>')] for i in range(len(questions))]
+        qids_clean = [questions[i][0] for i in range(len(questions))]
+        q_clean = [questions[i][1].replace(r'\r\n', '<br>').replace(r'\n', '<br>').replace(r'\t', '&emsp;') for i in range(len(questions))]
+        ans_clean = [[questions[i][2].replace(r'\n', '<br>'), questions[i][3].replace(r'\n', '<br>'), questions[i][4].replace(r'\n', '<br>'), questions[i][5].replace(r'\n', '<br>')] for i in range(len(questions))]
+        nums = list(range(len(q_clean)))
+        random.shuffle(nums)
+        final_questions = [q_clean[i] for i in nums]
+        final_answers = [ans_clean[i] for i in nums]
+        qids = [qids_clean[i] for i in nums]
+
         d = {}
         for i in range(len(final_questions)):
             q_ans = list(final_answers[i])

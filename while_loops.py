@@ -84,22 +84,19 @@ def while_true():
                 wrong3 = check
                 if wrong3 == wrong1:
                     wrong3 = check - i_incr
-
-
             if hit_cond == 1:
                 check = i_incr * random.randint(5, 15)
-
                 question = rf"What will the value of i be when the code below is done executing?\ni = 0\nwhile True:\n\tif i == {check}:\n\t\treturn i\n\ti += {i_incr}"
                 correct = check
                 wrong1 = check + i_incr
                 wrong2 = "The code above creates an infinite loop"
-                wrong3 = check + i_incr
+                wrong3 = i_incr
                 if add_more:
                     question = rf"What will the value of i be when the code below is done executing?\ni = 0\nwhile True:\n\tif i == {check}:\n\t\ti+= {i_incr}\n\t\treturn i\n\ti += {i_incr}"
                     correct = check + i_incr
                     wrong1 = check
                     wrong2 = "The code above creates an infinite loop"
-                    wrong3 = check + i_incr
+                    wrong3 = i_incr
             qid = random.randint(1000, 15000)
             return ("INSERT INTO questions VALUES({}, 'While Loops', 'Return/Print', '{}', '{}', '{}', '{}', '{}');".format(qid, question.replace("'", "''"), str(correct).replace("'", "''"), str(wrong1).replace("'", "''"), str(wrong2).replace("'", "''"), str(wrong3).replace("'", "''")))
 
@@ -126,7 +123,6 @@ def while_true():
                 qid = random.randint(1000, 15000)
                 return ("INSERT INTO questions VALUES({}, 'While Loops', 'Return/Print', '{}', '{}', '{}', '{}', '{}');".format(qid, question.replace("'", "''"), str(correct).replace("'", "''"), str(wrong1).replace("'", "''"), str(wrong2).replace("'", "''"), str(wrong3).replace("'", "''")))
 
-    return question
 
 def hailstone():
     return
