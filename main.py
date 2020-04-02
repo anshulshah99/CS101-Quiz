@@ -31,7 +31,7 @@ def concept():
     students = [s[0] for s in studs]
     cur.execute("""Select concept, function FROM questions;""")
     concepts = set(cur.fetchall())
-    temp = [c for c in concepts if str(c[0]) in ('Lists', 'Strings', 'Math operators', "While Loops", "Tuples")]
+    temp = [c for c in concepts if str(c[0]) in ('Lists', 'Strings', 'Dictionaries', 'Sorting', 'Sets', 'Math operators', 'While Loops', 'Tuples')]
     #if uid in set(["bal46", "rl194", "oa55", "js803", "pk169", "bes41", "as817", "jkk22", "Mp341", "ak410", "gs214", "tgh16", "olr", "mko13", "jun", "mk374", "mss91", "sks47", "bev6", "yv10"]):
         #temp = [c for c in concepts if str(c[0])]
     choices = sorted([str(c[0]) if c[1] is None else str(c[0]) + " - " + str(c[1]) for c in temp])
@@ -205,50 +205,60 @@ def select_student():
         return redirect(url_for("analyze_student"))
     return render_template("select_student.html")
 
+def rolling_avg(alpha, data):
+    if len(data) == 1:
+        q_answered = sum([each[4] for each in data])
+        if q_answered < 5:
+            return (f"Too few answers ({q_answered})")
+        return data[0][3]/data[0][4]
+    for i in range(len(data)):
+        data[i] = list(data[i])
+        if data[i][3] is None:
+            data[i][3] = 0
+    q_answered = sum([each[4] for each in data])
+    if q_answered < 5:
+        return (f"Too few answers ({q_answered})")
+    percent_before = sum([x[3] for x in data[:-1]])/sum([x[4] for x in data[:-1]])
+    mastery = percent_before * (1 - alpha) + (alpha) * int(data[-1][3])/int(data[-1][4])
+    return (mastery)
+
 @app.route('/analyze_student', methods=["GET", 'POST'])
 def analyze_student():
     student_netid = session['student']
     if type(student_netid) != str:
         student_netid = session['student'][0]
-    cur.execute("""SELECT tot_num.netid, tot_num.concept, tot_num.function, correct_num.tot_correct, tot_num.tot_responses 
-                FROM (SELECT responses.netid, questions.concept, questions.function , COUNT(*) as tot_correct
-                FROM responses, questions
-                WHERE questions.qid = responses.qid and responses.semester = 'Spring 20'
-                AND questions.correct_ans = responses.ans_choice
-                GROUP BY responses.netid, questions.concept, questions.function) as correct_num, 
-                (SELECT responses.netid, questions.concept, questions.function, COUNT(*) as tot_responses
-                FROM responses, questions
-                WHERE questions.qid = responses.qid and responses.semester = 'Spring 20'
-                GROUP BY responses.netid, questions.concept, questions.function) as tot_num
-                WHERE correct_num.netid = tot_num.netid
-                AND correct_num.concept = tot_num.concept
-                AND correct_num.function = tot_num.function
-                AND tot_num.netid = (%s);""", (student_netid,))
+    cur.execute(f"""select * from
+    (select concept, function, coalesce(count(*), 0) as c, timestamp from responses r, questions q where netid = '{student_netid}' and r.qid = q.qid and r.ans_choice = q.correct_ans
+    group by concept, function, timestamp) as correct RIGHT JOIN 
+    (select concept, function, coalesce(count(*), 0) as t, timestamp from responses r, questions q where netid = '{student_netid}' and r.qid = q.qid
+    group by concept, function, timestamp) as total USING(concept, function, timestamp) order by function;""")
     output = cur.fetchall()
-    return render_template("analyze_student.html", student = output )
+    cur.execute(f"""select concept, function from responses r, questions q where netid = '{student_netid}' and r.qid = q.qid group by concept, function;""")
+    topics = cur.fetchall()
+    displayD = {}
+    for (c, f) in topics:
+        temp = [row for row in output if (row[0], row[1]) == (c, f)]
+        displayD[(c, f)] = rolling_avg(0.6, temp)
+    return render_template("analyze_student.html", nid = student_netid, student = displayD.items() )
 
 @app.route('/analyze_self', methods=["GET", 'POST'])
 def analyze_self():
     student_netid = session['uid']
     if type(student_netid) != str:
         student_netid = session['student'][0]
-    cur.execute("""SELECT tot_num.netid, tot_num.concept, tot_num.function, correct_num.tot_correct, tot_num.tot_responses 
-                FROM (SELECT responses.netid, questions.concept, questions.function, COUNT(*) as tot_correct
-                FROM responses, questions
-                WHERE questions.qid = responses.qid and responses.semester = 'Spring 20'
-                AND questions.correct_ans = responses.ans_choice
-                GROUP BY responses.netid, questions.concept, questions.function) as correct_num, (SELECT responses.netid, questions.concept, questions.function, COUNT(*) as tot_responses
-                FROM responses, questions
-                WHERE questions.qid = responses.qid and responses.semester = 'Spring 20'
-                GROUP BY responses.netid, questions.concept, questions.function) as tot_num
-                WHERE correct_num.netid = tot_num.netid
-                AND correct_num.concept = tot_num.concept
-                AND tot_num.netid = (%s);""", (student_netid,))
+    cur.execute(f"""select * from
+    (select concept, function, coalesce(count(*), 0) as c, timestamp from responses r, questions q where netid = '{student_netid}' and r.qid = q.qid and r.ans_choice = q.correct_ans
+    group by concept, function, timestamp) as correct RIGHT JOIN 
+    (select concept, function, coalesce(count(*), 0) as t, timestamp from responses r, questions q where netid = '{student_netid}' and r.qid = q.qid
+    group by concept, function, timestamp) as total USING(concept, function, timestamp) order by function;""")
     output = cur.fetchall()
-    print(student_netid)
-    print(output)
-    return render_template("analyze_student.html", student = output)
-
+    cur.execute(f"""select concept, function from responses r, questions q where netid = '{student_netid}' and r.qid = q.qid group by concept, function;""")
+    topics = cur.fetchall()
+    displayD = {}
+    for (c, f) in topics:
+        temp = [row for row in output if (row[0], row[1]) == (c, f)]
+        displayD[(c, f)] = rolling_avg(0.6, temp)
+    return render_template("analyze_student.html", nid = student_netid, student = displayD.items() )
 
 @app.route('/add_question', methods=["GET", 'POST'])
 def add_question():

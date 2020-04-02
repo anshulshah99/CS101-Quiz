@@ -5,7 +5,9 @@
     <title>Analyze Student</title>
     <link rel="stylesheet" type="text/css" href="/static/css/main.css">
 </head>
+
 <h2 align="center">Student Results</h2>
+<h2 align = "center">Student netid: {{nid}}</h2>
 <body>
 
 {% if student|length == 0 %}
@@ -14,29 +16,25 @@
 <table class = "table" align="center">
     <tbody>
     <tr>
-    <th>NetID</th>
     <th>Concept</th>
         <th>Function</th>
-    <th>Correct</th>
-    <th>Total</th>
-        <th>Percent</th>
+    <th>Mastery Level</th>
 
         {% for i in student %}
 
 </tr>
     <tr>
-    <td>{{i[0]}}</td>
+    <td>{{i[0][0]}}</td>
+    <td>{{i[0][1]}}</td>
     <td>{{i[1]}}</td>
-    <td>{{i[2]}}</td>
-    <td>{{i[3]}}</td>
-        <td>{{i[4]}}</td>
-        <td>{{i[3]/i[4] * 100}}</td>
 </tr>
     {% endfor %}
     </tbody>
 
 </table>
 
+<p align = 'center'>NOTE: The above "mastery level" is a weighted average of your most recent quiz (weighted 60%) and all previous questions (weighted 40%)</p>
+<p align = 'center'>However, if you haven't answered at least 5 questions on a certain topic, there isn't enough information to give an accurate mastery level</p>
 
 </body>
 </html>

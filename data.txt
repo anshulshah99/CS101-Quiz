@@ -1,0 +1,1724 @@
+ netid  |    concept     |       function       |      timestamp      | c  | t  
+--------+----------------+----------------------+---------------------+----+----
+ dhc12  | Lists          | Adding               | 02/11/2020 15:09:52 |  1 |  1
+ dhc12  | Lists          | Appending            | 02/11/2020 15:09:52 |  1 |  1
+ jkk22  | Strings        | Index/Slice          | 02/11/2020 15:25:03 |  1 |  1
+ jkk22  | Strings        | Split                | 02/11/2020 15:25:03 |  1 |  1
+ bmh58  | Lists          | Adding               | 02/11/2020 15:30:41 |  0 |  3
+ bmh58  | Lists          | Adding               | 02/11/2020 15:32:04 |  3 |  3
+ bmh58  | Lists          | Adding               | 02/11/2020 15:32:47 |  7 |  7
+ bmh58  | Lists          | Appending            | 02/11/2020 15:33:40 |  2 |  3
+ cn113  | Strings        | Find                 | 02/11/2020 18:27:10 |  3 |  3
+ cn113  | Strings        | Split                | 02/11/2020 18:28:17 |  0 |  3
+ cn113  | Strings        | Split                | 02/11/2020 18:29:08 |  0 |  3
+ cn113  | Strings        | Split                | 02/11/2020 18:30:48 |  1 |  3
+ cn113  | Strings        | Split                | 02/11/2020 18:32:02 |  2 |  3
+ cn113  | Strings        | Split                | 02/11/2020 18:48:55 |  3 |  3
+ cn113  | Strings        | Split                | 02/11/2020 18:49:27 |  2 |  3
+ cn113  | Strings        | Split                | 02/11/2020 18:50:35 |  3 |  3
+ cn113  | Strings        | Split                | 02/11/2020 18:50:52 |  3 |  3
+ cn113  | Strings        | Split                | 02/11/2020 18:51:21 |  2 |  3
+ cn113  | Strings        | Split                | 02/11/2020 18:52:10 |  5 |  5
+ cn113  | Strings        | Split                | 02/11/2020 18:57:59 |  4 |  5
+ jac159 | Strings        | Find                 | 02/11/2020 20:07:01 |  0 |  1
+ jac159 | Strings        | Find                 | 02/11/2020 20:07:33 |  1 |  1
+ so135  | Strings        | Index/Slice          | 02/11/2020 20:49:08 |  1 |  1
+ so135  | Strings        | Split                | 02/11/2020 20:49:08 |  0 |  1
+ so135  | Strings        | Index/Slice          | 02/11/2020 20:50:24 |  1 |  1
+ so135  | Strings        | Split                | 02/11/2020 20:50:24 |  1 |  1
+ so135  | Strings        | Index/Slice          | 02/11/2020 20:51:01 |  1 |  1
+ so135  | Strings        | Split                | 02/11/2020 20:51:01 |  1 |  1
+ hso3   | Lists          | Adding               | 02/12/2020 00:01:02 |  1 |  1
+ hso3   | Lists          | Appending            | 02/12/2020 00:01:02 |  0 |  1
+ hso3   | Math operators | Exponents            | 02/12/2020 00:01:02 |  1 |  1
+ hso3   | Math operators | Floor Division       | 02/12/2020 00:01:02 |  1 |  1
+ hso3   | Math operators | Mod                  | 02/12/2020 00:01:02 |  1 |  1
+ hso3   | Strings        | Find                 | 02/12/2020 00:01:02 |  2 |  2
+ hso3   | Strings        | Index/Slice          | 02/12/2020 00:01:02 |  2 |  2
+ hso3   | Strings        | Split                | 02/12/2020 00:01:02 |  2 |  2
+ lmn25  | Lists          | Adding               | 02/12/2020 05:00:33 |  2 |  2
+ lmn25  | Lists          | Appending            | 02/12/2020 05:00:33 |  2 |  2
+ lmn25  | Math operators | Exponents            | 02/12/2020 05:00:33 |  3 |  3
+ lmn25  | Math operators | Floor Division       | 02/12/2020 05:00:33 |  3 |  3
+ lmn25  | Math operators | Mod                  | 02/12/2020 05:00:33 |  3 |  3
+ lmn25  | Strings        | Find                 | 02/12/2020 05:00:33 |  0 |  3
+ lmn25  | Strings        | Index/Slice          | 02/12/2020 05:00:33 |  3 |  3
+ lmn25  | Strings        | Split                | 02/12/2020 05:00:33 |  3 |  3
+ jej34  | Lists          | Adding               | 02/13/2020 01:28:01 |  1 |  3
+ jej34  | Lists          | Adding               | 02/13/2020 01:28:33 |  2 |  3
+ jej34  | Lists          | Adding               | 02/13/2020 01:29:14 |  3 |  3
+ jej34  | Lists          | Adding               | 02/13/2020 02:25:40 |  5 |  5
+ jej34  | Lists          | Appending            | 02/13/2020 02:25:40 |  2 |  4
+ jej34  | Lists          | Adding               | 02/13/2020 02:54:40 |  7 |  7
+ jej34  | Lists          | Appending            | 02/13/2020 02:54:40 |  6 |  6
+ orp    | Lists          | Adding               | 02/13/2020 15:53:20 |  2 |  2
+ orp    | Lists          | Appending            | 02/13/2020 15:53:20 |  1 |  2
+ orp    | Math operators | Exponents            | 02/13/2020 15:53:20 |  3 |  3
+ orp    | Math operators | Floor Division       | 02/13/2020 15:53:20 |  2 |  3
+ orp    | Math operators | Mod                  | 02/13/2020 15:53:20 |  3 |  3
+ orp    | Strings        | Find                 | 02/13/2020 15:53:20 |  3 |  3
+ orp    | Strings        | Index/Slice          | 02/13/2020 15:53:20 |  3 |  3
+ orp    | Strings        | Split                | 02/13/2020 15:53:20 |  3 |  3
+ orp    | Lists          | Adding               | 02/13/2020 16:12:15 |  2 |  2
+ orp    | Lists          | Appending            | 02/13/2020 16:12:15 |  1 |  2
+ orp    | Strings        | Find                 | 02/13/2020 16:17:36 |  1 |  1
+ orp    | Strings        | Split                | 02/13/2020 16:17:36 |  1 |  1
+ orp    | Strings        | Split                | 02/13/2020 16:27:12 |  2 |  2
+ orp    | Strings        | Split                | 02/13/2020 16:35:52 |  2 |  2
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 18:34:57 |  1 |  1
+ jsk69  | Strings        | Split                | 02/13/2020 18:34:57 |  0 |  1
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 18:35:34 |  1 |  1
+ jsk69  | Strings        | Split                | 02/13/2020 18:35:34 |  0 |  1
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 18:38:36 |  1 |  1
+ jsk69  | Strings        | Split                | 02/13/2020 18:38:36 |  0 |  1
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 18:39:03 |  1 |  1
+ jsk69  | Strings        | Split                | 02/13/2020 18:39:03 |  0 |  1
+ mh509  | Strings        | Index/Slice          | 02/13/2020 18:40:00 |  1 |  1
+ mh509  | Strings        | Split                | 02/13/2020 18:40:00 |  0 |  1
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 18:40:10 |  1 |  1
+ jsk69  | Strings        | Split                | 02/13/2020 18:40:10 |  1 |  1
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 18:42:49 |  1 |  1
+ jsk69  | Strings        | Split                | 02/13/2020 18:42:49 |  0 |  1
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 18:43:17 |  1 |  1
+ jsk69  | Strings        | Join                 | 02/13/2020 18:43:17 |  0 |  1
+ jsk69  | Strings        | Split                | 02/13/2020 18:43:17 |  0 |  1
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 18:43:59 |  1 |  1
+ jsk69  | Strings        | Split                | 02/13/2020 18:43:59 |  1 |  1
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 18:45:46 |  1 |  1
+ jsk69  | Strings        | Split                | 02/13/2020 18:45:46 |  1 |  1
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 18:46:53 |  1 |  1
+ jsk69  | Strings        | Split                | 02/13/2020 18:46:53 |  1 |  1
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 18:47:36 |  1 |  1
+ jsk69  | Strings        | Split                | 02/13/2020 18:47:36 |  1 |  1
+ jsk69  | Lists          | Adding               | 02/13/2020 18:56:12 |  1 |  1
+ jsk69  | Lists          | Appending            | 02/13/2020 18:56:12 |  1 |  1
+ jsk69  | Math operators | Exponents            | 02/13/2020 18:56:12 |  1 |  1
+ jsk69  | Math operators | Floor Division       | 02/13/2020 18:56:12 |  1 |  1
+ jsk69  | Math operators | Mod                  | 02/13/2020 18:56:12 |  1 |  1
+ jsk69  | Strings        | Find                 | 02/13/2020 18:56:12 |  2 |  2
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 18:56:12 |  2 |  2
+ jsk69  | Strings        | Split                | 02/13/2020 18:56:12 |  0 |  2
+ jsk69  | Lists          | Adding               | 02/13/2020 19:21:46 |  1 |  1
+ jsk69  | Math operators | Exponents            | 02/13/2020 19:21:46 |  0 |  1
+ jsk69  | Math operators | Floor Division       | 02/13/2020 19:21:46 |  1 |  1
+ jsk69  | Math operators | Mod                  | 02/13/2020 19:21:46 |  1 |  1
+ jsk69  | Strings        | Find                 | 02/13/2020 19:21:46 |  2 |  2
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 19:21:46 |  2 |  2
+ jsk69  | Strings        | Split                | 02/13/2020 19:21:46 |  2 |  2
+ jsk69  | Lists          | Adding               | 02/13/2020 19:29:41 |  1 |  1
+ jsk69  | Lists          | Appending            | 02/13/2020 19:29:41 |  0 |  1
+ jsk69  | Math operators | Exponents            | 02/13/2020 19:29:41 |  0 |  1
+ jsk69  | Math operators | Floor Division       | 02/13/2020 19:29:41 |  1 |  1
+ jsk69  | Math operators | Mod                  | 02/13/2020 19:29:41 |  1 |  1
+ jsk69  | Strings        | Find                 | 02/13/2020 19:29:41 |  1 |  2
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 19:29:41 |  2 |  2
+ jsk69  | Strings        | Split                | 02/13/2020 19:29:41 |  0 |  2
+ jsk69  | Lists          | Adding               | 02/13/2020 19:34:50 |  1 |  1
+ jsk69  | Lists          | Appending            | 02/13/2020 19:34:50 |  1 |  1
+ jsk69  | Math operators | Exponents            | 02/13/2020 19:34:50 |  1 |  1
+ jsk69  | Math operators | Floor Division       | 02/13/2020 19:34:50 |  1 |  1
+ jsk69  | Math operators | Mod                  | 02/13/2020 19:34:50 |  1 |  1
+ jsk69  | Strings        | Find                 | 02/13/2020 19:34:50 |  2 |  2
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 19:34:50 |  2 |  2
+ jsk69  | Strings        | Split                | 02/13/2020 19:34:50 |  0 |  2
+ jej34  | Math operators | Exponents            | 02/13/2020 19:49:32 |  8 |  8
+ jej34  | Math operators | Exponents            | 02/13/2020 19:50:12 |  7 |  7
+ jsk69  | Lists          | Adding               | 02/13/2020 19:52:01 |  0 |  1
+ jsk69  | Lists          | Appending            | 02/13/2020 19:52:01 |  0 |  1
+ jsk69  | Math operators | Exponents            | 02/13/2020 19:52:01 |  1 |  1
+ jsk69  | Math operators | Floor Division       | 02/13/2020 19:52:01 |  1 |  1
+ jsk69  | Math operators | Mod                  | 02/13/2020 19:52:01 |  1 |  1
+ jsk69  | Strings        | Find                 | 02/13/2020 19:52:01 |  2 |  2
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 19:52:01 |  2 |  2
+ jsk69  | Strings        | Split                | 02/13/2020 19:52:01 |  1 |  2
+ jej34  | Math operators | Floor Division       | 02/13/2020 19:54:47 | 10 | 10
+ jej34  | Math operators | Floor Division       | 02/13/2020 19:55:33 | 10 | 10
+ jej34  | Math operators | Mod                  | 02/13/2020 20:01:09 | 10 | 10
+ jej34  | Math operators | Mod                  | 02/13/2020 20:02:01 | 10 | 10
+ jsk69  | Lists          | Adding               | 02/13/2020 20:07:35 |  0 |  1
+ jsk69  | Lists          | Appending            | 02/13/2020 20:07:35 |  1 |  1
+ jsk69  | Math operators | Exponents            | 02/13/2020 20:07:35 |  1 |  1
+ jsk69  | Math operators | Floor Division       | 02/13/2020 20:07:35 |  1 |  1
+ jsk69  | Math operators | Mod                  | 02/13/2020 20:07:35 |  1 |  1
+ jsk69  | Strings        | Find                 | 02/13/2020 20:07:35 |  2 |  2
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 20:07:35 |  2 |  2
+ jsk69  | Strings        | Split                | 02/13/2020 20:07:35 |  2 |  2
+ jsk69  | Lists          | Adding               | 02/13/2020 20:12:47 |  0 |  1
+ jsk69  | Lists          | Appending            | 02/13/2020 20:12:47 |  1 |  1
+ jsk69  | Lists          | Pointers             | 02/13/2020 20:12:47 |  0 |  1
+ jsk69  | Math operators | Exponents            | 02/13/2020 20:12:47 |  0 |  1
+ jsk69  | Math operators | Floor Division       | 02/13/2020 20:12:47 |  1 |  1
+ jsk69  | Math operators | Mod                  | 02/13/2020 20:12:47 |  1 |  1
+ jsk69  | Strings        | Find                 | 02/13/2020 20:12:47 |  1 |  1
+ jsk69  | Strings        | Index/Slice          | 02/13/2020 20:12:47 |  2 |  2
+ jsk69  | Strings        | Split                | 02/13/2020 20:12:47 |  2 |  2
+ yc385  | Strings        | Index/Slice          | 02/13/2020 21:17:24 |  1 |  2
+ jl920  | Lists          | Adding               | 02/14/2020 02:26:34 |  1 |  1
+ jl920  | Math operators | Exponents            | 02/14/2020 02:26:34 |  2 |  2
+ jl920  | Math operators | Floor Division       | 02/14/2020 02:26:34 |  2 |  2
+ jl920  | Math operators | Mod                  | 02/14/2020 02:26:34 |  2 |  2
+ jl920  | Strings        | Find                 | 02/14/2020 02:26:34 |  1 |  2
+ jl920  | Strings        | Index/Slice          | 02/14/2020 02:26:34 |  2 |  2
+ jl920  | Strings        | Split                | 02/14/2020 02:26:34 |  2 |  2
+ orp    | Lists          | Adding               | 02/14/2020 03:06:46 |  5 |  5
+ orp    | Lists          | Appending            | 02/14/2020 03:09:04 |  5 |  5
+ jej34  | Strings        | Find                 | 02/14/2020 03:49:29 | 10 | 10
+ jej34  | Strings        | Find                 | 02/14/2020 03:51:54 | 10 | 10
+ jej34  | Strings        | Index/Slice          | 02/14/2020 03:54:57 | 10 | 10
+ jej34  | Strings        | Index/Slice          | 02/14/2020 03:57:07 | 10 | 10
+ jej34  | Lists          | Pointers             | 02/14/2020 04:13:58 |  0 |  1
+ jej34  | Strings        | Split                | 02/14/2020 04:16:38 |  7 | 10
+ jej34  | Strings        | Split                | 02/14/2020 04:20:05 |  8 | 10
+ jej34  | Strings        | Split                | 02/14/2020 04:21:38 | 10 | 10
+ jej34  | Math operators | Exponents            | 02/14/2020 04:22:53 |  4 |  4
+ jej34  | Math operators | Floor Division       | 02/14/2020 04:22:53 |  5 |  5
+ jej34  | Math operators | Mod                  | 02/14/2020 04:22:53 |  5 |  5
+ jej34  | Math operators | Exponents            | 02/14/2020 04:24:05 |  4 |  4
+ jej34  | Math operators | Floor Division       | 02/14/2020 04:24:05 |  5 |  5
+ jej34  | Math operators | Mod                  | 02/14/2020 04:24:05 |  5 |  5
+ orp    | Math operators | Exponents            | 02/14/2020 04:29:51 |  5 |  5
+ orp    | Math operators | Floor Division       | 02/14/2020 04:30:17 |  5 |  5
+ orp    | Math operators | Mod                  | 02/14/2020 04:30:43 |  5 |  5
+ jej34  | Strings        | Find                 | 02/14/2020 04:31:17 |  5 |  5
+ jej34  | Strings        | Index/Slice          | 02/14/2020 04:31:17 |  5 |  5
+ jej34  | Strings        | Split                | 02/14/2020 04:31:17 |  5 |  5
+ orp    | Strings        | Find                 | 02/14/2020 04:32:24 |  5 |  5
+ orp    | Strings        | Index/Slice          | 02/14/2020 04:33:26 |  5 |  5
+ jej34  | Lists          | Adding               | 02/14/2020 04:38:24 | 10 | 10
+ jej34  | Lists          | Appending            | 02/14/2020 04:38:24 |  6 |  6
+ orp    | Strings        | Join                 | 02/14/2020 04:44:06 |  0 |  1
+ orp    | Strings        | Split                | 02/14/2020 04:44:45 |  5 |  5
+ orp    | Strings        | Split                | 02/14/2020 04:45:05 |  5 |  5
+ hso3   | Lists          | Adding               | 02/14/2020 11:14:21 |  1 |  1
+ hso3   | Lists          | Appending            | 02/14/2020 11:14:21 |  1 |  1
+ hso3   | Math operators | Exponents            | 02/14/2020 11:14:21 |  1 |  1
+ hso3   | Math operators | Floor Division       | 02/14/2020 11:14:21 |  1 |  1
+ hso3   | Math operators | Mod                  | 02/14/2020 11:14:21 |  1 |  1
+ hso3   | Strings        | Find                 | 02/14/2020 11:14:21 |  1 |  2
+ hso3   | Strings        | Index/Slice          | 02/14/2020 11:14:21 |  2 |  2
+ hso3   | Strings        | Join                 | 02/14/2020 11:14:21 |  0 |  1
+ hso3   | Strings        | Split                | 02/14/2020 11:14:21 |  1 |  2
+ hso3   | Lists          | Adding               | 02/14/2020 11:42:57 |  1 |  1
+ hso3   | Lists          | Appending            | 02/14/2020 11:42:57 |  1 |  1
+ hso3   | Math operators | Exponents            | 02/14/2020 11:42:57 |  1 |  1
+ hso3   | Math operators | Floor Division       | 02/14/2020 11:42:57 |  1 |  1
+ hso3   | Math operators | Mod                  | 02/14/2020 11:42:57 |  1 |  1
+ hso3   | Strings        | Find                 | 02/14/2020 11:42:57 |  2 |  2
+ hso3   | Strings        | Index/Slice          | 02/14/2020 11:42:57 |  2 |  2
+ hso3   | Strings        | Split                | 02/14/2020 11:42:57 |  2 |  2
+ jsk69  | Lists          | Adding               | 02/14/2020 17:28:28 |  1 |  1
+ jsk69  | Lists          | Appending            | 02/14/2020 17:28:28 |  0 |  1
+ jsk69  | Math operators | Exponents            | 02/14/2020 17:28:28 |  0 |  1
+ jsk69  | Math operators | Floor Division       | 02/14/2020 17:28:28 |  1 |  1
+ jsk69  | Math operators | Mod                  | 02/14/2020 17:28:28 |  1 |  1
+ jsk69  | Strings        | Find                 | 02/14/2020 17:28:28 |  2 |  2
+ jsk69  | Strings        | Index/Slice          | 02/14/2020 17:28:28 |  2 |  2
+ jsk69  | Strings        | Join                 | 02/14/2020 17:28:28 |  2 |  2
+ jsk69  | Strings        | Split                | 02/14/2020 17:28:28 |  2 |  2
+ jsk69  | Lists          | Adding               | 02/14/2020 17:32:35 |  1 |  1
+ jsk69  | Lists          | Appending            | 02/14/2020 17:32:35 |  0 |  1
+ jsk69  | Math operators | Exponents            | 02/14/2020 17:32:35 |  1 |  1
+ jsk69  | Math operators | Floor Division       | 02/14/2020 17:32:35 |  1 |  1
+ jsk69  | Math operators | Mod                  | 02/14/2020 17:32:35 |  1 |  1
+ jsk69  | Strings        | Find                 | 02/14/2020 17:32:35 |  2 |  2
+ jsk69  | Strings        | Index/Slice          | 02/14/2020 17:32:35 |  2 |  2
+ jsk69  | Strings        | Join                 | 02/14/2020 17:32:35 |  2 |  2
+ jsk69  | Strings        | Split                | 02/14/2020 17:32:35 |  2 |  2
+ jsk69  | Lists          | Adding               | 02/14/2020 17:37:14 |  0 |  1
+ jsk69  | Lists          | Appending            | 02/14/2020 17:37:14 |  1 |  1
+ jsk69  | Math operators | Exponents            | 02/14/2020 17:37:14 |  1 |  1
+ jsk69  | Math operators | Floor Division       | 02/14/2020 17:37:14 |  1 |  1
+ jsk69  | Math operators | Mod                  | 02/14/2020 17:37:14 |  1 |  1
+ jsk69  | Strings        | Find                 | 02/14/2020 17:37:14 |  2 |  2
+ jsk69  | Strings        | Index/Slice          | 02/14/2020 17:37:14 |  2 |  2
+ jsk69  | Strings        | Join                 | 02/14/2020 17:37:14 |  1 |  2
+ jsk69  | Strings        | Split                | 02/14/2020 17:37:14 |  2 |  2
+ jsk69  | Lists          | Adding               | 02/14/2020 17:45:00 |  1 |  1
+ jsk69  | Math operators | Exponents            | 02/14/2020 17:45:00 |  1 |  1
+ jsk69  | Math operators | Floor Division       | 02/14/2020 17:45:00 |  1 |  1
+ jsk69  | Math operators | Mod                  | 02/14/2020 17:45:00 |  0 |  1
+ jsk69  | Strings        | Find                 | 02/14/2020 17:45:00 |  2 |  2
+ jsk69  | Strings        | Index/Slice          | 02/14/2020 17:45:00 |  2 |  2
+ jsk69  | Strings        | Join                 | 02/14/2020 17:45:00 |  1 |  2
+ jsk69  | Strings        | Split                | 02/14/2020 17:45:00 |  2 |  2
+ jsk69  | Math operators | Exponents            | 02/14/2020 17:58:05 |  1 |  1
+ jsk69  | Math operators | Floor Division       | 02/14/2020 17:58:05 |  1 |  1
+ jsk69  | Math operators | Mod                  | 02/14/2020 17:58:05 |  1 |  1
+ jsk69  | Strings        | Find                 | 02/14/2020 17:58:05 |  2 |  2
+ jsk69  | Strings        | Index/Slice          | 02/14/2020 17:58:05 |  2 |  2
+ jsk69  | Strings        | Join                 | 02/14/2020 17:58:05 |  2 |  2
+ jsk69  | Strings        | Split                | 02/14/2020 17:58:05 |  1 |  2
+ cn113  | Lists          | Adding               | 02/14/2020 21:26:29 |  4 |  5
+ cn113  | Lists          | Appending            | 02/14/2020 21:35:10 |  0 |  2
+ cn113  | Lists          | Pointers             | 02/14/2020 21:35:10 |  0 |  1
+ sk586  | Lists          | Adding               | 02/14/2020 22:02:12 |  4 |  4
+ sk586  | Lists          | Appending            | 02/14/2020 22:02:12 |  1 |  4
+ sk586  | Math operators | Exponents            | 02/14/2020 22:02:12 |  3 |  3
+ sk586  | Math operators | Floor Division       | 02/14/2020 22:02:12 |  4 |  4
+ sk586  | Math operators | Mod                  | 02/14/2020 22:02:12 |  5 |  5
+ sk586  | Strings        | Find                 | 02/14/2020 22:02:12 |  5 |  5
+ sk586  | Strings        | Index/Slice          | 02/14/2020 22:02:12 |  5 |  5
+ sk586  | Strings        | Join                 | 02/14/2020 22:02:12 |  0 |  5
+ sk586  | Strings        | Split                | 02/14/2020 22:02:12 |  5 |  5
+ mm793  | Lists          | Adding               | 02/14/2020 22:27:20 |  5 |  5
+ mm793  | Lists          | Appending            | 02/14/2020 22:27:20 |  3 |  5
+ mm793  | Lists          | Appending            | 02/14/2020 23:10:00 |  7 |  7
+ ab694  | Lists          | Adding               | 02/15/2020 02:08:54 |  0 |  1
+ ab694  | Lists          | Appending            | 02/15/2020 02:08:54 |  2 |  2
+ mc651  | Lists          | Adding               | 02/15/2020 02:41:55 |  3 |  3
+ mc651  | Lists          | Appending            | 02/15/2020 02:41:55 |  1 |  2
+ mc651  | While Loops    | Return/Print         | 02/15/2020 02:41:55 |  0 |  1
+ mc651  | Strings        | Find                 | 02/15/2020 02:51:03 |  1 |  1
+ mc651  | Strings        | Index/Slice          | 02/15/2020 02:51:03 |  0 |  1
+ mc651  | Strings        | Join                 | 02/15/2020 02:51:03 |  0 |  1
+ mc651  | Strings        | Split                | 02/15/2020 02:51:03 |  2 |  2
+ mc651  | Strings        | Find                 | 02/15/2020 02:54:24 |  2 |  2
+ mc651  | Strings        | Index/Slice          | 02/15/2020 02:54:24 |  2 |  2
+ mc651  | Strings        | Join                 | 02/15/2020 02:54:24 |  3 |  3
+ mc651  | Strings        | Split                | 02/15/2020 02:54:24 |  2 |  3
+ mc651  | Strings        | Find                 | 02/15/2020 02:58:46 |  2 |  2
+ mc651  | Strings        | Index/Slice          | 02/15/2020 02:58:46 |  2 |  2
+ mc651  | Strings        | Join                 | 02/15/2020 02:58:46 |  3 |  3
+ mc651  | Strings        | Split                | 02/15/2020 02:58:46 |  3 |  3
+ mc651  | Math operators | Exponents            | 02/15/2020 03:06:20 |  9 | 10
+ mc651  | Math operators | Floor Division       | 02/15/2020 03:06:20 | 17 | 17
+ mc651  | Math operators | Mod                  | 02/15/2020 03:06:20 | 17 | 17
+ mc651  | Lists          | Adding               | 02/15/2020 03:13:14 |  4 |  4
+ mc651  | Lists          | Appending            | 02/15/2020 03:13:14 |  4 |  4
+ mc651  | Strings        | Index/Slice          | 02/15/2020 03:13:14 |  4 |  4
+ mc651  | While Loops    | Return/Print         | 02/15/2020 03:13:14 |  0 |  1
+ mc651  | Strings        | Join                 | 02/15/2020 03:19:31 |  2 |  2
+ mc651  | Strings        | Split                | 02/15/2020 03:19:31 |  3 |  3
+ aru8   | Lists          | Adding               | 02/15/2020 03:24:24 |  3 |  3
+ aru8   | Lists          | Appending            | 02/15/2020 03:24:24 |  2 |  4
+ aru8   | Strings        | Join                 | 02/15/2020 03:24:24 |  3 |  4
+ mco23  | Strings        | Find                 | 02/15/2020 04:07:13 |  1 |  1
+ mco23  | Strings        | Index/Slice          | 02/15/2020 04:07:13 |  1 |  1
+ mco23  | Strings        | Join                 | 02/15/2020 04:07:13 |  1 |  1
+ mco23  | Strings        | Split                | 02/15/2020 04:07:13 |  1 |  1
+ mco23  | Strings        | Find                 | 02/15/2020 04:07:55 |  1 |  1
+ mco23  | Strings        | Index/Slice          | 02/15/2020 04:07:55 |  1 |  1
+ mco23  | Strings        | Join                 | 02/15/2020 04:07:55 |  0 |  1
+ mco23  | Strings        | Split                | 02/15/2020 04:07:55 |  1 |  1
+ mco23  | Strings        | Find                 | 02/15/2020 04:09:10 |  1 |  1
+ mco23  | Strings        | Index/Slice          | 02/15/2020 04:09:10 |  1 |  1
+ mco23  | Strings        | Join                 | 02/15/2020 04:09:10 |  1 |  1
+ mco23  | Strings        | Split                | 02/15/2020 04:09:10 |  0 |  1
+ mco23  | Strings        | Find                 | 02/15/2020 04:09:48 |  1 |  1
+ mco23  | Strings        | Index/Slice          | 02/15/2020 04:09:48 |  1 |  1
+ mco23  | Strings        | Join                 | 02/15/2020 04:09:48 |  0 |  1
+ mco23  | Strings        | Split                | 02/15/2020 04:09:48 |  1 |  1
+ jej34  | Lists          | Pointers             | 02/15/2020 07:24:57 |  0 |  1
+ jbb70  | Lists          | Adding               | 02/15/2020 15:40:04 |  1 |  1
+ jbb70  | Math operators | Exponents            | 02/15/2020 15:40:04 |  2 |  2
+ jbb70  | Math operators | Floor Division       | 02/15/2020 15:40:04 |  2 |  2
+ jbb70  | Math operators | Mod                  | 02/15/2020 15:40:04 |  2 |  2
+ jbb70  | Strings        | Find                 | 02/15/2020 15:40:04 |  2 |  2
+ jbb70  | Strings        | Index/Slice          | 02/15/2020 15:40:04 |  2 |  2
+ jbb70  | Strings        | Join                 | 02/15/2020 15:40:04 |  0 |  2
+ jbb70  | Strings        | Split                | 02/15/2020 15:40:04 |  2 |  2
+ jbb70  | Lists          | Adding               | 02/15/2020 15:55:53 |  1 |  1
+ jbb70  | Lists          | Appending            | 02/15/2020 15:55:53 |  1 |  1
+ jbb70  | Lists          | Pointers             | 02/15/2020 15:55:53 |  0 |  1
+ jbb70  | Math operators | Exponents            | 02/15/2020 15:55:53 |  2 |  2
+ jbb70  | Math operators | Floor Division       | 02/15/2020 15:55:53 |  2 |  2
+ jbb70  | Math operators | Mod                  | 02/15/2020 15:55:53 |  2 |  2
+ jbb70  | Strings        | Find                 | 02/15/2020 15:55:53 |  2 |  2
+ jbb70  | Strings        | Index/Slice          | 02/15/2020 15:55:53 |  1 |  2
+ jbb70  | Strings        | Join                 | 02/15/2020 15:55:53 |  2 |  2
+ jbb70  | Strings        | Split                | 02/15/2020 15:55:53 |  2 |  2
+ jbb70  | Lists          | Adding               | 02/15/2020 16:05:04 |  4 |  4
+ jbb70  | Lists          | Appending            | 02/15/2020 16:05:04 |  4 |  4
+ jbb70  | Lists          | Pointers             | 02/15/2020 16:05:04 |  0 |  1
+ jbb70  | Strings        | Index/Slice          | 02/15/2020 16:05:04 |  4 |  4
+ jbb70  | Strings        | Join                 | 02/15/2020 16:05:04 |  4 |  4
+ jbb70  | Strings        | Split                | 02/15/2020 16:05:04 |  4 |  5
+ jbb70  | While Loops    | Return/Print         | 02/15/2020 16:05:04 |  0 |  1
+ jbb70  | Lists          | Appending            | 02/15/2020 16:08:41 |  2 |  2
+ jbb70  | Strings        | Join                 | 02/15/2020 16:08:41 |  2 |  3
+ jbb70  | Strings        | Split                | 02/15/2020 16:08:41 |  4 |  4
+ jbb70  | Lists          | Appending            | 02/15/2020 16:12:28 |  3 |  3
+ jbb70  | Strings        | Join                 | 02/15/2020 16:12:28 |  3 |  3
+ jbb70  | Strings        | Split                | 02/15/2020 16:12:28 |  4 |  4
+ jbb70  | Strings        | Join                 | 02/15/2020 16:16:45 |  7 |  7
+ jbb70  | Strings        | Split                | 02/15/2020 16:16:45 |  8 |  8
+ jbb70  | Strings        | Join                 | 02/15/2020 16:20:31 |  6 |  7
+ jbb70  | Strings        | Split                | 02/15/2020 16:20:31 |  8 |  8
+ jbb70  | Strings        | Join                 | 02/15/2020 16:23:37 |  5 |  5
+ jbb70  | Strings        | Split                | 02/15/2020 16:25:23 |  5 |  5
+ jbb70  | Strings        | Split                | 02/15/2020 16:26:01 |  5 |  5
+ seg61  | Lists          | Adding               | 02/15/2020 16:51:33 |  1 |  1
+ seg61  | Lists          | Adding               | 02/15/2020 16:51:57 |  1 |  1
+ sp465  | Lists          | Appending            | 02/15/2020 17:14:57 |  2 |  3
+ sp465  | Strings        | Index/Slice          | 02/15/2020 17:14:57 |  3 |  4
+ al404  | Lists          | Adding               | 02/15/2020 17:34:23 |  1 |  1
+ al404  | Lists          | Appending            | 02/15/2020 17:34:23 |  1 |  2
+ al404  | Strings        | Find                 | 02/15/2020 17:34:23 |  2 |  2
+ al404  | Strings        | Index/Slice          | 02/15/2020 17:34:23 |  2 |  2
+ al404  | Strings        | Join                 | 02/15/2020 17:34:23 |  2 |  2
+ al404  | Strings        | Split                | 02/15/2020 17:34:23 |  2 |  2
+ seg61  | Strings        | Index/Slice          | 02/15/2020 17:59:44 |  3 |  3
+ sp465  | Lists          | Appending            | 02/15/2020 18:15:07 |  3 |  3
+ sp465  | Strings        | Index/Slice          | 02/15/2020 18:15:07 |  3 |  4
+ sp465  | Strings        | Index/Slice          | 02/15/2020 18:37:53 |  4 |  4
+ sp465  | Strings        | Join                 | 02/15/2020 18:37:53 |  2 |  4
+ sp465  | Strings        | Split                | 02/15/2020 18:37:53 |  1 |  4
+ mm793  | Lists          | Appending            | 02/15/2020 19:03:52 |  4 |  5
+ ssc60  | Lists          | Adding               | 02/15/2020 19:07:44 |  1 |  1
+ ssc60  | Lists          | Appending            | 02/15/2020 19:07:44 |  1 |  1
+ ssc60  | Math operators | Exponents            | 02/15/2020 19:07:44 |  1 |  1
+ ssc60  | Math operators | Floor Division       | 02/15/2020 19:07:44 |  1 |  1
+ ssc60  | Math operators | Mod                  | 02/15/2020 19:07:44 |  1 |  1
+ ssc60  | Strings        | Find                 | 02/15/2020 19:07:44 |  1 |  1
+ ssc60  | Strings        | Index/Slice          | 02/15/2020 19:07:44 |  1 |  1
+ ssc60  | Strings        | Join                 | 02/15/2020 19:07:44 |  0 |  1
+ ssc60  | Strings        | Split                | 02/15/2020 19:07:44 |  0 |  1
+ jac159 | Lists          | Appending            | 02/15/2020 19:15:17 |  0 |  1
+ jac159 | Math operators | Exponents            | 02/15/2020 19:15:17 |  1 |  1
+ jac159 | Math operators | Floor Division       | 02/15/2020 19:15:17 |  1 |  1
+ jac159 | Math operators | Mod                  | 02/15/2020 19:15:17 |  1 |  1
+ jac159 | Strings        | Find                 | 02/15/2020 19:15:17 |  1 |  1
+ jac159 | Strings        | Index/Slice          | 02/15/2020 19:15:17 |  1 |  1
+ jac159 | Strings        | Join                 | 02/15/2020 19:15:17 |  1 |  1
+ jac159 | Strings        | Split                | 02/15/2020 19:15:17 |  0 |  1
+ jac159 | Lists          | Appending            | 02/15/2020 19:22:56 |  0 |  1
+ jac159 | Math operators | Exponents            | 02/15/2020 19:22:56 |  1 |  1
+ jac159 | Math operators | Floor Division       | 02/15/2020 19:22:56 |  1 |  1
+ jac159 | Math operators | Mod                  | 02/15/2020 19:22:56 |  1 |  1
+ jac159 | Strings        | Find                 | 02/15/2020 19:22:56 |  0 |  1
+ jac159 | Strings        | Index/Slice          | 02/15/2020 19:22:56 |  1 |  1
+ jac159 | Strings        | Join                 | 02/15/2020 19:22:56 |  0 |  1
+ jac159 | Strings        | Split                | 02/15/2020 19:22:56 |  0 |  1
+ mm793  | Math operators | Exponents            | 02/15/2020 19:48:01 |  5 |  5
+ mm793  | Math operators | Floor Division       | 02/15/2020 19:48:35 |  5 |  5
+ mm793  | Math operators | Mod                  | 02/15/2020 19:49:22 |  4 |  5
+ rb358  | Lists          | Adding               | 02/15/2020 20:17:37 |  0 |  1
+ rb358  | Lists          | Appending            | 02/15/2020 20:17:37 |  1 |  1
+ rb358  | Math operators | Exponents            | 02/15/2020 20:17:37 |  1 |  1
+ rb358  | Math operators | Floor Division       | 02/15/2020 20:17:37 |  1 |  1
+ rb358  | Math operators | Mod                  | 02/15/2020 20:17:37 |  1 |  1
+ rb358  | Strings        | Find                 | 02/15/2020 20:17:37 |  2 |  2
+ rb358  | Strings        | Index/Slice          | 02/15/2020 20:17:37 |  2 |  2
+ rb358  | Strings        | Join                 | 02/15/2020 20:17:37 |  0 |  2
+ rb358  | Strings        | Split                | 02/15/2020 20:17:37 |  0 |  2
+ mm793  | Strings        | Find                 | 02/15/2020 20:20:40 |  5 |  5
+ mm793  | Strings        | Find                 | 02/15/2020 20:21:27 |  5 |  5
+ mm793  | Strings        | Find                 | 02/15/2020 20:21:57 |  5 |  5
+ mm793  | Strings        | Index/Slice          | 02/15/2020 20:22:46 |  5 |  5
+ mm793  | Strings        | Index/Slice          | 02/15/2020 20:23:24 |  5 |  5
+ mm793  | Strings        | Index/Slice          | 02/15/2020 20:24:01 |  5 |  5
+ mm793  | Strings        | Index/Slice          | 02/15/2020 20:25:21 |  5 |  5
+ mm793  | Strings        | Join                 | 02/15/2020 20:26:38 |  2 |  5
+ mm793  | Strings        | Join                 | 02/15/2020 20:28:09 |  5 |  5
+ ail9   | Lists          | Adding               | 02/15/2020 20:28:32 |  1 |  1
+ ail9   | Lists          | Appending            | 02/15/2020 20:28:32 |  1 |  2
+ mm793  | Strings        | Join                 | 02/15/2020 20:34:12 |  5 |  5
+ jac159 | Lists          | Appending            | 02/15/2020 20:34:28 |  1 |  1
+ jac159 | Math operators | Exponents            | 02/15/2020 20:34:28 |  1 |  1
+ jac159 | Math operators | Floor Division       | 02/15/2020 20:34:28 |  1 |  1
+ jac159 | Math operators | Mod                  | 02/15/2020 20:34:28 |  1 |  1
+ jac159 | Strings        | Find                 | 02/15/2020 20:34:28 |  1 |  1
+ jac159 | Strings        | Index/Slice          | 02/15/2020 20:34:28 |  1 |  1
+ jac159 | Strings        | Join                 | 02/15/2020 20:34:28 |  1 |  1
+ jac159 | Strings        | Split                | 02/15/2020 20:34:28 |  0 |  1
+ cd283  | Lists          | Adding               | 02/15/2020 20:36:26 |  5 |  5
+ cd283  | Lists          | Adding               | 02/15/2020 20:37:07 |  5 |  5
+ cd283  | Lists          | Appending            | 02/15/2020 20:42:12 |  5 |  5
+ jac159 | Lists          | Appending            | 02/15/2020 20:48:40 |  1 |  1
+ jac159 | Math operators | Exponents            | 02/15/2020 20:48:40 |  1 |  1
+ jac159 | Math operators | Floor Division       | 02/15/2020 20:48:40 |  1 |  1
+ jac159 | Math operators | Mod                  | 02/15/2020 20:48:40 |  1 |  1
+ jac159 | Strings        | Find                 | 02/15/2020 20:48:40 |  1 |  1
+ jac159 | Strings        | Index/Slice          | 02/15/2020 20:48:40 |  1 |  1
+ jac159 | Strings        | Join                 | 02/15/2020 20:48:40 |  1 |  1
+ jac159 | Strings        | Split                | 02/15/2020 20:48:40 |  1 |  1
+ do59   | Lists          | Adding               | 02/15/2020 21:02:05 |  5 |  5
+ do59   | Lists          | Appending            | 02/15/2020 21:02:05 |  4 |  5
+ do59   | Math operators | Exponents            | 02/15/2020 21:02:05 |  5 |  5
+ do59   | Math operators | Floor Division       | 02/15/2020 21:02:05 |  5 |  5
+ do59   | Math operators | Mod                  | 02/15/2020 21:02:05 |  5 |  5
+ do59   | Strings        | Find                 | 02/15/2020 21:02:05 |  5 |  5
+ do59   | Strings        | Index/Slice          | 02/15/2020 21:02:05 |  5 |  5
+ do59   | Strings        | Join                 | 02/15/2020 21:02:05 |  5 |  5
+ do59   | Strings        | Split                | 02/15/2020 21:02:05 |  5 |  5
+ do59   | Lists          | Adding               | 02/15/2020 21:02:13 |  5 |  5
+ do59   | Lists          | Appending            | 02/15/2020 21:02:13 |  4 |  5
+ do59   | Math operators | Exponents            | 02/15/2020 21:02:13 |  5 |  5
+ do59   | Math operators | Floor Division       | 02/15/2020 21:02:13 |  5 |  5
+ do59   | Math operators | Mod                  | 02/15/2020 21:02:13 |  5 |  5
+ do59   | Strings        | Find                 | 02/15/2020 21:02:13 |  5 |  5
+ do59   | Strings        | Index/Slice          | 02/15/2020 21:02:13 |  5 |  5
+ do59   | Strings        | Join                 | 02/15/2020 21:02:13 |  5 |  5
+ do59   | Strings        | Split                | 02/15/2020 21:02:13 |  5 |  5
+ jac159 | Lists          | Appending            | 02/15/2020 21:53:40 |  1 |  1
+ jac159 | Math operators | Exponents            | 02/15/2020 21:53:40 |  1 |  1
+ jac159 | Math operators | Floor Division       | 02/15/2020 21:53:40 |  1 |  1
+ jac159 | Math operators | Mod                  | 02/15/2020 21:53:40 |  1 |  1
+ jac159 | Strings        | Find                 | 02/15/2020 21:53:40 |  1 |  1
+ jac159 | Strings        | Index/Slice          | 02/15/2020 21:53:40 |  1 |  1
+ jac159 | Strings        | Join                 | 02/15/2020 21:53:40 |  0 |  1
+ jac159 | Strings        | Split                | 02/15/2020 21:53:40 |  1 |  1
+ jac159 | Lists          | Appending            | 02/15/2020 21:59:28 |  1 |  1
+ jac159 | Math operators | Exponents            | 02/15/2020 21:59:28 |  0 |  1
+ jac159 | Math operators | Floor Division       | 02/15/2020 21:59:28 |  1 |  1
+ jac159 | Math operators | Mod                  | 02/15/2020 21:59:28 |  1 |  1
+ jac159 | Strings        | Find                 | 02/15/2020 21:59:28 |  1 |  1
+ jac159 | Strings        | Index/Slice          | 02/15/2020 21:59:28 |  1 |  1
+ jac159 | Strings        | Join                 | 02/15/2020 21:59:28 |  1 |  1
+ jac159 | Strings        | Split                | 02/15/2020 21:59:28 |  1 |  1
+ cd283  | Tuples         | Reassignment         | 02/15/2020 22:03:34 |  0 |  1
+ jac159 | Lists          | Appending            | 02/15/2020 22:09:25 |  1 |  1
+ jac159 | Math operators | Exponents            | 02/15/2020 22:09:25 |  1 |  1
+ jac159 | Math operators | Floor Division       | 02/15/2020 22:09:25 |  1 |  1
+ jac159 | Math operators | Mod                  | 02/15/2020 22:09:25 |  1 |  1
+ jac159 | Strings        | Find                 | 02/15/2020 22:09:25 |  1 |  1
+ jac159 | Strings        | Index/Slice          | 02/15/2020 22:09:25 |  1 |  1
+ jac159 | Strings        | Join                 | 02/15/2020 22:09:25 |  1 |  1
+ jac159 | Strings        | Split                | 02/15/2020 22:09:25 |  1 |  1
+ jac159 | Lists          | Appending            | 02/15/2020 22:14:06 |  1 |  1
+ jac159 | Math operators | Exponents            | 02/15/2020 22:14:06 |  1 |  1
+ jac159 | Math operators | Floor Division       | 02/15/2020 22:14:06 |  1 |  1
+ jac159 | Math operators | Mod                  | 02/15/2020 22:14:06 |  1 |  1
+ jac159 | Strings        | Find                 | 02/15/2020 22:14:06 |  1 |  1
+ jac159 | Strings        | Index/Slice          | 02/15/2020 22:14:06 |  1 |  1
+ jac159 | Strings        | Join                 | 02/15/2020 22:14:06 |  1 |  1
+ jac159 | Strings        | Split                | 02/15/2020 22:14:06 |  1 |  1
+ jac159 | Tuples         | Reassignment         | 02/15/2020 22:14:06 |  0 |  1
+ mm793  | Strings        | Split                | 02/15/2020 22:25:15 |  3 |  5
+ mm793  | Strings        | Split                | 02/15/2020 22:26:07 |  5 |  5
+ mm793  | Strings        | Split                | 02/15/2020 22:26:48 |  5 |  5
+ mm793  | Lists          | Appending            | 02/15/2020 22:38:59 |  4 |  4
+ mm793  | Strings        | Find                 | 02/15/2020 22:38:59 |  4 |  4
+ mm793  | Strings        | Join                 | 02/15/2020 22:38:59 |  3 |  4
+ sf218  | Lists          | Adding               | 02/15/2020 23:10:21 |  1 |  1
+ sf218  | Lists          | Appending            | 02/15/2020 23:10:21 |  1 |  1
+ sf218  | Math operators | Exponents            | 02/15/2020 23:10:21 |  2 |  2
+ sf218  | Math operators | Floor Division       | 02/15/2020 23:10:21 |  2 |  2
+ sf218  | Math operators | Mod                  | 02/15/2020 23:10:21 |  2 |  2
+ sf218  | Strings        | Find                 | 02/15/2020 23:10:21 |  2 |  2
+ sf218  | Strings        | Index/Slice          | 02/15/2020 23:10:21 |  2 |  2
+ sf218  | Strings        | Join                 | 02/15/2020 23:10:21 |  1 |  2
+ sf218  | Strings        | Split                | 02/15/2020 23:10:21 |  2 |  2
+ sf218  | Lists          | Adding               | 02/15/2020 23:16:56 |  1 |  1
+ sf218  | Lists          | Appending            | 02/15/2020 23:16:56 |  1 |  1
+ sf218  | Math operators | Exponents            | 02/15/2020 23:16:56 |  2 |  2
+ sf218  | Math operators | Floor Division       | 02/15/2020 23:16:56 |  2 |  2
+ sf218  | Math operators | Mod                  | 02/15/2020 23:16:56 |  2 |  2
+ sf218  | Strings        | Find                 | 02/15/2020 23:16:56 |  2 |  2
+ sf218  | Strings        | Index/Slice          | 02/15/2020 23:16:56 |  2 |  2
+ sf218  | Strings        | Join                 | 02/15/2020 23:16:56 |  0 |  2
+ sf218  | Strings        | Split                | 02/15/2020 23:16:56 |  2 |  2
+ dr222  | Lists          | Adding               | 02/15/2020 23:23:06 |  3 |  3
+ dr222  | Lists          | Appending            | 02/15/2020 23:23:06 |  1 |  3
+ dr222  | Strings        | Find                 | 02/15/2020 23:23:06 |  3 |  3
+ dr222  | Strings        | Index/Slice          | 02/15/2020 23:23:06 |  3 |  3
+ dr222  | Strings        | Join                 | 02/15/2020 23:23:06 |  3 |  4
+ dr222  | Strings        | Split                | 02/15/2020 23:23:06 |  4 |  4
+ sf218  | Lists          | Adding               | 02/15/2020 23:25:39 |  2 |  2
+ sf218  | Lists          | Appending            | 02/15/2020 23:25:39 |  2 |  2
+ sf218  | Strings        | Find                 | 02/15/2020 23:25:39 |  3 |  3
+ sf218  | Strings        | Index/Slice          | 02/15/2020 23:25:39 |  3 |  3
+ sf218  | Strings        | Join                 | 02/15/2020 23:25:39 |  2 |  3
+ sf218  | Strings        | Split                | 02/15/2020 23:25:39 |  3 |  3
+ jej34  | Strings        | Index/Slice          | 02/15/2020 23:29:06 |  6 |  6
+ jej34  | Strings        | Join                 | 02/15/2020 23:29:06 |  3 |  7
+ jej34  | Strings        | Split                | 02/15/2020 23:29:06 |  7 |  7
+ cd283  | Math operators | Exponents            | 02/15/2020 23:41:09 |  5 |  5
+ mco23  | Strings        | Find                 | 02/15/2020 23:43:06 |  1 |  1
+ mco23  | Strings        | Index/Slice          | 02/15/2020 23:43:06 |  1 |  1
+ mco23  | Strings        | Join                 | 02/15/2020 23:43:06 |  1 |  1
+ mco23  | Strings        | Split                | 02/15/2020 23:43:06 |  1 |  1
+ cd283  | Math operators | Floor Division       | 02/15/2020 23:43:16 |  4 |  4
+ as817  | Lists          | Pointers             | 02/15/2020 23:50:25 |  1 |  1
+ as817  | Lists          | Pointers             | 02/15/2020 23:50:43 |  0 |  1
+ as817  | Lists          | Pointers             | 02/15/2020 23:51:20 |  1 |  1
+ as817  | Lists          | Pointers             | 02/15/2020 23:51:54 |  1 |  1
+ as817  | Lists          | Pointers             | 02/15/2020 23:52:09 |  0 |  1
+ as817  | Lists          | Pointers             | 02/15/2020 23:56:38 |  2 |  5
+ cd283  | Math operators | Mod                  | 02/15/2020 23:56:54 |  4 |  5
+ as817  | Lists          | Pointers             | 02/15/2020 23:57:19 |  1 |  1
+ cd283  | Strings        | Find                 | 02/16/2020 00:13:26 |  1 |  5
+ cd283  | Strings        | Find                 | 02/16/2020 00:18:33 |  5 |  5
+ cd283  | Strings        | Index/Slice          | 02/16/2020 00:24:45 |  5 |  5
+ cd283  | Strings        | Join                 | 02/16/2020 00:34:36 |  5 |  5
+ cd283  | Strings        | Split                | 02/16/2020 00:34:36 |  5 |  5
+ fab21  | Strings        | Concatenation        | 02/16/2020 01:30:33 |  1 |  1
+ fab21  | Strings        | Find                 | 02/16/2020 01:30:33 |  1 |  1
+ fab21  | Strings        | Index/Slice          | 02/16/2020 01:30:33 |  1 |  1
+ fab21  | Strings        | Join                 | 02/16/2020 01:30:33 |  0 |  1
+ fab21  | Strings        | Split                | 02/16/2020 01:30:33 |  0 |  1
+ sk586  | Lists          | Adding               | 02/16/2020 02:43:56 |  2 |  2
+ sk586  | Lists          | Appending            | 02/16/2020 02:43:56 |  1 |  2
+ sk586  | Lists          | Pointers             | 02/16/2020 02:43:56 |  2 |  2
+ sk586  | Math operators | Exponents            | 02/16/2020 02:43:56 |  2 |  2
+ sk586  | Math operators | Floor Division       | 02/16/2020 02:43:56 |  2 |  2
+ sk586  | Math operators | Mod                  | 02/16/2020 02:43:56 |  2 |  2
+ sk586  | Strings        | Concatenation        | 02/16/2020 02:43:56 |  2 |  2
+ sk586  | Strings        | Find                 | 02/16/2020 02:43:56 |  2 |  2
+ sk586  | Strings        | Index/Slice          | 02/16/2020 02:43:56 |  3 |  3
+ sk586  | Strings        | Join                 | 02/16/2020 02:43:56 |  1 |  3
+ sk586  | Strings        | Split                | 02/16/2020 02:43:56 |  1 |  3
+ sk586  | Lists          | Adding               | 02/16/2020 02:45:08 |  1 |  1
+ wmr11  | Strings        | Concatenation        | 02/16/2020 02:49:11 |  1 |  1
+ wmr11  | Strings        | Join                 | 02/16/2020 02:49:11 |  1 |  1
+ wmr11  | Strings        | Concatenation        | 02/16/2020 02:49:21 |  1 |  1
+ wmr11  | Strings        | Find                 | 02/16/2020 02:49:21 |  0 |  1
+ wmr11  | Strings        | Join                 | 02/16/2020 02:49:21 |  0 |  1
+ wmr11  | Strings        | Split                | 02/16/2020 02:49:21 |  0 |  1
+ wmr11  | Strings        | Concatenation        | 02/16/2020 02:51:34 |  0 |  1
+ wmr11  | Strings        | Find                 | 02/16/2020 02:51:34 |  1 |  1
+ wmr11  | Strings        | Index/Slice          | 02/16/2020 02:51:34 |  1 |  1
+ wmr11  | Strings        | Join                 | 02/16/2020 02:51:34 |  0 |  1
+ wmr11  | Strings        | Split                | 02/16/2020 02:51:34 |  1 |  1
+ wmr11  | Strings        | Concatenation        | 02/16/2020 03:00:29 |  1 |  1
+ wmr11  | Strings        | Find                 | 02/16/2020 03:00:29 |  1 |  1
+ wmr11  | Strings        | Index/Slice          | 02/16/2020 03:00:29 |  0 |  1
+ wmr11  | Strings        | Join                 | 02/16/2020 03:00:29 |  1 |  1
+ wmr11  | Strings        | Split                | 02/16/2020 03:00:29 |  1 |  1
+ jej34  | Strings        | Index/Slice          | 02/16/2020 03:09:46 |  7 |  7
+ jej34  | Strings        | Join                 | 02/16/2020 03:09:46 |  8 |  8
+ msg41  | Lists          | Adding               | 02/16/2020 04:38:04 |  4 | 10
+ msg41  | Lists          | Appending            | 02/16/2020 04:43:42 |  2 |  5
+ msg41  | Lists          | Pointers             | 02/16/2020 04:49:06 |  5 |  5
+ msg41  | Math operators | Exponents            | 02/16/2020 04:51:29 |  4 |  4
+ msg41  | Math operators | Floor Division       | 02/16/2020 04:52:08 |  5 |  5
+ msg41  | Math operators | Mod                  | 02/16/2020 04:53:14 |  5 |  5
+ msg41  | Strings        | Concatenation        | 02/16/2020 04:54:15 |  5 |  5
+ msg41  | Strings        | Find                 | 02/16/2020 04:54:54 |  5 |  5
+ msg41  | Strings        | Index/Slice          | 02/16/2020 04:56:27 |  5 |  5
+ msg41  | Strings        | Join                 | 02/16/2020 05:01:12 |  0 |  5
+ msg41  | Strings        | Split                | 02/16/2020 05:02:41 |  4 |  5
+ jc721  | Lists          | Adding               | 02/16/2020 07:12:09 |  1 |  1
+ jc721  | Lists          | Appending            | 02/16/2020 07:12:09 |  0 |  1
+ jc721  | Lists          | Pointers             | 02/16/2020 07:12:09 |  2 |  2
+ jc721  | Math operators | Exponents            | 02/16/2020 07:12:09 |  2 |  2
+ jc721  | Math operators | Floor Division       | 02/16/2020 07:12:09 |  2 |  2
+ jc721  | Math operators | Mod                  | 02/16/2020 07:12:09 |  2 |  2
+ jc721  | Strings        | Concatenation        | 02/16/2020 07:12:09 |  2 |  2
+ jc721  | Strings        | Find                 | 02/16/2020 07:12:09 |  0 |  2
+ jc721  | Strings        | Index/Slice          | 02/16/2020 07:12:09 |  2 |  2
+ jc721  | Strings        | Join                 | 02/16/2020 07:12:09 |  1 |  2
+ jc721  | Strings        | Split                | 02/16/2020 07:12:09 |  0 |  2
+ ab694  | Lists          | Adding               | 02/16/2020 15:09:43 |  5 |  5
+ ab694  | Lists          | Appending            | 02/16/2020 15:22:35 |  1 |  1
+ ab694  | Lists          | Appending            | 02/16/2020 15:26:42 |  0 |  1
+ ab694  | Lists          | Appending            | 02/16/2020 15:30:43 |  5 |  5
+ ab694  | Lists          | Pointers             | 02/16/2020 15:56:46 |  4 |  5
+ ab694  | Math operators | Exponents            | 02/16/2020 16:01:33 |  4 |  4
+ ab694  | Math operators | Floor Division       | 02/16/2020 16:02:43 |  5 |  5
+ sn181  | Lists          | Adding               | 02/16/2020 16:03:27 |  2 |  5
+ sn181  | Lists          | Appending            | 02/16/2020 16:03:27 |  3 |  5
+ sn181  | Lists          | Pointers             | 02/16/2020 16:03:27 |  4 |  5
+ ab694  | Math operators | Mod                  | 02/16/2020 16:08:03 |  5 |  5
+ ab694  | Math operators | Mod                  | 02/16/2020 16:10:28 |  5 |  5
+ ab694  | Strings        | Concatenation        | 02/16/2020 16:20:16 |  5 |  5
+ ab694  | Strings        | Find                 | 02/16/2020 16:21:31 |  4 |  5
+ ab694  | Strings        | Find                 | 02/16/2020 16:23:50 |  5 |  5
+ ab694  | Strings        | Index/Slice          | 02/16/2020 16:29:34 |  5 |  5
+ ab694  | Strings        | Join                 | 02/16/2020 16:31:34 |  1 |  5
+ ab694  | Strings        | Join                 | 02/16/2020 16:37:08 |  5 |  5
+ ab694  | Strings        | Split                | 02/16/2020 16:38:29 |  5 |  5
+ sk586  | Lists          | Adding               | 02/16/2020 17:06:01 |  2 |  2
+ sk586  | Lists          | Appending            | 02/16/2020 17:06:01 |  2 |  2
+ sk586  | Lists          | Pointers             | 02/16/2020 17:06:01 |  2 |  2
+ sk586  | Math operators | Exponents            | 02/16/2020 17:06:01 |  2 |  2
+ sk586  | Math operators | Floor Division       | 02/16/2020 17:06:01 |  2 |  2
+ sk586  | Math operators | Mod                  | 02/16/2020 17:06:01 |  2 |  2
+ sk586  | Strings        | Concatenation        | 02/16/2020 17:06:01 |  2 |  2
+ sk586  | Strings        | Find                 | 02/16/2020 17:06:01 |  1 |  2
+ sk586  | Strings        | Index/Slice          | 02/16/2020 17:06:01 |  3 |  3
+ sk586  | Strings        | Join                 | 02/16/2020 17:06:01 |  0 |  3
+ sk586  | Strings        | Split                | 02/16/2020 17:06:01 |  3 |  3
+ ab694  | Strings        | Split                | 02/16/2020 17:07:41 |  3 |  5
+ sk586  | Lists          | Adding               | 02/16/2020 17:13:21 |  2 |  2
+ sk586  | Lists          | Appending            | 02/16/2020 17:13:21 |  2 |  2
+ sk586  | Lists          | Pointers             | 02/16/2020 17:13:21 |  2 |  2
+ sk586  | Math operators | Exponents            | 02/16/2020 17:13:21 |  2 |  2
+ sk586  | Math operators | Floor Division       | 02/16/2020 17:13:21 |  2 |  2
+ sk586  | Math operators | Mod                  | 02/16/2020 17:13:21 |  2 |  2
+ sk586  | Strings        | Concatenation        | 02/16/2020 17:13:21 |  2 |  2
+ sk586  | Strings        | Find                 | 02/16/2020 17:13:21 |  2 |  2
+ sk586  | Strings        | Index/Slice          | 02/16/2020 17:13:21 |  3 |  3
+ sk586  | Strings        | Join                 | 02/16/2020 17:13:21 |  3 |  3
+ sk586  | Strings        | Split                | 02/16/2020 17:13:21 |  3 |  3
+ smj69  | Lists          | Adding               | 02/16/2020 19:04:49 |  1 |  1
+ smj69  | Lists          | Appending            | 02/16/2020 19:04:49 |  1 |  1
+ smj69  | Lists          | Pointers             | 02/16/2020 19:04:49 |  2 |  2
+ smj69  | Math operators | Exponents            | 02/16/2020 19:04:49 |  1 |  1
+ smj69  | Math operators | Floor Division       | 02/16/2020 19:04:49 |  2 |  2
+ smj69  | Math operators | Mod                  | 02/16/2020 19:04:49 |  2 |  2
+ smj69  | Strings        | Concatenation        | 02/16/2020 19:04:49 |  2 |  2
+ smj69  | Strings        | Find                 | 02/16/2020 19:04:49 |  2 |  2
+ smj69  | Strings        | Index/Slice          | 02/16/2020 19:04:49 |  2 |  2
+ smj69  | Strings        | Join                 | 02/16/2020 19:04:49 |  2 |  2
+ smj69  | Strings        | Split                | 02/16/2020 19:04:49 |  2 |  2
+ jej34  | Lists          | Pointers             | 02/16/2020 19:29:43 |  4 |  4
+ kbc24  | Lists          | Appending            | 02/16/2020 20:20:20 |  1 |  1
+ kbc24  | Lists          | Pointers             | 02/16/2020 20:20:20 |  1 |  1
+ kbc24  | Math operators | Exponents            | 02/16/2020 20:20:20 |  1 |  1
+ kbc24  | Math operators | Floor Division       | 02/16/2020 20:20:20 |  1 |  1
+ kbc24  | Math operators | Mod                  | 02/16/2020 20:20:20 |  1 |  1
+ kbc24  | Strings        | Concatenation        | 02/16/2020 20:20:20 |  1 |  1
+ kbc24  | Strings        | Find                 | 02/16/2020 20:20:20 |  1 |  1
+ kbc24  | Strings        | Index/Slice          | 02/16/2020 20:20:20 |  1 |  1
+ kbc24  | Strings        | Join                 | 02/16/2020 20:20:20 |  0 |  1
+ kbc24  | Strings        | Split                | 02/16/2020 20:20:20 |  1 |  1
+ jac159 | Lists          | Appending            | 02/16/2020 20:21:02 |  1 |  1
+ jac159 | Lists          | Pointers             | 02/16/2020 20:21:02 |  1 |  1
+ jac159 | Math operators | Exponents            | 02/16/2020 20:21:02 |  1 |  1
+ jac159 | Math operators | Floor Division       | 02/16/2020 20:21:02 |  1 |  1
+ jac159 | Math operators | Mod                  | 02/16/2020 20:21:02 |  1 |  1
+ jac159 | Strings        | Concatenation        | 02/16/2020 20:21:02 |  1 |  1
+ jac159 | Strings        | Find                 | 02/16/2020 20:21:02 |  1 |  1
+ jac159 | Strings        | Index/Slice          | 02/16/2020 20:21:02 |  1 |  1
+ jac159 | Strings        | Join                 | 02/16/2020 20:21:02 |  1 |  1
+ jac159 | Strings        | Split                | 02/16/2020 20:21:02 |  1 |  1
+ jac159 | Lists          | Appending            | 02/16/2020 20:25:47 |  1 |  1
+ jac159 | Lists          | Pointers             | 02/16/2020 20:25:47 |  1 |  1
+ jac159 | Math operators | Exponents            | 02/16/2020 20:25:47 |  1 |  1
+ jac159 | Math operators | Floor Division       | 02/16/2020 20:25:47 |  1 |  1
+ jac159 | Math operators | Mod                  | 02/16/2020 20:25:47 |  1 |  1
+ jac159 | Strings        | Concatenation        | 02/16/2020 20:25:47 |  1 |  1
+ jac159 | Strings        | Find                 | 02/16/2020 20:25:47 |  1 |  1
+ jac159 | Strings        | Index/Slice          | 02/16/2020 20:25:47 |  1 |  1
+ jac159 | Strings        | Join                 | 02/16/2020 20:25:47 |  0 |  1
+ jac159 | Strings        | Split                | 02/16/2020 20:25:47 |  1 |  1
+ kbc24  | Lists          | Appending            | 02/16/2020 20:26:17 |  1 |  1
+ kbc24  | Lists          | Pointers             | 02/16/2020 20:26:17 |  1 |  1
+ kbc24  | Math operators | Exponents            | 02/16/2020 20:26:17 |  1 |  1
+ kbc24  | Math operators | Floor Division       | 02/16/2020 20:26:17 |  1 |  1
+ kbc24  | Math operators | Mod                  | 02/16/2020 20:26:17 |  1 |  1
+ kbc24  | Strings        | Concatenation        | 02/16/2020 20:26:17 |  1 |  1
+ kbc24  | Strings        | Find                 | 02/16/2020 20:26:17 |  1 |  1
+ kbc24  | Strings        | Index/Slice          | 02/16/2020 20:26:17 |  1 |  1
+ kbc24  | Strings        | Join                 | 02/16/2020 20:26:17 |  0 |  1
+ kbc24  | Strings        | Split                | 02/16/2020 20:26:17 |  1 |  1
+ jac159 | Strings        | Concatenation        | 02/16/2020 20:29:09 |  2 |  2
+ jac159 | Strings        | Index/Slice          | 02/16/2020 20:29:09 |  2 |  2
+ jac159 | Strings        | Join                 | 02/16/2020 20:29:09 |  3 |  3
+ jac159 | Strings        | Split                | 02/16/2020 20:29:09 |  3 |  3
+ dmh75  | Lists          | Adding               | 02/16/2020 20:33:38 |  1 |  1
+ dmh75  | Lists          | Appending            | 02/16/2020 20:33:38 |  0 |  1
+ dmh75  | Lists          | Pointers             | 02/16/2020 20:33:38 |  2 |  2
+ dmh75  | Math operators | Exponents            | 02/16/2020 20:33:38 |  2 |  2
+ dmh75  | Math operators | Floor Division       | 02/16/2020 20:33:38 |  2 |  2
+ dmh75  | Math operators | Mod                  | 02/16/2020 20:33:38 |  2 |  2
+ dmh75  | Strings        | Concatenation        | 02/16/2020 20:33:38 |  2 |  2
+ dmh75  | Strings        | Find                 | 02/16/2020 20:33:38 |  2 |  2
+ dmh75  | Strings        | Index/Slice          | 02/16/2020 20:33:38 |  2 |  2
+ dmh75  | Strings        | Join                 | 02/16/2020 20:33:38 |  0 |  2
+ dmh75  | Strings        | Split                | 02/16/2020 20:33:38 |  1 |  2
+ dmh75  | Lists          | Adding               | 02/16/2020 20:46:36 |  1 |  1
+ dmh75  | Lists          | Appending            | 02/16/2020 20:46:36 |  1 |  1
+ dmh75  | Lists          | Pointers             | 02/16/2020 20:46:36 |  1 |  2
+ dmh75  | Math operators | Exponents            | 02/16/2020 20:46:36 |  2 |  2
+ dmh75  | Math operators | Floor Division       | 02/16/2020 20:46:36 |  2 |  2
+ dmh75  | Math operators | Mod                  | 02/16/2020 20:46:36 |  2 |  2
+ dmh75  | Strings        | Concatenation        | 02/16/2020 20:46:36 |  2 |  2
+ dmh75  | Strings        | Find                 | 02/16/2020 20:46:36 |  2 |  2
+ dmh75  | Strings        | Index/Slice          | 02/16/2020 20:46:36 |  2 |  2
+ dmh75  | Strings        | Join                 | 02/16/2020 20:46:36 |  1 |  2
+ dmh75  | Strings        | Split                | 02/16/2020 20:46:36 |  2 |  2
+ hz190  | Lists          | Adding               | 02/16/2020 20:47:32 |  9 | 10
+ dmh75  | Lists          | Adding               | 02/16/2020 20:59:48 |  0 |  1
+ dmh75  | Lists          | Appending            | 02/16/2020 20:59:48 |  1 |  1
+ dmh75  | Lists          | Pointers             | 02/16/2020 20:59:48 |  2 |  2
+ dmh75  | Math operators | Exponents            | 02/16/2020 20:59:48 |  2 |  2
+ dmh75  | Math operators | Floor Division       | 02/16/2020 20:59:48 |  2 |  2
+ dmh75  | Math operators | Mod                  | 02/16/2020 20:59:48 |  2 |  2
+ dmh75  | Strings        | Concatenation        | 02/16/2020 20:59:48 |  2 |  2
+ dmh75  | Strings        | Find                 | 02/16/2020 20:59:48 |  2 |  2
+ dmh75  | Strings        | Index/Slice          | 02/16/2020 20:59:48 |  1 |  2
+ dmh75  | Strings        | Join                 | 02/16/2020 20:59:48 |  2 |  2
+ dmh75  | Strings        | Split                | 02/16/2020 20:59:48 |  2 |  2
+ hz190  | Lists          | Appending            | 02/16/2020 20:59:51 |  5 |  5
+ hz190  | Lists          | Pointers             | 02/16/2020 20:59:51 |  5 |  5
+ hz190  | Math operators | Exponents            | 02/16/2020 21:01:17 |  4 |  4
+ hz190  | Math operators | Floor Division       | 02/16/2020 21:01:17 |  5 |  5
+ hz190  | Math operators | Exponents            | 02/16/2020 21:02:45 |  4 |  4
+ hz190  | Math operators | Floor Division       | 02/16/2020 21:02:45 |  5 |  5
+ hz190  | Math operators | Mod                  | 02/16/2020 21:04:45 |  5 |  5
+ hz190  | Strings        | Concatenation        | 02/16/2020 21:04:45 |  3 |  5
+ hz190  | Math operators | Mod                  | 02/16/2020 21:05:55 |  5 |  5
+ hz190  | Strings        | Concatenation        | 02/16/2020 21:05:55 |  5 |  5
+ hz190  | Strings        | Find                 | 02/16/2020 21:10:00 |  0 |  5
+ hz190  | Strings        | Index/Slice          | 02/16/2020 21:10:00 |  5 |  5
+ dmh75  | Lists          | Adding               | 02/16/2020 21:10:33 |  1 |  1
+ dmh75  | Lists          | Appending            | 02/16/2020 21:10:33 |  1 |  1
+ dmh75  | Lists          | Pointers             | 02/16/2020 21:10:33 |  2 |  2
+ dmh75  | Math operators | Exponents            | 02/16/2020 21:10:33 |  2 |  2
+ dmh75  | Math operators | Floor Division       | 02/16/2020 21:10:33 |  2 |  2
+ dmh75  | Math operators | Mod                  | 02/16/2020 21:10:33 |  2 |  2
+ dmh75  | Strings        | Concatenation        | 02/16/2020 21:10:33 |  2 |  2
+ dmh75  | Strings        | Find                 | 02/16/2020 21:10:33 |  2 |  2
+ dmh75  | Strings        | Index/Slice          | 02/16/2020 21:10:33 |  2 |  2
+ dmh75  | Strings        | Join                 | 02/16/2020 21:10:33 |  2 |  2
+ dmh75  | Strings        | Split                | 02/16/2020 21:10:33 |  2 |  2
+ hz190  | Strings        | Find                 | 02/16/2020 21:11:28 |  5 |  5
+ hz190  | Strings        | Index/Slice          | 02/16/2020 21:11:28 |  5 |  5
+ hz190  | Strings        | Join                 | 02/16/2020 21:16:34 |  0 |  5
+ hz190  | Strings        | Split                | 02/16/2020 21:16:34 |  5 |  5
+ hz190  | Strings        | Join                 | 02/16/2020 21:19:10 |  5 |  5
+ hz190  | Strings        | Split                | 02/16/2020 21:19:10 |  5 |  5
+ rb358  | Lists          | Adding               | 02/16/2020 21:31:19 |  1 |  1
+ rb358  | Lists          | Appending            | 02/16/2020 21:31:19 |  1 |  1
+ rb358  | Lists          | Pointers             | 02/16/2020 21:31:19 |  2 |  2
+ rb358  | Strings        | Concatenation        | 02/16/2020 21:31:19 |  2 |  2
+ rb358  | Strings        | Join                 | 02/16/2020 21:31:19 |  1 |  2
+ rb358  | Strings        | Split                | 02/16/2020 21:31:19 |  0 |  2
+ hso3   | Lists          | Adding               | 02/16/2020 21:37:09 |  1 |  1
+ hso3   | Lists          | Appending            | 02/16/2020 21:37:09 |  1 |  1
+ hso3   | Lists          | Pointers             | 02/16/2020 21:37:09 |  1 |  1
+ hso3   | Math operators | Exponents            | 02/16/2020 21:37:09 |  1 |  1
+ hso3   | Math operators | Floor Division       | 02/16/2020 21:37:09 |  1 |  1
+ hso3   | Math operators | Mod                  | 02/16/2020 21:37:09 |  1 |  1
+ hso3   | Strings        | Concatenation        | 02/16/2020 21:37:09 |  1 |  1
+ hso3   | Strings        | Find                 | 02/16/2020 21:37:09 |  2 |  2
+ hso3   | Strings        | Index/Slice          | 02/16/2020 21:37:09 |  2 |  2
+ hso3   | Strings        | Join                 | 02/16/2020 21:37:09 |  2 |  2
+ hso3   | Strings        | Split                | 02/16/2020 21:37:09 |  1 |  2
+ svk3   | Lists          | Adding               | 02/16/2020 21:40:25 |  1 |  1
+ svk3   | Lists          | Appending            | 02/16/2020 21:40:25 |  1 |  1
+ bd134  | Lists          | Adding               | 02/16/2020 22:12:47 |  5 |  5
+ bd134  | Lists          | Appending            | 02/16/2020 22:14:49 |  0 |  5
+ bd134  | Lists          | Appending            | 02/16/2020 22:16:14 |  4 |  5
+ bd134  | Lists          | Pointers             | 02/16/2020 22:32:42 |  1 |  1
+ cn91   | Lists          | Adding               | 02/16/2020 22:33:22 |  1 |  2
+ cn91   | Lists          | Appending            | 02/16/2020 22:33:22 |  1 |  2
+ cn91   | Lists          | Pointers             | 02/16/2020 22:33:22 |  1 |  2
+ cn91   | Math operators | Exponents            | 02/16/2020 22:33:22 |  3 |  3
+ cn91   | Math operators | Floor Division       | 02/16/2020 22:33:22 |  3 |  3
+ cn91   | Math operators | Mod                  | 02/16/2020 22:33:22 |  3 |  3
+ cn91   | Strings        | Concatenation        | 02/16/2020 22:33:22 |  2 |  3
+ cn91   | Strings        | Find                 | 02/16/2020 22:33:22 |  0 |  3
+ cn91   | Strings        | Index/Slice          | 02/16/2020 22:33:22 |  2 |  3
+ cn91   | Strings        | Join                 | 02/16/2020 22:33:22 |  3 |  3
+ cn91   | Strings        | Split                | 02/16/2020 22:33:22 |  3 |  3
+ bd134  | Math operators | Exponents            | 02/16/2020 22:34:35 |  4 |  4
+ bd134  | Math operators | Floor Division       | 02/16/2020 22:34:56 |  5 |  5
+ bd134  | Math operators | Mod                  | 02/16/2020 22:35:21 |  5 |  5
+ bd134  | Strings        | Concatenation        | 02/16/2020 22:36:13 |  5 |  5
+ bd134  | Strings        | Find                 | 02/16/2020 22:37:35 |  3 |  5
+ bd134  | Strings        | Index/Slice          | 02/16/2020 22:38:32 |  5 |  5
+ bd134  | Strings        | Join                 | 02/16/2020 22:39:29 |  0 |  5
+ bd134  | Strings        | Split                | 02/16/2020 22:40:46 |  3 |  5
+ ktn4   | Lists          | Adding               | 02/16/2020 23:19:02 |  1 |  1
+ ktn4   | Lists          | Appending            | 02/16/2020 23:19:02 |  0 |  2
+ ktn4   | Lists          | Pointers             | 02/16/2020 23:19:02 |  0 |  2
+ orp    | Lists          | Appending            | 02/16/2020 23:24:09 |  5 |  5
+ ssc60  | Lists          | Pointers             | 02/16/2020 23:29:34 |  1 |  1
+ ssc60  | Math operators | Mod                  | 02/16/2020 23:29:34 |  1 |  1
+ ssc60  | Strings        | Index/Slice          | 02/16/2020 23:29:34 |  1 |  1
+ ssc60  | Strings        | Join                 | 02/16/2020 23:29:34 |  1 |  1
+ ssc60  | Strings        | Split                | 02/16/2020 23:29:34 |  1 |  1
+ dgj6   | Strings        | Concatenation        | 02/16/2020 23:49:53 |  0 |  1
+ dgj6   | Strings        | Find                 | 02/16/2020 23:49:53 |  1 |  1
+ dgj6   | Strings        | Index/Slice          | 02/16/2020 23:49:53 |  1 |  1
+ dgj6   | Strings        | Join                 | 02/16/2020 23:49:53 |  0 |  1
+ dgj6   | Strings        | Split                | 02/16/2020 23:49:53 |  0 |  1
+ dgj6   | Strings        | Concatenation        | 02/16/2020 23:51:34 |  1 |  1
+ dgj6   | Strings        | Find                 | 02/16/2020 23:51:34 |  1 |  1
+ dgj6   | Strings        | Index/Slice          | 02/16/2020 23:51:34 |  1 |  1
+ dgj6   | Strings        | Join                 | 02/16/2020 23:51:34 |  1 |  1
+ dgj6   | Strings        | Split                | 02/16/2020 23:51:34 |  1 |  1
+ dgj6   | Strings        | Find                 | 02/16/2020 23:52:42 |  1 |  1
+ dgj6   | Strings        | Index/Slice          | 02/16/2020 23:52:42 |  1 |  1
+ dgj6   | Strings        | Join                 | 02/16/2020 23:52:42 |  1 |  1
+ dgj6   | Strings        | Split                | 02/16/2020 23:52:42 |  1 |  1
+ tjg29  | Lists          | Appending            | 02/17/2020 01:02:44 |  0 |  1
+ tjg29  | Lists          | Pointers             | 02/17/2020 01:02:44 |  1 |  1
+ tjg29  | Math operators | Exponents            | 02/17/2020 01:02:44 |  1 |  1
+ tjg29  | Math operators | Floor Division       | 02/17/2020 01:02:44 |  1 |  1
+ tjg29  | Math operators | Mod                  | 02/17/2020 01:02:44 |  1 |  1
+ tjg29  | Strings        | Concatenation        | 02/17/2020 01:02:44 |  1 |  1
+ tjg29  | Strings        | Find                 | 02/17/2020 01:02:44 |  0 |  1
+ tjg29  | Strings        | Index/Slice          | 02/17/2020 01:02:44 |  1 |  1
+ tjg29  | Strings        | Join                 | 02/17/2020 01:02:44 |  0 |  1
+ tjg29  | Strings        | Split                | 02/17/2020 01:02:44 |  1 |  1
+ mc651  | Lists          | Adding               | 02/17/2020 01:11:50 |  3 |  3
+ mc651  | Lists          | Appending            | 02/17/2020 01:11:50 |  3 |  3
+ mc651  | Lists          | Pointers             | 02/17/2020 01:11:50 |  4 |  4
+ jej34  | Strings        | Index/Slice          | 02/17/2020 01:12:47 |  5 |  5
+ jej34  | Strings        | Index/Slice          | 02/17/2020 01:13:30 |  5 |  5
+ jej34  | Strings        | Join                 | 02/17/2020 01:15:22 |  5 |  5
+ mc651  | Strings        | Concatenation        | 02/17/2020 01:28:05 |  1 |  2
+ mc651  | Strings        | Find                 | 02/17/2020 01:28:05 |  2 |  2
+ mc651  | Strings        | Index/Slice          | 02/17/2020 01:28:05 |  2 |  2
+ mc651  | Strings        | Join                 | 02/17/2020 01:28:05 |  2 |  2
+ mc651  | Strings        | Split                | 02/17/2020 01:28:05 |  2 |  2
+ mc651  | Strings        | Concatenation        | 02/17/2020 01:31:28 |  1 |  2
+ mc651  | Strings        | Find                 | 02/17/2020 01:31:28 |  2 |  2
+ mc651  | Strings        | Index/Slice          | 02/17/2020 01:31:28 |  2 |  2
+ mc651  | Strings        | Join                 | 02/17/2020 01:31:28 |  2 |  2
+ mc651  | Strings        | Split                | 02/17/2020 01:31:28 |  2 |  2
+ mc651  | Strings        | Concatenation        | 02/17/2020 01:39:19 |  1 |  1
+ mc651  | Strings        | Join                 | 02/17/2020 01:39:19 |  2 |  2
+ mc651  | Strings        | Split                | 02/17/2020 01:39:19 |  2 |  2
+ mc651  | Strings        | Concatenation        | 02/17/2020 01:39:43 |  1 |  1
+ mc651  | Strings        | Join                 | 02/17/2020 01:39:43 |  2 |  2
+ mc651  | Strings        | Split                | 02/17/2020 01:39:43 |  2 |  2
+ mc651  | Strings        | Concatenation        | 02/17/2020 01:40:15 |  1 |  1
+ mc651  | Strings        | Join                 | 02/17/2020 01:40:15 |  2 |  2
+ mc651  | Strings        | Split                | 02/17/2020 01:40:15 |  2 |  2
+ mc651  | Math operators | Exponents            | 02/17/2020 01:41:20 |  1 |  1
+ mc651  | Math operators | Floor Division       | 02/17/2020 01:41:20 |  0 |  2
+ mc651  | Math operators | Mod                  | 02/17/2020 01:41:20 |  2 |  2
+ yz535  | Lists          | Adding               | 02/17/2020 02:01:22 |  1 |  1
+ yz535  | Lists          | Appending            | 02/17/2020 02:01:22 |  2 |  2
+ yz535  | Lists          | Pointers             | 02/17/2020 02:01:22 |  2 |  2
+ jej34  | Strings        | Index/Slice          | 02/17/2020 02:54:01 |  7 |  7
+ jej34  | Lists          | Adding               | 02/17/2020 02:56:12 |  1 |  1
+ jej34  | Strings        | Concatenation        | 02/17/2020 02:56:12 |  2 |  2
+ jc721  | Lists          | Appending            | 02/17/2020 02:59:00 |  1 |  1
+ jc721  | Lists          | Pointers             | 02/17/2020 02:59:00 |  1 |  1
+ jc721  | Math operators | Exponents            | 02/17/2020 02:59:00 |  1 |  1
+ jc721  | Math operators | Floor Division       | 02/17/2020 02:59:00 |  1 |  1
+ jc721  | Math operators | Mod                  | 02/17/2020 02:59:00 |  1 |  1
+ jc721  | Strings        | Concatenation        | 02/17/2020 02:59:00 |  1 |  1
+ jc721  | Strings        | Find                 | 02/17/2020 02:59:00 |  1 |  1
+ jc721  | Strings        | Index/Slice          | 02/17/2020 02:59:00 |  1 |  1
+ jc721  | Strings        | Join                 | 02/17/2020 02:59:00 |  0 |  1
+ jc721  | Strings        | Split                | 02/17/2020 02:59:00 |  1 |  1
+ jc721  | Lists          | Appending            | 02/17/2020 03:08:39 |  1 |  1
+ jc721  | Lists          | Pointers             | 02/17/2020 03:08:39 |  1 |  1
+ jc721  | Math operators | Exponents            | 02/17/2020 03:08:39 |  1 |  1
+ jc721  | Math operators | Floor Division       | 02/17/2020 03:08:39 |  1 |  1
+ jc721  | Math operators | Mod                  | 02/17/2020 03:08:39 |  1 |  1
+ jc721  | Strings        | Concatenation        | 02/17/2020 03:08:39 |  1 |  1
+ jc721  | Strings        | Find                 | 02/17/2020 03:08:39 |  1 |  1
+ jc721  | Strings        | Index/Slice          | 02/17/2020 03:08:39 |  1 |  1
+ jc721  | Strings        | Join                 | 02/17/2020 03:08:39 |  1 |  1
+ jc721  | Strings        | Split                | 02/17/2020 03:08:39 |  1 |  1
+ jc721  | Lists          | Appending            | 02/17/2020 03:12:04 |  1 |  1
+ jc721  | Lists          | Pointers             | 02/17/2020 03:12:04 |  1 |  1
+ jc721  | Math operators | Exponents            | 02/17/2020 03:12:04 |  1 |  1
+ jc721  | Math operators | Floor Division       | 02/17/2020 03:12:04 |  1 |  1
+ jc721  | Math operators | Mod                  | 02/17/2020 03:12:04 |  1 |  1
+ jc721  | Strings        | Concatenation        | 02/17/2020 03:12:04 |  1 |  1
+ jc721  | Strings        | Find                 | 02/17/2020 03:12:04 |  1 |  1
+ jc721  | Strings        | Index/Slice          | 02/17/2020 03:12:04 |  1 |  1
+ jc721  | Strings        | Join                 | 02/17/2020 03:12:04 |  1 |  1
+ jc721  | Strings        | Split                | 02/17/2020 03:12:04 |  1 |  1
+ dc316  | Strings        | Find                 | 02/17/2020 03:37:22 |  5 |  5
+ gbg8   | Lists          | Adding               | 02/17/2020 04:56:36 |  5 |  5
+ gbg8   | Lists          | Appending            | 02/17/2020 04:58:16 |  3 |  5
+ gbg8   | Lists          | Pointers             | 02/17/2020 05:07:07 |  5 |  5
+ aal44  | Strings        | Concatenation        | 02/17/2020 05:19:00 |  1 |  1
+ aal44  | Strings        | Find                 | 02/17/2020 05:19:00 |  0 |  1
+ aal44  | Strings        | Index/Slice          | 02/17/2020 05:19:00 |  1 |  1
+ aal44  | Strings        | Join                 | 02/17/2020 05:19:00 |  1 |  1
+ aal44  | Strings        | Split                | 02/17/2020 05:19:00 |  1 |  1
+ fn28   | Lists          | Adding               | 02/17/2020 05:23:57 |  1 |  1
+ fn28   | Lists          | Appending            | 02/17/2020 05:23:57 |  1 |  1
+ fn28   | Lists          | Pointers             | 02/17/2020 05:23:57 |  2 |  2
+ fn28   | Math operators | Exponents            | 02/17/2020 05:23:57 |  2 |  2
+ fn28   | Math operators | Floor Division       | 02/17/2020 05:23:57 |  2 |  2
+ fn28   | Math operators | Mod                  | 02/17/2020 05:23:57 |  2 |  2
+ fn28   | Strings        | Concatenation        | 02/17/2020 05:23:57 |  1 |  2
+ fn28   | Strings        | Find                 | 02/17/2020 05:23:57 |  2 |  2
+ fn28   | Strings        | Index/Slice          | 02/17/2020 05:23:57 |  2 |  2
+ fn28   | Strings        | Join                 | 02/17/2020 05:23:57 |  1 |  2
+ fn28   | Strings        | Split                | 02/17/2020 05:23:57 |  2 |  2
+ jac159 | Strings        | Concatenation        | 02/17/2020 06:03:38 |  0 |  2
+ jac159 | Strings        | Index/Slice          | 02/17/2020 06:03:38 |  0 |  2
+ jac159 | Strings        | Join                 | 02/17/2020 06:03:38 |  2 |  3
+ jac159 | Strings        | Split                | 02/17/2020 06:03:38 |  3 |  3
+ jac159 | Strings        | Concatenation        | 02/17/2020 06:06:57 |  2 |  2
+ jac159 | Strings        | Index/Slice          | 02/17/2020 06:06:57 |  2 |  2
+ jac159 | Strings        | Join                 | 02/17/2020 06:06:57 |  2 |  3
+ jac159 | Strings        | Split                | 02/17/2020 06:06:57 |  3 |  3
+ jac159 | Strings        | Concatenation        | 02/17/2020 06:09:24 |  1 |  2
+ jac159 | Strings        | Index/Slice          | 02/17/2020 06:09:24 |  2 |  2
+ jac159 | Strings        | Join                 | 02/17/2020 06:09:24 |  1 |  3
+ jac159 | Strings        | Split                | 02/17/2020 06:09:24 |  3 |  3
+ jac159 | Strings        | Concatenation        | 02/17/2020 06:12:04 |  2 |  2
+ jac159 | Strings        | Index/Slice          | 02/17/2020 06:12:04 |  2 |  2
+ jac159 | Strings        | Join                 | 02/17/2020 06:12:04 |  1 |  3
+ jac159 | Strings        | Split                | 02/17/2020 06:12:04 |  3 |  3
+ jac159 | Strings        | Concatenation        | 02/17/2020 06:14:05 |  2 |  2
+ jac159 | Strings        | Index/Slice          | 02/17/2020 06:14:05 |  2 |  2
+ jac159 | Strings        | Join                 | 02/17/2020 06:14:05 |  3 |  3
+ jac159 | Strings        | Split                | 02/17/2020 06:14:05 |  3 |  3
+ jac159 | Strings        | Concatenation        | 02/17/2020 06:16:14 |  2 |  2
+ jac159 | Strings        | Index/Slice          | 02/17/2020 06:16:14 |  2 |  2
+ jac159 | Strings        | Join                 | 02/17/2020 06:16:14 |  3 |  3
+ jac159 | Strings        | Split                | 02/17/2020 06:16:14 |  3 |  3
+ jac159 | Strings        | Concatenation        | 02/17/2020 06:18:20 |  2 |  2
+ jac159 | Strings        | Index/Slice          | 02/17/2020 06:18:20 |  2 |  2
+ jac159 | Strings        | Join                 | 02/17/2020 06:18:20 |  3 |  3
+ jac159 | Strings        | Split                | 02/17/2020 06:18:20 |  3 |  3
+ jac159 | Strings        | Concatenation        | 02/17/2020 06:19:55 |  2 |  2
+ jac159 | Strings        | Index/Slice          | 02/17/2020 06:19:55 |  2 |  2
+ jac159 | Strings        | Join                 | 02/17/2020 06:19:55 |  3 |  3
+ jac159 | Strings        | Split                | 02/17/2020 06:19:55 |  3 |  3
+ jac159 | Strings        | Concatenation        | 02/17/2020 06:21:20 |  2 |  2
+ jac159 | Strings        | Index/Slice          | 02/17/2020 06:21:20 |  2 |  2
+ jac159 | Strings        | Join                 | 02/17/2020 06:21:20 |  3 |  3
+ jac159 | Strings        | Split                | 02/17/2020 06:21:20 |  3 |  3
+ sp465  | Lists          | Appending            | 02/17/2020 06:21:21 |  2 |  3
+ sp465  | Lists          | Pointers             | 02/17/2020 06:21:21 |  2 |  3
+ sp465  | Strings        | Concatenation        | 02/17/2020 06:21:21 |  0 |  3
+ sp465  | Strings        | Index/Slice          | 02/17/2020 06:21:21 |  3 |  3
+ sp465  | Strings        | Join                 | 02/17/2020 06:21:21 |  3 |  4
+ sp465  | Strings        | Split                | 02/17/2020 06:21:21 |  0 |  4
+ cbw32  | Lists          | Appending            | 02/17/2020 15:34:51 |  1 |  1
+ cbw32  | Lists          | Pointers             | 02/17/2020 15:34:51 |  1 |  1
+ cbw32  | Math operators | Exponents            | 02/17/2020 15:34:51 |  1 |  1
+ cbw32  | Math operators | Floor Division       | 02/17/2020 15:34:51 |  1 |  1
+ cbw32  | Math operators | Mod                  | 02/17/2020 15:34:51 |  1 |  1
+ cbw32  | Strings        | Concatenation        | 02/17/2020 15:34:51 |  1 |  1
+ cbw32  | Strings        | Find                 | 02/17/2020 15:34:51 |  0 |  1
+ cbw32  | Strings        | Index/Slice          | 02/17/2020 15:34:51 |  1 |  1
+ cbw32  | Strings        | Join                 | 02/17/2020 15:34:51 |  0 |  1
+ cbw32  | Strings        | Split                | 02/17/2020 15:34:51 |  0 |  1
+ cbw32  | Lists          | Appending            | 02/17/2020 15:47:31 |  1 |  1
+ cbw32  | Lists          | Pointers             | 02/17/2020 15:47:31 |  0 |  1
+ cbw32  | Math operators | Exponents            | 02/17/2020 15:47:31 |  1 |  1
+ cbw32  | Math operators | Floor Division       | 02/17/2020 15:47:31 |  1 |  1
+ cbw32  | Math operators | Mod                  | 02/17/2020 15:47:31 |  1 |  1
+ cbw32  | Strings        | Concatenation        | 02/17/2020 15:47:31 |  1 |  1
+ cbw32  | Strings        | Find                 | 02/17/2020 15:47:31 |  1 |  1
+ cbw32  | Strings        | Index/Slice          | 02/17/2020 15:47:31 |  1 |  1
+ cbw32  | Strings        | Join                 | 02/17/2020 15:47:31 |  0 |  1
+ cbw32  | Strings        | Split                | 02/17/2020 15:47:31 |  0 |  1
+ mas235 | Lists          | Adding               | 02/17/2020 16:02:22 |  2 |  2
+ mas235 | Lists          | Appending            | 02/17/2020 16:02:22 |  2 |  2
+ mas235 | Lists          | Pointers             | 02/17/2020 16:02:22 |  1 |  2
+ mas235 | Math operators | Exponents            | 02/17/2020 16:02:22 |  2 |  2
+ mas235 | Math operators | Floor Division       | 02/17/2020 16:02:22 |  3 |  3
+ mas235 | Math operators | Mod                  | 02/17/2020 16:02:22 |  3 |  3
+ mas235 | Strings        | Concatenation        | 02/17/2020 16:02:22 |  3 |  3
+ mas235 | Strings        | Find                 | 02/17/2020 16:02:22 |  3 |  3
+ mas235 | Strings        | Index/Slice          | 02/17/2020 16:02:22 |  3 |  3
+ mas235 | Strings        | Join                 | 02/17/2020 16:02:22 |  0 |  3
+ mas235 | Strings        | Split                | 02/17/2020 16:02:22 |  3 |  3
+ yl554  | Lists          | Appending            | 02/17/2020 16:29:02 |  1 |  1
+ yl554  | Lists          | Pointers             | 02/17/2020 16:29:02 |  1 |  1
+ yl554  | Math operators | Exponents            | 02/17/2020 16:29:02 |  1 |  1
+ yl554  | Math operators | Floor Division       | 02/17/2020 16:29:02 |  1 |  1
+ yl554  | Math operators | Mod                  | 02/17/2020 16:29:02 |  1 |  1
+ yl554  | Strings        | Concatenation        | 02/17/2020 16:29:02 |  1 |  1
+ yl554  | Strings        | Find                 | 02/17/2020 16:29:02 |  1 |  1
+ yl554  | Strings        | Index/Slice          | 02/17/2020 16:29:02 |  1 |  1
+ yl554  | Strings        | Join                 | 02/17/2020 16:29:02 |  0 |  1
+ yl554  | Strings        | Split                | 02/17/2020 16:29:02 |  1 |  1
+ mas235 | Lists          | Pointers             | 02/17/2020 16:33:45 |  4 |  4
+ mas235 | Strings        | Concatenation        | 02/17/2020 16:33:45 |  4 |  4
+ mas235 | Strings        | Index/Slice          | 02/17/2020 16:33:45 |  4 |  4
+ mas235 | Strings        | Join                 | 02/17/2020 16:33:45 |  1 |  3
+ mas235 | Strings        | Split                | 02/17/2020 16:33:45 |  4 |  4
+ akn21  | Lists          | Pointers             | 02/17/2020 17:24:15 | 13 | 15
+ akn21  | Lists          | Pointers             | 02/17/2020 17:28:08 |  5 |  5
+ akn21  | Strings        | Concatenation        | 02/17/2020 17:29:17 |  5 |  5
+ akn21  | Math operators | Exponents            | 02/17/2020 17:30:02 |  5 |  5
+ akn21  | Strings        | Concatenation        | 02/17/2020 17:31:02 |  5 |  5
+ akn21  | Strings        | Join                 | 02/17/2020 17:32:06 |  1 |  5
+ akn21  | Strings        | Join                 | 02/17/2020 17:32:55 |  5 |  5
+ akn21  | Strings        | Split                | 02/17/2020 17:34:17 |  5 |  5
+ akn21  | Strings        | Index/Slice          | 02/17/2020 17:35:20 |  5 |  5
+ akn21  | Strings        | Find                 | 02/17/2020 17:36:18 |  5 |  5
+ jac159 | Strings        | Split                | 02/17/2020 19:11:13 |  0 |  1
+ jac159 | Strings        | Split                | 02/17/2020 19:12:23 |  2 |  2
+ bh210  | Math operators | Exponents            | 02/17/2020 19:18:51 |  0 |  1
+ cbw32  | Math operators | Exponents            | 02/17/2020 19:24:47 |  1 |  1
+ cbw32  | Math operators | Floor Division       | 02/17/2020 19:24:47 |  1 |  1
+ cbw32  | Math operators | Mod                  | 02/17/2020 19:24:47 |  1 |  1
+ cbw32  | Strings        | Concatenation        | 02/17/2020 19:24:47 |  1 |  1
+ cbw32  | Strings        | Find                 | 02/17/2020 19:24:47 |  1 |  1
+ cbw32  | Strings        | Index/Slice          | 02/17/2020 19:24:47 |  1 |  1
+ cbw32  | Strings        | Join                 | 02/17/2020 19:24:47 |  0 |  1
+ cbw32  | Strings        | Split                | 02/17/2020 19:24:47 |  0 |  1
+ cbw32  | Lists          | Appending            | 02/17/2020 19:32:02 |  0 |  1
+ cbw32  | Lists          | Pointers             | 02/17/2020 19:32:02 |  0 |  1
+ cbw32  | Math operators | Exponents            | 02/17/2020 19:32:02 |  1 |  1
+ cbw32  | Math operators | Floor Division       | 02/17/2020 19:32:02 |  1 |  1
+ cbw32  | Math operators | Mod                  | 02/17/2020 19:32:02 |  1 |  1
+ cbw32  | Strings        | Concatenation        | 02/17/2020 19:32:02 |  1 |  1
+ cbw32  | Strings        | Find                 | 02/17/2020 19:32:02 |  1 |  1
+ cbw32  | Strings        | Index/Slice          | 02/17/2020 19:32:02 |  0 |  1
+ cbw32  | Strings        | Join                 | 02/17/2020 19:32:02 |  1 |  1
+ cbw32  | Strings        | Split                | 02/17/2020 19:32:02 |  1 |  1
+ cbw32  | Lists          | Appending            | 02/17/2020 19:40:38 |  1 |  1
+ cbw32  | Lists          | Pointers             | 02/17/2020 19:40:38 |  1 |  1
+ cbw32  | Math operators | Exponents            | 02/17/2020 19:40:38 |  1 |  1
+ cbw32  | Math operators | Floor Division       | 02/17/2020 19:40:38 |  1 |  1
+ cbw32  | Math operators | Mod                  | 02/17/2020 19:40:38 |  1 |  1
+ cbw32  | Strings        | Concatenation        | 02/17/2020 19:40:38 |  1 |  1
+ cbw32  | Strings        | Find                 | 02/17/2020 19:40:38 |  0 |  1
+ cbw32  | Strings        | Index/Slice          | 02/17/2020 19:40:38 |  1 |  1
+ cbw32  | Strings        | Join                 | 02/17/2020 19:40:38 |  1 |  1
+ cbw32  | Strings        | Split                | 02/17/2020 19:40:38 |  1 |  1
+ hh210  | Strings        | Concatenation        | 02/17/2020 19:43:17 |  1 |  1
+ hh210  | Strings        | Index/Slice          | 02/17/2020 19:43:17 |  1 |  1
+ hh210  | Strings        | Join                 | 02/17/2020 19:43:17 |  1 |  1
+ hh210  | Strings        | Split                | 02/17/2020 19:43:17 |  1 |  1
+ rlw69  | Lists          | Appending            | 02/17/2020 20:02:02 |  1 |  1
+ rlw69  | Lists          | Pointers             | 02/17/2020 20:02:02 |  0 |  1
+ rlw69  | Math operators | Exponents            | 02/17/2020 20:02:02 |  1 |  1
+ rlw69  | Math operators | Floor Division       | 02/17/2020 20:02:02 |  1 |  1
+ rlw69  | Math operators | Mod                  | 02/17/2020 20:02:02 |  1 |  1
+ rlw69  | Strings        | Concatenation        | 02/17/2020 20:02:02 |  1 |  1
+ rlw69  | Strings        | Find                 | 02/17/2020 20:02:02 |  1 |  1
+ rlw69  | Strings        | Index/Slice          | 02/17/2020 20:02:02 |  1 |  1
+ rlw69  | Strings        | Join                 | 02/17/2020 20:02:02 |  0 |  1
+ rlw69  | Strings        | Split                | 02/17/2020 20:02:02 |  1 |  1
+ bmh58  | Lists          | Adding               | 02/17/2020 20:11:32 |  3 |  3
+ bmh58  | Lists          | Adding               | 02/17/2020 20:13:09 |  2 |  2
+ bmh58  | Lists          | Appending            | 02/17/2020 20:13:09 |  0 |  3
+ bmh58  | Lists          | Adding               | 02/17/2020 20:14:35 |  2 |  2
+ bmh58  | Lists          | Appending            | 02/17/2020 20:14:35 |  3 |  3
+ bmh58  | Lists          | Adding               | 02/17/2020 20:17:04 |  2 |  2
+ bmh58  | Lists          | Appending            | 02/17/2020 20:17:04 |  2 |  2
+ bmh58  | Lists          | Pointers             | 02/17/2020 20:17:04 |  2 |  2
+ bmh58  | Lists          | Adding               | 02/17/2020 20:23:14 |  2 |  2
+ bmh58  | Lists          | Appending            | 02/17/2020 20:23:14 |  2 |  2
+ bmh58  | Lists          | Pointers             | 02/17/2020 20:23:14 |  1 |  2
+ bmh58  | Lists          | Pointers             | 02/17/2020 20:26:44 |  3 |  3
+ bmh58  | Math operators | Exponents            | 02/17/2020 20:27:11 |  2 |  2
+ bmh58  | Math operators | Exponents            | 02/17/2020 20:27:28 |  2 |  3
+ bmh58  | Math operators | Exponents            | 02/17/2020 20:27:41 |  3 |  3
+ bmh58  | Math operators | Floor Division       | 02/17/2020 20:28:02 |  1 |  1
+ bmh58  | Math operators | Floor Division       | 02/17/2020 20:28:19 |  5 |  5
+ bmh58  | Math operators | Mod                  | 02/17/2020 20:29:16 |  5 |  5
+ cas191 | Lists          | Adding               | 02/17/2020 20:30:00 |  2 |  5
+ bmh58  | Strings        | Concatenation        | 02/17/2020 20:30:52 |  3 |  5
+ cas191 | Lists          | Adding               | 02/17/2020 20:31:14 |  5 |  5
+ bmh58  | Strings        | Concatenation        | 02/17/2020 20:32:10 |  5 |  5
+ bmh58  | Strings        | Find                 | 02/17/2020 20:34:11 |  1 |  5
+ bmh58  | Strings        | Find                 | 02/17/2020 20:34:59 |  3 |  5
+ cas191 | Lists          | Appending            | 02/17/2020 20:35:09 |  4 |  5
+ log4   | Strings        | Concatenation        | 02/17/2020 20:35:21 |  0 |  1
+ log4   | Strings        | Find                 | 02/17/2020 20:35:21 |  1 |  1
+ log4   | Strings        | Index/Slice          | 02/17/2020 20:35:21 |  1 |  1
+ log4   | Strings        | Join                 | 02/17/2020 20:35:21 |  1 |  1
+ log4   | Strings        | Split                | 02/17/2020 20:35:21 |  0 |  1
+ bmh58  | Strings        | Find                 | 02/17/2020 20:36:53 |  5 |  5
+ bmh58  | Strings        | Find                 | 02/17/2020 20:37:45 |  4 |  5
+ cas191 | Lists          | Appending            | 02/17/2020 20:38:41 |  5 |  5
+ bmh58  | Strings        | Index/Slice          | 02/17/2020 20:39:46 |  4 |  5
+ bmh58  | Strings        | Index/Slice          | 02/17/2020 20:40:18 |  5 |  5
+ cas191 | Lists          | Pointers             | 02/17/2020 20:43:20 |  5 |  5
+ cas191 | Lists          | Adding               | 02/17/2020 20:54:59 |  5 |  5
+ cas191 | Math operators | Exponents            | 02/17/2020 20:59:15 |  4 |  4
+ ko94   | Lists          | Adding               | 02/17/2020 20:59:24 |  1 |  1
+ ko94   | Lists          | Appending            | 02/17/2020 20:59:24 |  1 |  1
+ ko94   | Lists          | Pointers             | 02/17/2020 20:59:24 |  2 |  2
+ ko94   | Math operators | Exponents            | 02/17/2020 20:59:24 |  1 |  1
+ ko94   | Math operators | Floor Division       | 02/17/2020 20:59:24 |  2 |  2
+ ko94   | Math operators | Mod                  | 02/17/2020 20:59:24 |  2 |  2
+ ko94   | Strings        | Concatenation        | 02/17/2020 20:59:24 |  2 |  2
+ ko94   | Strings        | Find                 | 02/17/2020 20:59:24 |  2 |  2
+ ko94   | Strings        | Index/Slice          | 02/17/2020 20:59:24 |  2 |  2
+ ko94   | Strings        | Join                 | 02/17/2020 20:59:24 |  2 |  2
+ ko94   | Strings        | Split                | 02/17/2020 20:59:24 |  2 |  2
+ cas191 | Math operators | Floor Division       | 02/17/2020 21:01:52 |  4 |  5
+ cas191 | Math operators | Floor Division       | 02/17/2020 21:02:58 |  5 |  5
+ cas191 | Math operators | Mod                  | 02/17/2020 21:03:31 |  5 |  5
+ cas191 | Strings        | Concatenation        | 02/17/2020 21:07:43 |  5 |  5
+ cas191 | Strings        | Find                 | 02/17/2020 21:09:17 |  5 |  5
+ akn21  | Strings        | Index/Slice          | 02/17/2020 21:12:07 |  5 |  5
+ ds490  | Lists          | Pointers             | 02/17/2020 21:22:58 |  5 |  5
+ cas191 | Strings        | Index/Slice          | 02/17/2020 21:32:02 |  5 |  5
+ cas191 | Strings        | Join                 | 02/17/2020 21:34:10 |  4 |  5
+ cas191 | Strings        | Join                 | 02/17/2020 21:38:11 |  3 |  5
+ cas191 | Strings        | Join                 | 02/17/2020 21:41:11 |  5 |  5
+ led28  | Lists          | Adding               | 02/17/2020 21:43:57 |  4 |  5
+ led28  | Lists          | Adding               | 02/17/2020 21:44:31 |  5 |  5
+ led28  | Lists          | Appending            | 02/17/2020 21:46:47 |  0 |  5
+ led28  | Lists          | Appending            | 02/17/2020 21:48:17 |  5 |  5
+ yz535  | Strings        | Find                 | 02/17/2020 21:49:33 |  1 |  2
+ yz535  | Strings        | Index/Slice          | 02/17/2020 21:49:33 |  2 |  2
+ yz535  | Strings        | Join                 | 02/17/2020 21:49:33 |  1 |  2
+ yz535  | Strings        | Split                | 02/17/2020 21:49:33 |  2 |  2
+ led28  | Lists          | Pointers             | 02/17/2020 21:51:54 |  5 |  5
+ led28  | Math operators | Exponents            | 02/17/2020 21:52:29 |  5 |  5
+ led28  | Math operators | Floor Division       | 02/17/2020 21:53:09 |  5 |  5
+ led28  | Math operators | Mod                  | 02/17/2020 21:54:32 |  5 |  5
+ led28  | Strings        | Concatenation        | 02/17/2020 21:55:41 |  5 |  5
+ led28  | Strings        | Find                 | 02/17/2020 21:56:27 |  1 |  5
+ led28  | Strings        | Find                 | 02/17/2020 21:57:22 |  5 |  5
+ led28  | Strings        | Index/Slice          | 02/17/2020 21:58:37 |  5 |  5
+ led28  | Strings        | Join                 | 02/17/2020 21:59:37 |  1 |  5
+ yz535  | Lists          | Adding               | 02/17/2020 21:59:55 |  5 |  5
+ led28  | Strings        | Split                | 02/17/2020 22:00:35 |  5 |  5
+ cas191 | Strings        | Join                 | 02/17/2020 22:02:06 |  5 |  5
+ yz535  | Lists          | Appending            | 02/17/2020 22:02:49 |  5 |  5
+ cas191 | Strings        | Split                | 02/17/2020 22:03:01 |  3 |  5
+ cas191 | Strings        | Split                | 02/17/2020 22:10:01 |  5 |  5
+ yz535  | Lists          | Pointers             | 02/17/2020 22:14:30 |  5 |  5
+ cas191 | Lists          | Adding               | 02/17/2020 22:15:08 |  1 |  1
+ cas191 | Lists          | Appending            | 02/17/2020 22:15:08 |  0 |  1
+ cas191 | Lists          | Pointers             | 02/17/2020 22:15:08 |  1 |  1
+ cas191 | Math operators | Exponents            | 02/17/2020 22:15:08 |  1 |  1
+ cas191 | Math operators | Floor Division       | 02/17/2020 22:15:08 |  1 |  1
+ cas191 | Math operators | Mod                  | 02/17/2020 22:15:08 |  1 |  1
+ cas191 | Strings        | Concatenation        | 02/17/2020 22:15:08 |  1 |  1
+ cas191 | Strings        | Find                 | 02/17/2020 22:15:08 |  1 |  1
+ cas191 | Strings        | Index/Slice          | 02/17/2020 22:15:08 |  1 |  1
+ cas191 | Strings        | Join                 | 02/17/2020 22:15:08 |  1 |  1
+ cas191 | Strings        | Split                | 02/17/2020 22:15:08 |  1 |  1
+ cas191 | Lists          | Adding               | 02/17/2020 22:19:37 |  1 |  1
+ cas191 | Lists          | Appending            | 02/17/2020 22:19:37 |  0 |  1
+ cas191 | Lists          | Pointers             | 02/17/2020 22:19:37 |  1 |  1
+ cas191 | Math operators | Exponents            | 02/17/2020 22:19:37 |  1 |  1
+ cas191 | Math operators | Floor Division       | 02/17/2020 22:19:37 |  1 |  1
+ cas191 | Math operators | Mod                  | 02/17/2020 22:19:37 |  1 |  1
+ cas191 | Strings        | Concatenation        | 02/17/2020 22:19:37 |  1 |  1
+ cas191 | Strings        | Find                 | 02/17/2020 22:19:37 |  1 |  1
+ cas191 | Strings        | Index/Slice          | 02/17/2020 22:19:37 |  1 |  1
+ cas191 | Strings        | Join                 | 02/17/2020 22:19:37 |  0 |  1
+ cas191 | Strings        | Split                | 02/17/2020 22:19:37 |  1 |  1
+ cas191 | Lists          | Adding               | 02/17/2020 22:23:16 |  1 |  1
+ cas191 | Lists          | Appending            | 02/17/2020 22:23:16 |  1 |  1
+ cas191 | Lists          | Pointers             | 02/17/2020 22:23:16 |  1 |  1
+ cas191 | Math operators | Exponents            | 02/17/2020 22:23:16 |  1 |  1
+ cas191 | Math operators | Floor Division       | 02/17/2020 22:23:16 |  1 |  1
+ cas191 | Math operators | Mod                  | 02/17/2020 22:23:16 |  1 |  1
+ cas191 | Strings        | Concatenation        | 02/17/2020 22:23:16 |  1 |  1
+ cas191 | Strings        | Find                 | 02/17/2020 22:23:16 |  1 |  1
+ cas191 | Strings        | Index/Slice          | 02/17/2020 22:23:16 |  1 |  1
+ cas191 | Strings        | Join                 | 02/17/2020 22:23:16 |  1 |  1
+ cas191 | Strings        | Split                | 02/17/2020 22:23:16 |  1 |  1
+ daf46  | Strings        | Concatenation        | 02/17/2020 22:25:41 |  1 |  1
+ daf46  | Strings        | Find                 | 02/17/2020 22:25:41 |  1 |  1
+ daf46  | Strings        | Index/Slice          | 02/17/2020 22:25:41 |  1 |  1
+ daf46  | Strings        | Join                 | 02/17/2020 22:25:41 |  0 |  1
+ daf46  | Strings        | Split                | 02/17/2020 22:25:41 |  1 |  1
+ mbl39  | Lists          | Adding               | 02/17/2020 22:25:43 |  1 |  1
+ mbl39  | Lists          | Appending            | 02/17/2020 22:25:43 |  1 |  1
+ mbl39  | Lists          | Pointers             | 02/17/2020 22:25:43 |  2 |  2
+ mbl39  | Math operators | Exponents            | 02/17/2020 22:25:43 |  2 |  2
+ mbl39  | Math operators | Floor Division       | 02/17/2020 22:25:43 |  2 |  2
+ mbl39  | Math operators | Mod                  | 02/17/2020 22:25:43 |  2 |  2
+ mbl39  | Strings        | Concatenation        | 02/17/2020 22:25:43 |  0 |  2
+ mbl39  | Strings        | Find                 | 02/17/2020 22:25:43 |  2 |  2
+ mbl39  | Strings        | Index/Slice          | 02/17/2020 22:25:43 |  2 |  2
+ mbl39  | Strings        | Join                 | 02/17/2020 22:25:43 |  2 |  2
+ mbl39  | Strings        | Split                | 02/17/2020 22:25:43 |  2 |  2
+ ktn4   | Lists          | Adding               | 02/17/2020 22:30:38 |  1 |  1
+ ktn4   | Lists          | Appending            | 02/17/2020 22:30:38 |  2 |  2
+ ktn4   | Lists          | Pointers             | 02/17/2020 22:30:38 |  2 |  2
+ ktn4   | Math operators | Exponents            | 02/17/2020 22:32:06 |  1 |  1
+ ktn4   | Math operators | Floor Division       | 02/17/2020 22:32:06 |  2 |  2
+ ktn4   | Math operators | Mod                  | 02/17/2020 22:32:06 |  2 |  2
+ gbg8   | Lists          | Pointers             | 02/17/2020 22:32:45 |  3 |  3
+ gbg8   | Lists          | Pointers             | 02/17/2020 22:34:06 |  2 |  2
+ gbg8   | Math operators | Exponents            | 02/17/2020 22:34:36 |  4 |  4
+ gbg8   | Math operators | Floor Division       | 02/17/2020 22:36:00 |  5 |  5
+ ktn4   | Strings        | Concatenation        | 02/17/2020 22:36:49 |  1 |  1
+ ktn4   | Strings        | Find                 | 02/17/2020 22:36:49 |  1 |  1
+ ktn4   | Strings        | Index/Slice          | 02/17/2020 22:36:49 |  1 |  1
+ ktn4   | Strings        | Join                 | 02/17/2020 22:36:49 |  0 |  1
+ ktn4   | Strings        | Split                | 02/17/2020 22:36:49 |  1 |  1
+ gbg8   | Math operators | Mod                  | 02/17/2020 22:36:56 |  5 |  5
+ gbg8   | Strings        | Concatenation        | 02/17/2020 22:38:25 |  3 |  5
+ gbg8   | Strings        | Find                 | 02/17/2020 22:39:35 |  1 |  5
+ gbg8   | Strings        | Concatenation        | 02/17/2020 22:43:55 |  5 |  5
+ gbg8   | Strings        | Index/Slice          | 02/17/2020 22:45:08 |  4 |  5
+ gbg8   | Strings        | Join                 | 02/17/2020 22:47:49 |  3 |  5
+ gbg8   | Strings        | Join                 | 02/17/2020 22:52:57 |  4 |  5
+ gbg8   | Strings        | Join                 | 02/17/2020 22:53:13 |  0 |  1
+ gbg8   | Strings        | Join                 | 02/17/2020 22:54:04 |  2 |  2
+ gbg8   | Strings        | Join                 | 02/17/2020 22:54:49 |  2 |  3
+ gbg8   | Strings        | Join                 | 02/17/2020 22:55:42 |  2 |  2
+ gbg8   | Strings        | Join                 | 02/17/2020 22:55:55 |  1 |  1
+ gbg8   | Strings        | Join                 | 02/17/2020 22:56:22 |  0 |  1
+ gbg8   | Strings        | Split                | 02/17/2020 23:07:35 |  5 |  5
+ gbg8   | Strings        | Split                | 02/17/2020 23:08:29 |  5 |  5
+ ktn4   | Strings        | Concatenation        | 02/17/2020 23:22:46 |  1 |  1
+ ktn4   | Strings        | Find                 | 02/17/2020 23:22:46 |  1 |  1
+ ktn4   | Strings        | Index/Slice          | 02/17/2020 23:22:46 |  1 |  1
+ ktn4   | Strings        | Join                 | 02/17/2020 23:22:46 |  1 |  1
+ ktn4   | Strings        | Split                | 02/17/2020 23:22:46 |  1 |  1
+ nmn14  | Strings        | Concatenation        | 02/17/2020 23:38:28 |  1 |  1
+ nmn14  | Strings        | Find                 | 02/17/2020 23:38:28 |  1 |  1
+ nmn14  | Strings        | Index/Slice          | 02/17/2020 23:38:28 |  1 |  1
+ nmn14  | Strings        | Join                 | 02/17/2020 23:38:28 |  1 |  1
+ nmn14  | Strings        | Split                | 02/17/2020 23:38:28 |  0 |  1
+ nmn14  | Strings        | Concatenation        | 02/17/2020 23:39:29 |  1 |  1
+ nmn14  | Strings        | Find                 | 02/17/2020 23:39:29 |  1 |  1
+ nmn14  | Strings        | Index/Slice          | 02/17/2020 23:39:29 |  1 |  1
+ nmn14  | Strings        | Join                 | 02/17/2020 23:39:29 |  1 |  1
+ nmn14  | Strings        | Split                | 02/17/2020 23:39:29 |  1 |  1
+ nmn14  | Lists          | Adding               | 02/17/2020 23:47:07 |  2 |  2
+ nmn14  | Lists          | Appending            | 02/17/2020 23:47:07 |  2 |  2
+ nmn14  | Lists          | Pointers             | 02/17/2020 23:47:07 |  1 |  1
+ jaf94  | Lists          | Appending            | 02/17/2020 23:51:26 |  1 |  2
+ jaf94  | Strings        | Index/Slice          | 02/17/2020 23:51:26 |  0 |  3
+ kl318  | Lists          | Adding               | 02/17/2020 23:58:00 |  4 |  4
+ kl318  | Lists          | Appending            | 02/17/2020 23:58:00 |  1 |  4
+ kl318  | Lists          | Pointers             | 02/17/2020 23:58:00 |  4 |  4
+ kl318  | Math operators | Exponents            | 02/17/2020 23:58:00 |  4 |  4
+ kl318  | Math operators | Floor Division       | 02/17/2020 23:58:00 |  3 |  3
+ kl318  | Math operators | Mod                  | 02/17/2020 23:58:00 |  3 |  4
+ kl318  | Strings        | Concatenation        | 02/17/2020 23:58:00 |  5 |  5
+ kl318  | Strings        | Find                 | 02/17/2020 23:58:00 |  5 |  5
+ kl318  | Strings        | Index/Slice          | 02/17/2020 23:58:00 |  4 |  5
+ kl318  | Strings        | Join                 | 02/17/2020 23:58:00 |  4 |  5
+ kl318  | Strings        | Split                | 02/17/2020 23:58:00 |  5 |  5
+ ks539  | Strings        | Split                | 02/18/2020 00:13:03 |  0 |  1
+ ks539  | Strings        | Split                | 02/18/2020 00:13:16 |  1 |  1
+ ks539  | Strings        | Split                | 02/18/2020 00:16:07 |  1 |  1
+ ks539  | Strings        | Split                | 02/18/2020 00:16:22 |  0 |  1
+ ks539  | Math operators | Exponents            | 02/18/2020 00:17:14 |  1 |  1
+ ks539  | Math operators | Exponents            | 02/18/2020 00:17:18 |  1 |  1
+ ks539  | Math operators | Exponents            | 02/18/2020 00:17:24 |  1 |  1
+ ks539  | Strings        | Index/Slice          | 02/18/2020 00:17:52 |  0 |  1
+ ks539  | Strings        | Index/Slice          | 02/18/2020 00:18:06 |  1 |  1
+ ks539  | Strings        | Index/Slice          | 02/18/2020 00:18:16 |  1 |  1
+ ks539  | Strings        | Index/Slice          | 02/18/2020 00:18:30 |  1 |  1
+ ks539  | Strings        | Index/Slice          | 02/18/2020 00:18:40 |  1 |  1
+ ks539  | Strings        | Index/Slice          | 02/18/2020 00:18:47 |  1 |  1
+ ks539  | Strings        | Index/Slice          | 02/18/2020 00:19:37 |  1 |  1
+ ks539  | Strings        | Index/Slice          | 02/18/2020 00:19:45 |  1 |  1
+ ks539  | Strings        | Index/Slice          | 02/18/2020 00:19:54 |  1 |  1
+ ks539  | Strings        | Index/Slice          | 02/18/2020 00:20:10 |  1 |  1
+ ks539  | Strings        | Join                 | 02/18/2020 00:20:28 |  0 |  1
+ ks539  | Strings        | Join                 | 02/18/2020 00:21:43 |  1 |  1
+ ks539  | Strings        | Join                 | 02/18/2020 00:22:04 |  1 |  1
+ ks539  | Strings        | Join                 | 02/18/2020 00:22:08 |  1 |  1
+ ks539  | Strings        | Join                 | 02/18/2020 00:22:10 |  1 |  1
+ ks539  | Strings        | Join                 | 02/18/2020 00:22:39 |  1 |  1
+ ks539  | Strings        | Join                 | 02/18/2020 00:23:19 |  0 |  1
+ ks539  | Strings        | Join                 | 02/18/2020 00:25:38 |  1 |  1
+ ks539  | Strings        | Join                 | 02/18/2020 00:25:54 |  1 |  1
+ ks539  | Strings        | Join                 | 02/18/2020 00:26:02 |  1 |  1
+ ks539  | Strings        | Join                 | 02/18/2020 00:26:29 |  1 |  1
+ ks539  | Strings        | Join                 | 02/18/2020 00:26:35 |  1 |  1
+ ks539  | Lists          | Adding               | 02/18/2020 00:26:53 |  1 |  1
+ ks539  | Lists          | Adding               | 02/18/2020 00:27:26 |  1 |  1
+ ks539  | Lists          | Adding               | 02/18/2020 00:27:44 |  1 |  1
+ ks539  | Lists          | Adding               | 02/18/2020 00:27:52 |  1 |  1
+ ks539  | Math operators | Floor Division       | 02/18/2020 00:28:30 |  1 |  1
+ ks539  | Math operators | Floor Division       | 02/18/2020 00:28:36 |  1 |  1
+ ks539  | Math operators | Floor Division       | 02/18/2020 00:28:40 |  1 |  1
+ ks539  | Math operators | Floor Division       | 02/18/2020 00:33:28 |  1 |  1
+ ks539  | Strings        | Concatenation        | 02/18/2020 00:33:43 |  1 |  1
+ ks539  | Strings        | Concatenation        | 02/18/2020 00:34:01 |  1 |  1
+ ks539  | Strings        | Concatenation        | 02/18/2020 00:34:19 |  0 |  1
+ leo12  | Lists          | Adding               | 02/18/2020 00:45:16 |  3 |  5
+ leo12  | Lists          | Appending            | 02/18/2020 00:45:16 |  3 |  5
+ leo12  | Lists          | Pointers             | 02/18/2020 00:45:16 |  5 |  5
+ js890  | Lists          | Adding               | 02/18/2020 00:47:57 |  2 |  2
+ js890  | Lists          | Appending            | 02/18/2020 00:47:57 |  1 |  2
+ js890  | Lists          | Pointers             | 02/18/2020 00:47:57 |  2 |  2
+ js890  | Math operators | Exponents            | 02/18/2020 00:47:57 |  2 |  2
+ js890  | Math operators | Floor Division       | 02/18/2020 00:47:57 |  2 |  2
+ js890  | Math operators | Mod                  | 02/18/2020 00:47:57 |  2 |  2
+ js890  | Strings        | Concatenation        | 02/18/2020 00:47:57 |  2 |  2
+ js890  | Strings        | Find                 | 02/18/2020 00:47:57 |  0 |  2
+ js890  | Strings        | Index/Slice          | 02/18/2020 00:47:57 |  3 |  3
+ js890  | Strings        | Join                 | 02/18/2020 00:47:57 |  3 |  3
+ js890  | Strings        | Split                | 02/18/2020 00:47:57 |  3 |  3
+ nmn14  | Lists          | Appending            | 02/18/2020 01:04:16 |  1 |  1
+ nmn14  | Lists          | Pointers             | 02/18/2020 01:04:16 |  1 |  1
+ nmn14  | Math operators | Exponents            | 02/18/2020 01:04:16 |  1 |  1
+ nmn14  | Math operators | Floor Division       | 02/18/2020 01:04:16 |  1 |  1
+ nmn14  | Math operators | Mod                  | 02/18/2020 01:04:16 |  1 |  1
+ nmn14  | Strings        | Concatenation        | 02/18/2020 01:04:16 |  1 |  1
+ nmn14  | Strings        | Find                 | 02/18/2020 01:04:16 |  1 |  1
+ nmn14  | Strings        | Index/Slice          | 02/18/2020 01:04:16 |  1 |  1
+ nmn14  | Strings        | Join                 | 02/18/2020 01:04:16 |  1 |  1
+ nmn14  | Strings        | Split                | 02/18/2020 01:04:16 |  1 |  1
+ nmn14  | Lists          | Appending            | 02/18/2020 01:08:03 |  1 |  1
+ nmn14  | Lists          | Pointers             | 02/18/2020 01:08:03 |  1 |  1
+ nmn14  | Math operators | Exponents            | 02/18/2020 01:08:03 |  1 |  1
+ nmn14  | Math operators | Floor Division       | 02/18/2020 01:08:03 |  1 |  1
+ nmn14  | Math operators | Mod                  | 02/18/2020 01:08:03 |  1 |  1
+ nmn14  | Strings        | Concatenation        | 02/18/2020 01:08:03 |  1 |  1
+ nmn14  | Strings        | Find                 | 02/18/2020 01:08:03 |  1 |  1
+ nmn14  | Strings        | Index/Slice          | 02/18/2020 01:08:03 |  1 |  1
+ nmn14  | Strings        | Join                 | 02/18/2020 01:08:03 |  0 |  1
+ nmn14  | Strings        | Split                | 02/18/2020 01:08:03 |  1 |  1
+ nmn14  | Lists          | Appending            | 02/18/2020 01:19:10 |  1 |  1
+ nmn14  | Lists          | Pointers             | 02/18/2020 01:19:10 |  1 |  1
+ nmn14  | Math operators | Exponents            | 02/18/2020 01:19:10 |  1 |  1
+ nmn14  | Math operators | Floor Division       | 02/18/2020 01:19:10 |  1 |  1
+ nmn14  | Math operators | Mod                  | 02/18/2020 01:19:10 |  1 |  1
+ nmn14  | Strings        | Concatenation        | 02/18/2020 01:19:10 |  1 |  1
+ nmn14  | Strings        | Find                 | 02/18/2020 01:19:10 |  0 |  1
+ nmn14  | Strings        | Index/Slice          | 02/18/2020 01:19:10 |  1 |  1
+ nmn14  | Strings        | Join                 | 02/18/2020 01:19:10 |  1 |  1
+ nmn14  | Strings        | Split                | 02/18/2020 01:19:10 |  1 |  1
+ nmn14  | Lists          | Appending            | 02/18/2020 01:22:58 |  1 |  1
+ nmn14  | Lists          | Pointers             | 02/18/2020 01:22:58 |  1 |  1
+ nmn14  | Math operators | Exponents            | 02/18/2020 01:22:58 |  1 |  1
+ nmn14  | Math operators | Floor Division       | 02/18/2020 01:22:58 |  1 |  1
+ nmn14  | Math operators | Mod                  | 02/18/2020 01:22:58 |  1 |  1
+ nmn14  | Strings        | Concatenation        | 02/18/2020 01:22:58 |  1 |  1
+ nmn14  | Strings        | Find                 | 02/18/2020 01:22:58 |  1 |  1
+ nmn14  | Strings        | Index/Slice          | 02/18/2020 01:22:58 |  1 |  1
+ nmn14  | Strings        | Join                 | 02/18/2020 01:22:58 |  0 |  1
+ nmn14  | Strings        | Split                | 02/18/2020 01:22:58 |  1 |  1
+ nmn14  | Lists          | Appending            | 02/18/2020 01:30:09 |  1 |  1
+ nmn14  | Lists          | Pointers             | 02/18/2020 01:30:09 |  1 |  1
+ nmn14  | Math operators | Exponents            | 02/18/2020 01:30:09 |  1 |  1
+ nmn14  | Math operators | Floor Division       | 02/18/2020 01:30:09 |  1 |  1
+ nmn14  | Math operators | Mod                  | 02/18/2020 01:30:09 |  1 |  1
+ nmn14  | Strings        | Concatenation        | 02/18/2020 01:30:09 |  1 |  1
+ nmn14  | Strings        | Find                 | 02/18/2020 01:30:09 |  1 |  1
+ nmn14  | Strings        | Index/Slice          | 02/18/2020 01:30:09 |  1 |  1
+ nmn14  | Strings        | Join                 | 02/18/2020 01:30:09 |  1 |  1
+ nmn14  | Strings        | Split                | 02/18/2020 01:30:09 |  1 |  1
+ jc721  | Lists          | Appending            | 02/18/2020 01:33:12 |  1 |  1
+ jc721  | Lists          | Pointers             | 02/18/2020 01:33:12 |  1 |  1
+ jc721  | Math operators | Exponents            | 02/18/2020 01:33:12 |  1 |  1
+ jc721  | Math operators | Floor Division       | 02/18/2020 01:33:12 |  1 |  1
+ jc721  | Math operators | Mod                  | 02/18/2020 01:33:12 |  1 |  1
+ jc721  | Strings        | Concatenation        | 02/18/2020 01:33:12 |  1 |  1
+ jc721  | Strings        | Find                 | 02/18/2020 01:33:12 |  1 |  1
+ jc721  | Strings        | Index/Slice          | 02/18/2020 01:33:12 |  1 |  1
+ jc721  | Strings        | Join                 | 02/18/2020 01:33:12 |  1 |  1
+ jc721  | Strings        | Split                | 02/18/2020 01:33:12 |  1 |  1
+ als189 | Lists          | Adding               | 02/18/2020 01:34:22 |  2 |  2
+ als189 | Lists          | Appending            | 02/18/2020 01:34:22 |  2 |  2
+ als189 | Lists          | Pointers             | 02/18/2020 01:34:22 |  2 |  2
+ als189 | Math operators | Exponents            | 02/18/2020 01:34:22 |  2 |  2
+ als189 | Math operators | Floor Division       | 02/18/2020 01:34:22 |  2 |  2
+ als189 | Math operators | Mod                  | 02/18/2020 01:34:22 |  2 |  2
+ als189 | Strings        | Concatenation        | 02/18/2020 01:34:22 |  1 |  2
+ als189 | Strings        | Find                 | 02/18/2020 01:34:22 |  2 |  2
+ als189 | Strings        | Index/Slice          | 02/18/2020 01:34:22 |  3 |  3
+ als189 | Strings        | Join                 | 02/18/2020 01:34:22 |  3 |  3
+ als189 | Strings        | Split                | 02/18/2020 01:34:22 |  3 |  3
+ jej34  | Strings        | Index/Slice          | 02/18/2020 01:38:33 |  7 |  7
+ als189 | Lists          | Pointers             | 02/18/2020 01:42:23 | 10 | 10
+ sn181  | Lists          | Pointers             | 02/18/2020 01:57:30 |  4 |  5
+ sn181  | Lists          | Adding               | 02/18/2020 01:58:46 |  5 |  5
+ su45   | Lists          | Adding               | 02/18/2020 02:11:04 |  5 |  5
+ sn181  | Lists          | Appending            | 02/18/2020 02:11:30 |  1 |  5
+ sn181  | Lists          | Pointers             | 02/18/2020 02:11:30 |  5 |  5
+ su45   | Lists          | Appending            | 02/18/2020 02:14:53 |  1 |  5
+ su45   | Lists          | Pointers             | 02/18/2020 02:20:52 |  5 |  5
+ su45   | Math operators | Exponents            | 02/18/2020 02:23:23 |  4 |  4
+ su45   | Math operators | Floor Division       | 02/18/2020 02:24:13 |  5 |  5
+ su45   | Math operators | Mod                  | 02/18/2020 02:24:42 |  5 |  5
+ su45   | Strings        | Concatenation        | 02/18/2020 02:25:31 |  5 |  5
+ su45   | Strings        | Find                 | 02/18/2020 02:27:40 |  4 |  4
+ su45   | Strings        | Index/Slice          | 02/18/2020 02:28:50 |  5 |  5
+ su45   | Strings        | Join                 | 02/18/2020 02:30:31 |  4 |  5
+ su45   | Strings        | Split                | 02/18/2020 02:34:18 |  5 |  5
+ leo12  | Math operators | Exponents            | 02/18/2020 02:39:36 |  3 |  3
+ leo12  | Math operators | Floor Division       | 02/18/2020 02:39:36 |  3 |  3
+ leo12  | Math operators | Mod                  | 02/18/2020 02:39:36 |  4 |  4
+ leo12  | Strings        | Concatenation        | 02/18/2020 02:42:26 |  3 |  3
+ leo12  | Strings        | Find                 | 02/18/2020 02:42:26 |  3 |  3
+ leo12  | Strings        | Index/Slice          | 02/18/2020 02:42:26 |  4 |  4
+ leo12  | Strings        | Join                 | 02/18/2020 02:44:44 |  1 |  2
+ leo12  | Strings        | Split                | 02/18/2020 02:44:44 |  3 |  3
+ leo12  | Strings        | Join                 | 02/18/2020 02:46:27 |  2 |  2
+ leo12  | Strings        | Split                | 02/18/2020 02:46:27 |  3 |  3
+ rb358  | Lists          | Pointers             | 02/18/2020 02:47:24 |  2 |  5
+ yz535  | Lists          | Adding               | 02/18/2020 02:49:59 |  5 |  5
+ yz535  | Lists          | Appending            | 02/18/2020 02:53:42 |  5 |  5
+ mc651  | Lists          | Adding               | 02/18/2020 02:54:10 |  3 |  3
+ mc651  | Lists          | Appending            | 02/18/2020 02:54:10 |  3 |  3
+ mc651  | Lists          | Pointers             | 02/18/2020 02:54:10 |  4 |  4
+ yz535  | Lists          | Pointers             | 02/18/2020 03:01:04 |  5 |  5
+ yz535  | Math operators | Exponents            | 02/18/2020 03:01:49 |  5 |  5
+ yz535  | Math operators | Floor Division       | 02/18/2020 03:07:21 |  5 |  5
+ yz535  | Math operators | Mod                  | 02/18/2020 03:07:59 |  5 |  5
+ yz535  | Strings        | Concatenation        | 02/18/2020 03:13:00 |  5 |  5
+ yz535  | Strings        | Find                 | 02/18/2020 03:14:12 |  5 |  5
+ yz535  | Strings        | Index/Slice          | 02/18/2020 03:15:12 |  5 |  5
+ yz535  | Strings        | Join                 | 02/18/2020 03:16:31 |  2 |  5
+ yz535  | Strings        | Split                | 02/18/2020 03:19:18 |  5 |  5
+ yz535  | Strings        | Join                 | 02/18/2020 03:21:12 |  5 |  5
+ feh7   | Lists          | Adding               | 02/18/2020 03:42:29 |  0 |  1
+ feh7   | Lists          | Appending            | 02/18/2020 03:42:29 |  2 |  2
+ feh7   | Lists          | Pointers             | 02/18/2020 03:42:29 |  2 |  2
+ dk208  | Lists          | Adding               | 02/18/2020 03:43:21 |  5 |  5
+ feh7   | Math operators | Exponents            | 02/18/2020 03:45:01 |  1 |  1
+ feh7   | Math operators | Floor Division       | 02/18/2020 03:45:01 |  2 |  2
+ feh7   | Math operators | Mod                  | 02/18/2020 03:45:01 |  2 |  2
+ feh7   | Strings        | Concatenation        | 02/18/2020 03:46:06 |  1 |  1
+ feh7   | Strings        | Find                 | 02/18/2020 03:46:06 |  2 |  2
+ feh7   | Strings        | Index/Slice          | 02/18/2020 03:46:06 |  2 |  2
+ feh7   | Strings        | Join                 | 02/18/2020 03:48:15 |  0 |  2
+ feh7   | Strings        | Split                | 02/18/2020 03:48:15 |  1 |  3
+ feh7   | Strings        | Join                 | 02/18/2020 03:50:14 |  2 |  2
+ feh7   | Strings        | Split                | 02/18/2020 03:50:14 |  1 |  3
+ feh7   | Strings        | Join                 | 02/18/2020 03:56:32 |  2 |  2
+ feh7   | Strings        | Split                | 02/18/2020 03:56:32 |  3 |  3
+ feh7   | Lists          | Adding               | 02/18/2020 03:59:31 |  5 |  5
+ feh7   | Lists          | Appending            | 02/18/2020 04:03:11 |  0 |  5
+ feh7   | Lists          | Appending            | 02/18/2020 04:04:42 |  5 |  5
+ feh7   | Lists          | Pointers             | 02/18/2020 04:08:30 |  3 |  5
+ msg41  | Strings        | Split                | 02/18/2020 04:09:23 |  2 |  2
+ feh7   | Lists          | Pointers             | 02/18/2020 04:11:29 |  5 |  5
+ feh7   | Math operators | Mod                  | 02/18/2020 04:12:22 |  4 |  5
+ feh7   | Strings        | Concatenation        | 02/18/2020 04:13:52 |  5 |  5
+ feh7   | Strings        | Find                 | 02/18/2020 04:14:23 |  5 |  5
+ feh7   | Strings        | Index/Slice          | 02/18/2020 04:15:12 |  4 |  5
+ feh7   | Strings        | Join                 | 02/18/2020 04:16:23 |  5 |  5
+ feh7   | Strings        | Split                | 02/18/2020 04:17:06 |  5 |  5
+ dk208  | Lists          | Appending            | 02/18/2020 04:19:38 |  3 |  4
+ dk208  | Lists          | Pointers             | 02/18/2020 04:19:38 |  3 |  4
+ jsk69  | Lists          | Adding               | 02/18/2020 04:27:27 |  2 |  2
+ jsk69  | Lists          | Appending            | 02/18/2020 04:27:27 |  2 |  2
+ jsk69  | Lists          | Pointers             | 02/18/2020 04:27:27 |  2 |  2
+ jsk69  | Strings        | Concatenation        | 02/18/2020 04:27:27 |  2 |  2
+ jsk69  | Strings        | Find                 | 02/18/2020 04:27:27 |  2 |  2
+ jsk69  | Strings        | Index/Slice          | 02/18/2020 04:27:27 |  3 |  3
+ jsk69  | Strings        | Join                 | 02/18/2020 04:27:27 |  2 |  3
+ jsk69  | Strings        | Split                | 02/18/2020 04:27:27 |  3 |  3
+ dk208  | Lists          | Pointers             | 02/18/2020 04:39:27 |  4 |  5
+ mh509  | Lists          | Adding               | 02/18/2020 04:47:20 |  2 |  3
+ mh509  | Lists          | Appending            | 02/18/2020 04:47:20 |  3 |  3
+ mh509  | Lists          | Pointers             | 02/18/2020 04:47:20 |  3 |  3
+ mh509  | Math operators | Floor Division       | 02/18/2020 04:47:20 |  3 |  3
+ mh509  | Math operators | Mod                  | 02/18/2020 04:47:20 |  3 |  3
+ mh509  | Strings        | Concatenation        | 02/18/2020 04:47:20 |  3 |  3
+ mh509  | Strings        | Find                 | 02/18/2020 04:47:20 |  3 |  3
+ mh509  | Strings        | Index/Slice          | 02/18/2020 04:47:20 |  3 |  3
+ mh509  | Strings        | Join                 | 02/18/2020 04:47:20 |  1 |  3
+ mh509  | Strings        | Split                | 02/18/2020 04:47:20 |  0 |  3
+ ia66   | Lists          | Adding               | 02/18/2020 04:47:57 |  6 |  6
+ ia66   | Lists          | Appending            | 02/18/2020 04:47:57 |  7 |  7
+ ia66   | Lists          | Pointers             | 02/18/2020 04:47:57 |  7 |  7
+ ia66   | Math operators | Exponents            | 02/18/2020 04:50:00 |  3 |  3
+ ia66   | Math operators | Floor Division       | 02/18/2020 04:50:00 |  3 |  3
+ ia66   | Math operators | Mod                  | 02/18/2020 04:50:00 |  3 |  3
+ daf46  | Strings        | Concatenation        | 02/18/2020 04:52:49 |  1 |  1
+ daf46  | Strings        | Find                 | 02/18/2020 04:52:49 |  1 |  1
+ daf46  | Strings        | Index/Slice          | 02/18/2020 04:52:49 |  1 |  1
+ daf46  | Strings        | Join                 | 02/18/2020 04:52:49 |  1 |  1
+ daf46  | Strings        | Split                | 02/18/2020 04:52:49 |  0 |  1
+ mh509  | Strings        | Join                 | 02/18/2020 04:54:02 |  7 | 10
+ mh509  | Strings        | Split                | 02/18/2020 04:54:02 | 10 | 10
+ ia66   | Strings        | Concatenation        | 02/18/2020 04:54:56 |  2 |  2
+ ia66   | Strings        | Find                 | 02/18/2020 04:54:56 |  2 |  2
+ ia66   | Strings        | Index/Slice          | 02/18/2020 04:54:56 |  3 |  3
+ ia66   | Strings        | Join                 | 02/18/2020 04:54:56 |  2 |  3
+ ia66   | Strings        | Split                | 02/18/2020 04:54:56 |  1 |  3
+ nkw13  | Strings        | Concatenation        | 02/18/2020 05:06:28 |  0 |  1
+ nkw13  | Strings        | Find                 | 02/18/2020 05:06:28 |  1 |  1
+ nkw13  | Strings        | Index/Slice          | 02/18/2020 05:06:28 |  1 |  1
+ nkw13  | Strings        | Join                 | 02/18/2020 05:06:28 |  0 |  1
+ nkw13  | Strings        | Split                | 02/18/2020 05:06:28 |  1 |  1
+ cbw32  | Strings        | Concatenation        | 02/18/2020 05:08:52 |  1 |  1
+ cbw32  | Strings        | Find                 | 02/18/2020 05:08:52 |  1 |  1
+ cbw32  | Strings        | Index/Slice          | 02/18/2020 05:08:52 |  1 |  1
+ cbw32  | Strings        | Join                 | 02/18/2020 05:08:52 |  1 |  1
+ cbw32  | Strings        | Split                | 02/18/2020 05:08:52 |  1 |  2
+ cbw32  | Strings        | Concatenation        | 02/18/2020 05:10:18 |  1 |  1
+ cbw32  | Strings        | Join                 | 02/18/2020 05:10:18 |  2 |  2
+ cbw32  | Strings        | Split                | 02/18/2020 05:10:18 |  0 |  2
+ al404  | Lists          | Pointers             | 02/18/2020 05:24:50 |  8 | 10
+ fn28   | Lists          | Adding               | 02/18/2020 05:39:52 |  1 |  1
+ fn28   | Lists          | Appending            | 02/18/2020 05:39:52 |  1 |  2
+ fn28   | Lists          | Pointers             | 02/18/2020 05:39:52 |  2 |  2
+ bhj4   | Lists          | Adding               | 02/18/2020 05:41:57 |  2 |  2
+ bhj4   | Lists          | Appending            | 02/18/2020 05:41:57 |  2 |  2
+ bhj4   | Lists          | Pointers             | 02/18/2020 05:41:57 |  2 |  2
+ bhj4   | Math operators | Exponents            | 02/18/2020 05:41:57 |  2 |  2
+ bhj4   | Math operators | Floor Division       | 02/18/2020 05:41:57 |  2 |  2
+ bhj4   | Math operators | Mod                  | 02/18/2020 05:41:57 |  2 |  2
+ bhj4   | Strings        | Concatenation        | 02/18/2020 05:41:57 |  2 |  2
+ bhj4   | Strings        | Find                 | 02/18/2020 05:41:57 |  0 |  2
+ bhj4   | Strings        | Index/Slice          | 02/18/2020 05:41:57 |  2 |  2
+ bhj4   | Strings        | Join                 | 02/18/2020 05:41:57 |  2 |  2
+ bhj4   | Strings        | Split                | 02/18/2020 05:41:57 |  2 |  2
+ nes35  | Strings        | Join                 | 02/18/2020 05:42:28 |  0 |  2
+ nes35  | Strings        | Split                | 02/18/2020 05:42:28 |  0 |  3
+ fn28   | Lists          | Appending            | 02/18/2020 05:43:01 |  5 |  5
+ nes35  | Strings        | Join                 | 02/18/2020 05:43:57 |  1 |  2
+ nes35  | Strings        | Split                | 02/18/2020 05:43:57 |  2 |  3
+ fn28   | Lists          | Pointers             | 02/18/2020 05:45:57 |  5 |  5
+ fn28   | Math operators | Exponents            | 02/18/2020 05:46:32 |  5 |  5
+ fn28   | Math operators | Floor Division       | 02/18/2020 05:47:08 |  2 |  2
+ fn28   | Math operators | Mod                  | 02/18/2020 05:47:08 |  3 |  3
+ nes35  | Strings        | Index/Slice          | 02/18/2020 05:47:28 |  5 |  5
+ fn28   | Strings        | Concatenation        | 02/18/2020 05:47:55 |  5 |  5
+ fn28   | Strings        | Find                 | 02/18/2020 05:48:26 |  5 |  5
+ nes35  | Lists          | Adding               | 02/18/2020 05:48:39 |  2 |  2
+ nes35  | Lists          | Appending            | 02/18/2020 05:48:39 |  1 |  3
+ fn28   | Strings        | Index/Slice          | 02/18/2020 05:49:05 |  5 |  5
+ fn28   | Strings        | Index/Slice          | 02/18/2020 05:49:51 |  5 |  5
+ fn28   | Strings        | Join                 | 02/18/2020 05:50:30 |  0 |  1
+ bhj4   | Lists          | Adding               | 02/18/2020 05:55:59 |  2 |  2
+ bhj4   | Lists          | Appending            | 02/18/2020 05:55:59 |  2 |  2
+ bhj4   | Lists          | Pointers             | 02/18/2020 05:55:59 |  2 |  2
+ bhj4   | Math operators | Exponents            | 02/18/2020 05:55:59 |  2 |  2
+ bhj4   | Math operators | Floor Division       | 02/18/2020 05:55:59 |  2 |  2
+ bhj4   | Math operators | Mod                  | 02/18/2020 05:55:59 |  2 |  2
+ bhj4   | Strings        | Concatenation        | 02/18/2020 05:55:59 |  2 |  2
+ bhj4   | Strings        | Find                 | 02/18/2020 05:55:59 |  2 |  2
+ bhj4   | Strings        | Index/Slice          | 02/18/2020 05:55:59 |  2 |  2
+ bhj4   | Strings        | Join                 | 02/18/2020 05:55:59 |  1 |  2
+ bhj4   | Strings        | Split                | 02/18/2020 05:55:59 |  2 |  2
+ fn28   | Strings        | Join                 | 02/18/2020 05:57:35 |  4 |  5
+ fn28   | Strings        | Split                | 02/18/2020 05:59:53 |  5 |  5
+ dm387  | Lists          | Adding               | 02/18/2020 06:04:31 |  1 |  1
+ dm387  | Lists          | Appending            | 02/18/2020 06:04:31 |  1 |  1
+ dm387  | Lists          | Pointers             | 02/18/2020 06:04:31 |  2 |  2
+ dm387  | Math operators | Exponents            | 02/18/2020 06:04:31 |  2 |  2
+ dm387  | Math operators | Floor Division       | 02/18/2020 06:04:31 |  2 |  2
+ dm387  | Math operators | Mod                  | 02/18/2020 06:04:31 |  2 |  2
+ dm387  | Strings        | Concatenation        | 02/18/2020 06:04:31 |  2 |  2
+ dm387  | Strings        | Find                 | 02/18/2020 06:04:31 |  2 |  2
+ dm387  | Strings        | Index/Slice          | 02/18/2020 06:04:31 |  2 |  2
+ dm387  | Strings        | Join                 | 02/18/2020 06:04:31 |  2 |  2
+ dm387  | Strings        | Split                | 02/18/2020 06:04:31 |  0 |  2
+ dm387  | Lists          | Adding               | 02/18/2020 06:04:32 |  1 |  1
+ dm387  | Lists          | Appending            | 02/18/2020 06:04:32 |  1 |  1
+ dm387  | Lists          | Pointers             | 02/18/2020 06:04:32 |  2 |  2
+ dm387  | Math operators | Exponents            | 02/18/2020 06:04:32 |  2 |  2
+ dm387  | Math operators | Floor Division       | 02/18/2020 06:04:32 |  2 |  2
+ dm387  | Math operators | Mod                  | 02/18/2020 06:04:32 |  2 |  2
+ dm387  | Strings        | Concatenation        | 02/18/2020 06:04:32 |  2 |  2
+ dm387  | Strings        | Find                 | 02/18/2020 06:04:32 |  2 |  2
+ dm387  | Strings        | Index/Slice          | 02/18/2020 06:04:32 |  2 |  2
+ dm387  | Strings        | Join                 | 02/18/2020 06:04:32 |  2 |  2
+ dm387  | Strings        | Split                | 02/18/2020 06:04:32 |  0 |  2
+ leo12  | Lists          | Adding               | 02/18/2020 06:07:11 |  3 |  3
+ leo12  | Lists          | Appending            | 02/18/2020 06:07:11 |  1 |  3
+ leo12  | Lists          | Pointers             | 02/18/2020 06:07:11 |  1 |  1
+ leo12  | Math operators | Exponents            | 02/18/2020 06:09:54 |  1 |  1
+ leo12  | Math operators | Floor Division       | 02/18/2020 06:09:54 |  2 |  2
+ leo12  | Math operators | Mod                  | 02/18/2020 06:09:54 |  2 |  2
+ leo12  | Strings        | Concatenation        | 02/18/2020 06:11:29 |  1 |  1
+ leo12  | Strings        | Find                 | 02/18/2020 06:11:29 |  2 |  2
+ leo12  | Strings        | Index/Slice          | 02/18/2020 06:11:29 |  2 |  2
+ leo12  | Strings        | Join                 | 02/18/2020 06:13:35 |  1 |  2
+ leo12  | Strings        | Split                | 02/18/2020 06:13:35 |  3 |  3
+ dm387  | Lists          | Adding               | 02/18/2020 06:14:07 |  0 |  1
+ dm387  | Lists          | Appending            | 02/18/2020 06:14:07 |  1 |  1
+ dm387  | Lists          | Pointers             | 02/18/2020 06:14:07 |  2 |  2
+ dm387  | Math operators | Exponents            | 02/18/2020 06:14:07 |  2 |  2
+ dm387  | Math operators | Floor Division       | 02/18/2020 06:14:07 |  2 |  2
+ dm387  | Math operators | Mod                  | 02/18/2020 06:14:07 |  2 |  2
+ dm387  | Strings        | Concatenation        | 02/18/2020 06:14:07 |  2 |  2
+ dm387  | Strings        | Find                 | 02/18/2020 06:14:07 |  2 |  2
+ dm387  | Strings        | Index/Slice          | 02/18/2020 06:14:07 |  1 |  2
+ dm387  | Strings        | Join                 | 02/18/2020 06:14:07 |  2 |  2
+ dm387  | Strings        | Split                | 02/18/2020 06:14:07 |  2 |  2
+ ibl3   | Lists          | Adding               | 02/18/2020 06:30:50 |  8 |  8
+ ibl3   | Lists          | Appending            | 02/18/2020 06:32:44 |  2 |  2
+ ibl3   | Lists          | Appending            | 02/18/2020 06:33:43 |  2 |  2
+ ran19  | Lists          | Appending            | 02/18/2020 07:06:30 |  5 |  5
+ nes35  | Strings        | Join                 | 02/18/2020 12:48:11 |  5 |  5
+ nes35  | Strings        | Concatenation        | 02/18/2020 12:50:30 |  1 |  2
+ nes35  | Strings        | Find                 | 02/18/2020 12:50:30 |  1 |  3
+ nes35  | Strings        | Concatenation        | 02/18/2020 12:51:34 |  1 |  2
+ nes35  | Strings        | Find                 | 02/18/2020 12:51:34 |  3 |  3
+ feh7   | Lists          | Adding               | 02/18/2020 12:58:34 |  5 |  5
+ feh7   | Lists          | Appending            | 02/18/2020 13:00:27 |  2 |  5
+ feh7   | Lists          | Appending            | 02/18/2020 13:02:06 |  5 |  5
+ feh7   | Lists          | Pointers             | 02/18/2020 13:06:18 |  5 |  5
+ feh7   | Lists          | Pointers             | 02/18/2020 13:08:30 |  1 |  1
+ feh7   | Math operators | Exponents            | 02/18/2020 13:09:46 |  5 |  5
+ feh7   | Math operators | Floor Division       | 02/18/2020 13:10:30 |  5 |  5
+ feh7   | Math operators | Mod                  | 02/18/2020 13:11:29 |  4 |  5
+ feh7   | Strings        | Concatenation        | 02/18/2020 13:12:29 |  5 |  5
+ feh7   | Strings        | Find                 | 02/18/2020 13:13:26 |  5 |  5
+ feh7   | Strings        | Index/Slice          | 02/18/2020 13:14:25 |  5 |  5
+ feh7   | Strings        | Join                 | 02/18/2020 13:15:10 |  4 |  5
+ feh7   | Strings        | Split                | 02/18/2020 13:17:17 |  5 |  5
+ lal62  | Lists          | Adding               | 02/18/2020 13:27:51 |  5 |  5
+ ssc60  | Strings        | Split                | 02/18/2020 13:30:15 |  1 |  1
+ lal62  | Lists          | Appending            | 02/18/2020 13:30:48 |  3 |  5
+ arb122 | Lists          | Adding               | 02/18/2020 13:39:06 |  1 |  1
+ arb122 | Lists          | Appending            | 02/18/2020 13:39:06 |  1 |  1
+ arb122 | Lists          | Pointers             | 02/18/2020 13:39:06 |  0 |  1
+ arb122 | Strings        | Concatenation        | 02/18/2020 13:39:06 |  1 |  1
+ arb122 | Strings        | Find                 | 02/18/2020 13:39:06 |  0 |  1
+ arb122 | Strings        | Index/Slice          | 02/18/2020 13:39:06 |  1 |  1
+ arb122 | Strings        | Join                 | 02/18/2020 13:39:06 |  0 |  2
+ arb122 | Strings        | Split                | 02/18/2020 13:39:06 |  2 |  2
+ arb122 | Lists          | Adding               | 02/18/2020 13:43:48 |  1 |  1
+ arb122 | Lists          | Appending            | 02/18/2020 13:43:48 |  1 |  1
+ arb122 | Lists          | Pointers             | 02/18/2020 13:43:48 |  0 |  1
+ arb122 | Strings        | Concatenation        | 02/18/2020 13:43:48 |  1 |  1
+ arb122 | Strings        | Find                 | 02/18/2020 13:43:48 |  1 |  1
+ arb122 | Strings        | Index/Slice          | 02/18/2020 13:43:48 |  1 |  1
+ arb122 | Strings        | Join                 | 02/18/2020 13:43:48 |  1 |  2
+ arb122 | Strings        | Split                | 02/18/2020 13:43:48 |  2 |  2
+ lal62  | Lists          | Pointers             | 02/18/2020 13:47:14 |  4 |  5
+ ran19  | Lists          | Adding               | 02/18/2020 14:00:44 |  0 |  5
+ ran19  | Lists          | Adding               | 02/18/2020 14:01:52 |  5 |  5
+ lal62  | Lists          | Pointers             | 02/18/2020 14:03:03 |  4 |  5
+ ran19  | Lists          | Pointers             | 02/18/2020 14:04:46 |  3 |  5
+ lal62  | Strings        | Concatenation        | 02/18/2020 14:05:33 |  3 |  5
+ lal62  | Strings        | Find                 | 02/18/2020 14:08:08 |  5 |  5
+ lal62  | Strings        | Index/Slice          | 02/18/2020 14:09:17 |  5 |  5
+ aal44  | Strings        | Concatenation        | 02/18/2020 14:09:21 |  0 |  1
+ aal44  | Strings        | Find                 | 02/18/2020 14:09:21 |  1 |  1
+ aal44  | Strings        | Index/Slice          | 02/18/2020 14:09:21 |  1 |  1
+ aal44  | Strings        | Join                 | 02/18/2020 14:09:21 |  0 |  1
+ aal44  | Strings        | Split                | 02/18/2020 14:09:21 |  1 |  1
+ lal62  | Strings        | Join                 | 02/18/2020 14:10:29 |  2 |  5
+ lal62  | Strings        | Join                 | 02/18/2020 14:11:57 |  5 |  5
+ lal62  | Strings        | Join                 | 02/18/2020 14:12:34 |  5 |  5
+ aal44  | Strings        | Concatenation        | 02/18/2020 14:12:41 |  0 |  1
+ aal44  | Strings        | Find                 | 02/18/2020 14:12:41 |  1 |  1
+ aal44  | Strings        | Index/Slice          | 02/18/2020 14:12:41 |  1 |  1
+ aal44  | Strings        | Join                 | 02/18/2020 14:12:41 |  1 |  1
+ aal44  | Strings        | Split                | 02/18/2020 14:12:41 |  1 |  1
+ lal62  | Strings        | Split                | 02/18/2020 14:15:06 |  5 |  5
+ aal44  | Lists          | Appending            | 02/18/2020 14:15:53 |  1 |  1
+ aal44  | Strings        | Concatenation        | 02/18/2020 14:15:53 |  1 |  1
+ aal44  | Strings        | Index/Slice          | 02/18/2020 14:15:53 |  1 |  1
+ aal44  | Strings        | Join                 | 02/18/2020 14:15:53 |  1 |  1
+ aal44  | Strings        | Split                | 02/18/2020 14:15:53 |  1 |  1
+ aal44  | Lists          | Appending            | 02/18/2020 14:20:36 |  1 |  1
+ aal44  | Strings        | Concatenation        | 02/18/2020 14:20:36 |  1 |  1
+ aal44  | Strings        | Index/Slice          | 02/18/2020 14:20:36 |  1 |  1
+ aal44  | Strings        | Join                 | 02/18/2020 14:20:36 |  1 |  1
+ aal44  | Strings        | Split                | 02/18/2020 14:20:36 |  1 |  1
+ dcm54  | Lists          | Adding               | 02/18/2020 14:20:58 |  0 |  1
+ dcm54  | Lists          | Appending            | 02/18/2020 14:20:58 |  0 |  1
+ dcm54  | Lists          | Pointers             | 02/18/2020 14:20:58 |  1 |  2
+ dcm54  | Math operators | Exponents            | 02/18/2020 14:20:58 |  2 |  2
+ dcm54  | Math operators | Floor Division       | 02/18/2020 14:20:58 |  2 |  2
+ dcm54  | Math operators | Mod                  | 02/18/2020 14:20:58 |  2 |  2
+ dcm54  | Strings        | Concatenation        | 02/18/2020 14:20:58 |  1 |  2
+ dcm54  | Strings        | Find                 | 02/18/2020 14:20:58 |  0 |  2
+ dcm54  | Strings        | Index/Slice          | 02/18/2020 14:20:58 |  0 |  2
+ dcm54  | Strings        | Join                 | 02/18/2020 14:20:58 |  0 |  2
+ dcm54  | Strings        | Split                | 02/18/2020 14:20:58 |  0 |  2
+ lal62  | Lists          | Pointers             | 02/18/2020 14:22:16 |  5 |  5
+ akn21  | Lists          | Pointers             | 02/18/2020 14:46:43 |  2 |  2
+ rlw69  | Lists          | Adding               | 02/18/2020 14:58:38 |  0 |  1
+ rlw69  | Lists          | Appending            | 02/18/2020 14:58:38 |  1 |  1
+ rlw69  | Lists          | Pointers             | 02/18/2020 14:58:38 |  2 |  2
+ ssc60  | Lists          | Adding               | 02/18/2020 14:58:51 |  1 |  1
+ ssc60  | Lists          | Appending            | 02/18/2020 14:58:51 |  1 |  1
+ ssc60  | Lists          | Pointers             | 02/18/2020 14:58:51 |  1 |  1
+ ssc60  | Math operators | Exponents            | 02/18/2020 14:58:51 |  1 |  1
+ ssc60  | Math operators | Floor Division       | 02/18/2020 14:58:51 |  1 |  1
+ ssc60  | Math operators | Mod                  | 02/18/2020 14:58:51 |  1 |  1
+ lal62  | Lists          | Pointers             | 02/18/2020 15:07:50 |  1 |  1
+ mem119 | Lists          | Adding               | 02/18/2020 19:04:17 |  1 |  1
+ mem119 | Lists          | Appending            | 02/18/2020 19:04:17 |  1 |  1
+ mem119 | Lists          | Pointers             | 02/18/2020 19:04:17 |  1 |  1
+ mem119 | Math operators | Exponents            | 02/18/2020 19:04:17 |  1 |  1
+ mem119 | Math operators | Floor Division       | 02/18/2020 19:04:17 |  1 |  1
+ mem119 | Math operators | Mod                  | 02/18/2020 19:04:17 |  1 |  1
+ mem119 | Strings        | Concatenation        | 02/18/2020 19:04:17 |  1 |  1
+ mem119 | Strings        | Find                 | 02/18/2020 19:04:17 |  2 |  2
+ mem119 | Strings        | Index/Slice          | 02/18/2020 19:04:17 |  2 |  2
+ mem119 | Strings        | Join                 | 02/18/2020 19:04:17 |  1 |  2
+ mem119 | Strings        | Split                | 02/18/2020 19:04:17 |  0 |  2
+ as817  | Tuples         | Appending            | 03/06/2020 03:59:49 |  0 |  1
+ as817  | Tuples         | Appending            | 03/06/2020 04:14:42 |  0 |  1
+ as817  | Tuples         | Appending            | 03/06/2020 06:13:06 |  0 |  3
+ as817  | Tuples         | Reassignment         | 03/06/2020 06:13:06 |  0 |  3
+ as817  | While Loops    | Return/Print         | 03/06/2020 06:13:06 |  0 |  3
+ as817  | Tuples         | Appending            | 03/06/2020 06:21:34 |  1 |  1
+ as817  | Tuples         | Appending            | 03/06/2020 06:22:08 |  1 |  1
+ as817  | Tuples         | Reassignment         | 03/06/2020 06:22:08 |  1 |  1
+ as817  | While Loops    | Return/Print         | 03/06/2020 06:22:08 |  2 |  2
+ as817  | Tuples         | Reassignment         | 03/06/2020 20:03:44 |  1 |  1
+ bes41  | Tuples         | Appending            | 03/06/2020 20:06:53 |  5 |  5
+ bes41  | Tuples         | Reassignment         | 03/06/2020 20:06:53 |  5 |  5
+ bes41  | While Loops    | Return/Print         | 03/06/2020 20:06:53 |  4 |  5
+ tgh16  | Tuples         | Appending            | 03/07/2020 17:57:56 |  4 |  4
+ tgh16  | Tuples         | Reassignment         | 03/07/2020 17:57:56 |  3 |  4
+ tgh16  | While Loops    | Return/Print         | 03/07/2020 17:57:56 |  4 |  4
+ as817  | Sorting        | Key/Lambda Functions | 03/24/2020 19:35:00 |  1 |  1
+ as817  | Math operators | Mod                  | 03/24/2020 19:45:58 |  1 |  1
+ as817  | Sorting        | Key/Lambda Functions | 03/24/2020 20:00:21 |  1 |  1
+ as817  | Strings        | Find                 | 03/24/2020 20:04:50 |  1 |  1
+ ssc60  | Tuples         | Appending            | 03/29/2020 18:35:17 |  2 |  2
+ ssc60  | Tuples         | Reassignment         | 03/29/2020 18:35:17 |  3 |  3
