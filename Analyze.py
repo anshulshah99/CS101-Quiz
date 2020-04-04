@@ -19,8 +19,6 @@ def rolling_avg(alpha, data):
         mastery = percent_before * (1 - alpha) + (alpha) * int(data[i][3])/int(data[i][4])
         print(mastery)
 
-def distribution():
-
 if __name__ == '__main__':
     d = get_data()
     rolling_avg(0.3, d)
