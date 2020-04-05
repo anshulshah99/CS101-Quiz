@@ -32,18 +32,23 @@ def concept():
     cur.execute("""Select concept, function FROM questions;""")
     concepts = set(cur.fetchall())
     temp = [c for c in concepts if str(c[0]) in ('Lists', 'Strings', 'Dictionaries', 'Sorting', 'Sets', 'Math operators', 'While Loops', 'Tuples')]
+    mid2 = [c for c in concepts if str(c[0]) in ('Dictionaries', 'Sorting', 'Sets')]
+    mid2.append(("Lists", "List Comprehensions"))
+    mid1 = set(temp).difference(set(mid2))
     #if uid in set(["bal46", "rl194", "oa55", "js803", "pk169", "bes41", "as817", "jkk22", "Mp341", "ak410", "gs214", "tgh16", "olr", "mko13", "jun", "mk374", "mss91", "sks47", "bev6", "yv10"]):
         #temp = [c for c in concepts if str(c[0])]
     choices = sorted([str(c[0]) if c[1] is None else str(c[0]) + " - " + str(c[1]) for c in temp])
+    mid2 = sorted([str(c[0]) if c[1] is None else str(c[0]) + " - " + str(c[1]) for c in mid2])
+    mid1 = sorted([str(c[0]) if c[1] is None else str(c[0]) + " - " + str(c[1]) for c in mid1])
     if request.method == "POST":
         x = list(dict(request.form).values())
         ret = [x[i].split(" - ") for i in range(len(x))]
-        num_ques = ret[-1][0]
-        types = ret[0:-1]
+        num_ques = ret[0][0]
+        types = ret[1:]
         session["question_type"] = types
         session["number_questions"] = num_ques
         return redirect(url_for("quiz"))
-    return render_template('concept.html', concepts = choices)
+    return render_template('concept.html', exam2 = mid2, exam1 = mid1)
 
 @app.route('/quiz', methods = ["GET", "POST"])
 def quiz():
