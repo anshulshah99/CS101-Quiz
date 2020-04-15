@@ -1,5 +1,3 @@
- netid  |    concept     |       function       |      timestamp      | c  | t  
---------+----------------+----------------------+---------------------+----+----
  dhc12  | Lists          | Adding               | 02/11/2020 15:09:52 |  1 |  1
  dhc12  | Lists          | Appending            | 02/11/2020 15:09:52 |  1 |  1
  jkk22  | Strings        | Index/Slice          | 02/11/2020 15:25:03 |  1 |  1
@@ -1722,3 +1720,614 @@
  as817  | Strings        | Find                 | 03/24/2020 20:04:50 |  1 |  1
  ssc60  | Tuples         | Appending            | 03/29/2020 18:35:17 |  2 |  2
  ssc60  | Tuples         | Reassignment         | 03/29/2020 18:35:17 |  3 |  3
+ as817  | Dictionaries   | Items                | 04/04/2020 20:24:52 |  3 |  5
+ as817  | Dictionaries   | Items                | 04/04/2020 20:25:08 |  1 |  5
+ as817  | Dictionaries   | Items                | 04/04/2020 20:25:30 |  1 |  1
+ as817  | Dictionaries   | Items                | 04/04/2020 20:26:40 |  4 |  4
+ as817  | Sorting        | Key/Lambda Functions | 04/04/2020 20:41:25 |  2 |  2
+ jej34  | Sorting        | Key/Lambda Functions | 04/04/2020 21:41:02 | 10 | 15
+ jsk69  | Dictionaries   | Items                | 04/04/2020 21:55:27 |  3 |  4
+ jsk69  | Dictionaries   | Keys/Values          | 04/04/2020 21:55:27 |  4 |  4
+ jsk69  | Lists          | List Comprehensions  | 04/04/2020 21:55:27 |  4 |  4
+ jsk69  | Sets           | Set Operations       | 04/04/2020 21:55:27 |  3 |  4
+ jsk69  | Sorting        | Key/Lambda Functions | 04/04/2020 21:55:27 |  4 |  4
+ cms168 | Strings        | Concatenation        | 04/04/2020 22:15:24 |  5 |  5
+ cms168 | Lists          | Adding               | 04/04/2020 22:17:23 |  2 |  5
+ hc260  | Dictionaries   | Items                | 04/04/2020 22:24:31 |  1 |  1
+ hc260  | Dictionaries   | Keys/Values          | 04/04/2020 22:24:31 |  1 |  1
+ hc260  | Lists          | List Comprehensions  | 04/04/2020 22:24:31 |  1 |  1
+ hc260  | Sets           | Set Operations       | 04/04/2020 22:24:31 |  1 |  1
+ hc260  | Sorting        | Key/Lambda Functions | 04/04/2020 22:24:31 |  0 |  1
+ cms168 | Lists          | Adding               | 04/04/2020 22:25:15 |  5 |  5
+ cms168 | Lists          | Adding               | 04/04/2020 22:25:41 |  5 |  5
+ cms168 | Lists          | Appending            | 04/04/2020 22:27:04 |  0 |  1
+ jsk69  | Dictionaries   | Items                | 04/04/2020 22:38:52 |  3 |  3
+ jsk69  | Dictionaries   | Keys/Values          | 04/04/2020 22:38:52 |  3 |  3
+ jsk69  | Lists          | List Comprehensions  | 04/04/2020 22:38:52 |  2 |  2
+ jsk69  | Sets           | Set Operations       | 04/04/2020 22:38:52 |  0 |  1
+ jsk69  | Sorting        | Key/Lambda Functions | 04/04/2020 22:38:52 |  4 |  4
+ jsk69  | Dictionaries   | Items                | 04/04/2020 23:18:04 |  3 |  4
+ jsk69  | Dictionaries   | Keys/Values          | 04/04/2020 23:18:04 |  3 |  4
+ jsk69  | Lists          | List Comprehensions  | 04/04/2020 23:18:04 |  4 |  4
+ jsk69  | Sets           | Set Operations       | 04/04/2020 23:18:04 |  4 |  4
+ jsk69  | Sorting        | Key/Lambda Functions | 04/04/2020 23:18:04 |  4 |  4
+ cn113  | Sorting        | Key/Lambda Functions | 04/04/2020 23:45:16 |  2 |  5
+ sk586  | Dictionaries   | Items                | 04/04/2020 23:48:17 |  3 |  3
+ sk586  | Dictionaries   | Keys/Values          | 04/04/2020 23:48:17 |  3 |  3
+ sk586  | Lists          | List Comprehensions  | 04/04/2020 23:48:17 |  3 |  3
+ sk586  | Sets           | Set Operations       | 04/04/2020 23:48:17 |  3 |  4
+ sk586  | Tuples         | Appending            | 04/04/2020 23:48:17 |  4 |  4
+ sk586  | Tuples         | Reassignment         | 04/04/2020 23:48:17 |  4 |  4
+ sk586  | While Loops    | Return/Print         | 04/04/2020 23:48:17 |  4 |  4
+ cn113  | Sorting        | Key/Lambda Functions | 04/04/2020 23:50:19 |  5 |  5
+ cn113  | Sets           | Set Operations       | 04/04/2020 23:54:30 |  3 |  5
+ cn113  | Sets           | Set Operations       | 04/04/2020 23:58:45 |  4 |  5
+ hc260  | Dictionaries   | Items                | 04/05/2020 00:01:44 |  3 |  4
+ hc260  | Dictionaries   | Keys/Values          | 04/05/2020 00:01:44 |  4 |  4
+ hc260  | Lists          | List Comprehensions  | 04/05/2020 00:01:44 |  4 |  4
+ hc260  | Sets           | Set Operations       | 04/05/2020 00:01:44 |  3 |  4
+ hc260  | Sorting        | Key/Lambda Functions | 04/05/2020 00:01:44 |  1 |  3
+ hc260  | Dictionaries   | Items                | 04/05/2020 00:17:07 |  2 |  2
+ hc260  | Dictionaries   | Keys/Values          | 04/05/2020 00:17:07 |  2 |  2
+ hc260  | Lists          | List Comprehensions  | 04/05/2020 00:17:07 |  3 |  3
+ hc260  | Sets           | Set Operations       | 04/05/2020 00:17:07 |  3 |  3
+ hc260  | Dictionaries   | Items                | 04/05/2020 00:19:44 |  1 |  2
+ hc260  | Dictionaries   | Keys/Values          | 04/05/2020 00:19:44 |  2 |  2
+ hc260  | Lists          | List Comprehensions  | 04/05/2020 00:19:44 |  2 |  3
+ hc260  | Sets           | Set Operations       | 04/05/2020 00:19:44 |  3 |  3
+ sf218  | Dictionaries   | Items                | 04/05/2020 00:36:06 |  3 |  4
+ sf218  | Dictionaries   | Keys/Values          | 04/05/2020 00:36:06 |  4 |  4
+ sf218  | Lists          | List Comprehensions  | 04/05/2020 00:36:06 |  4 |  4
+ sf218  | Sets           | Set Operations       | 04/05/2020 00:36:06 |  2 |  4
+ sf218  | Sorting        | Key/Lambda Functions | 04/05/2020 00:36:06 |  4 |  4
+ cn113  | Sets           | Set Operations       | 04/05/2020 00:41:10 |  5 |  5
+ sf218  | Dictionaries   | Items                | 04/05/2020 00:56:59 |  4 |  4
+ sf218  | Dictionaries   | Keys/Values          | 04/05/2020 00:56:59 |  4 |  4
+ sf218  | Lists          | List Comprehensions  | 04/05/2020 00:56:59 |  3 |  4
+ sf218  | Sets           | Set Operations       | 04/05/2020 00:56:59 |  3 |  4
+ sf218  | Sorting        | Key/Lambda Functions | 04/05/2020 00:56:59 |  4 |  4
+ orp    | Dictionaries   | Items                | 04/05/2020 01:39:13 |  2 |  2
+ orp    | Dictionaries   | Keys/Values          | 04/05/2020 01:39:13 |  2 |  2
+ orp    | Lists          | List Comprehensions  | 04/05/2020 01:39:13 |  2 |  2
+ orp    | Sets           | Set Operations       | 04/05/2020 01:39:13 |  2 |  2
+ orp    | Sorting        | Key/Lambda Functions | 04/05/2020 01:39:13 |  1 |  2
+ aal44  | Lists          | Adding               | 04/05/2020 02:47:39 |  1 |  1
+ aal44  | Lists          | Appending            | 04/05/2020 02:47:39 |  1 |  1
+ aal44  | Lists          | Pointers             | 04/05/2020 02:47:39 |  1 |  1
+ aal44  | Sorting        | Key/Lambda Functions | 04/05/2020 02:47:39 |  1 |  1
+ aal44  | Strings        | Concatenation        | 04/05/2020 02:47:39 |  0 |  1
+ aal44  | Strings        | Find                 | 04/05/2020 02:47:39 |  1 |  1
+ aal44  | Strings        | Index/Slice          | 04/05/2020 02:47:39 |  1 |  1
+ aal44  | Tuples         | Appending            | 04/05/2020 02:47:39 |  1 |  1
+ aal44  | Tuples         | Reassignment         | 04/05/2020 02:47:39 |  0 |  1
+ aal44  | While Loops    | Return/Print         | 04/05/2020 02:47:39 |  1 |  1
+ sp465  | Dictionaries   | Items                | 04/05/2020 06:42:53 |  4 |  5
+ sp465  | Dictionaries   | Keys/Values          | 04/05/2020 06:42:53 |  0 |  5
+ sp465  | Lists          | Pointers             | 04/05/2020 06:42:53 |  2 |  5
+ ab694  | Dictionaries   | Items                | 04/05/2020 15:43:31 |  3 |  5
+ ab694  | Dictionaries   | Keys/Values          | 04/05/2020 15:47:43 |  3 |  5
+ ab694  | Lists          | List Comprehensions  | 04/05/2020 16:21:09 |  3 |  5
+ sp465  | Dictionaries   | Items                | 04/05/2020 17:32:22 |  3 |  5
+ sp465  | Dictionaries   | Keys/Values          | 04/05/2020 17:32:22 |  5 |  5
+ sp465  | Lists          | Pointers             | 04/05/2020 17:32:22 |  3 |  5
+ ab694  | Sets           | Set Operations       | 04/05/2020 18:06:32 |  4 |  5
+ sp465  | Lists          | List Comprehensions  | 04/05/2020 18:17:52 |  4 |  6
+ sp465  | Sets           | Set Operations       | 04/05/2020 18:17:52 |  5 |  7
+ sp465  | Sorting        | Key/Lambda Functions | 04/05/2020 18:17:52 |  4 |  7
+ hc260  | Dictionaries   | Items                | 04/05/2020 18:34:04 |  2 |  2
+ hc260  | Dictionaries   | Keys/Values          | 04/05/2020 18:34:04 |  2 |  2
+ hc260  | Lists          | List Comprehensions  | 04/05/2020 18:34:04 |  3 |  3
+ hc260  | Sets           | Set Operations       | 04/05/2020 18:34:04 |  2 |  3
+ jsk69  | Dictionaries   | Items                | 04/05/2020 18:49:35 |  3 |  3
+ jsk69  | Dictionaries   | Keys/Values          | 04/05/2020 18:49:35 |  3 |  3
+ jsk69  | Lists          | List Comprehensions  | 04/05/2020 18:49:35 |  3 |  3
+ jsk69  | Sets           | Set Operations       | 04/05/2020 18:49:35 |  3 |  3
+ jsk69  | Sorting        | Key/Lambda Functions | 04/05/2020 18:49:35 |  2 |  3
+ sp465  | Lists          | List Comprehensions  | 04/05/2020 19:29:10 |  4 |  4
+ sp465  | Sorting        | Key/Lambda Functions | 04/05/2020 19:29:10 |  4 |  4
+ sp465  | Tuples         | Appending            | 04/05/2020 19:29:10 |  4 |  4
+ sp465  | Tuples         | Reassignment         | 04/05/2020 19:29:10 |  2 |  4
+ sp465  | While Loops    | Return/Print         | 04/05/2020 19:29:10 |  1 |  4
+ kl318  | Lists          | List Comprehensions  | 04/05/2020 19:44:41 |  0 |  1
+ kl318  | Dictionaries   | Items                | 04/05/2020 19:50:06 |  1 |  2
+ kl318  | Dictionaries   | Keys/Values          | 04/05/2020 19:50:06 |  2 |  3
+ kl318  | Lists          | List Comprehensions  | 04/05/2020 19:50:06 |  3 |  3
+ kl318  | Sets           | Set Operations       | 04/05/2020 19:50:06 |  3 |  3
+ kl318  | Tuples         | Appending            | 04/05/2020 19:50:06 |  3 |  3
+ kl318  | Tuples         | Reassignment         | 04/05/2020 19:50:06 |  3 |  3
+ kl318  | While Loops    | Return/Print         | 04/05/2020 19:50:06 |  1 |  3
+ dgb17  | Dictionaries   | Items                | 04/05/2020 20:00:07 |  1 |  1
+ dgb17  | Dictionaries   | Keys/Values          | 04/05/2020 20:00:07 |  1 |  1
+ dgb17  | Lists          | List Comprehensions  | 04/05/2020 20:00:07 |  1 |  1
+ dgb17  | Sets           | Set Operations       | 04/05/2020 20:00:07 |  1 |  1
+ dgb17  | Sorting        | Key/Lambda Functions | 04/05/2020 20:00:07 |  0 |  1
+ sp465  | Sorting        | Key/Lambda Functions | 04/05/2020 20:10:30 |  2 |  2
+ sp465  | While Loops    | Return/Print         | 04/05/2020 20:10:30 |  1 |  3
+ feh7   | Sets           | Set Operations       | 04/05/2020 20:33:10 |  5 |  5
+ feh7   | Sets           | Set Operations       | 04/05/2020 20:34:37 |  5 |  5
+ dgb17  | Dictionaries   | Items                | 04/05/2020 21:43:57 |  3 |  4
+ dgb17  | Dictionaries   | Keys/Values          | 04/05/2020 21:43:57 |  3 |  4
+ dgb17  | Lists          | List Comprehensions  | 04/05/2020 21:43:57 |  4 |  4
+ dgb17  | Sets           | Set Operations       | 04/05/2020 21:43:57 |  3 |  4
+ dgb17  | Sorting        | Key/Lambda Functions | 04/05/2020 21:43:57 |  1 |  4
+ dgb17  | Dictionaries   | Items                | 04/06/2020 00:09:32 |  3 |  4
+ dgb17  | Dictionaries   | Keys/Values          | 04/06/2020 00:09:32 |  4 |  4
+ dgb17  | Lists          | List Comprehensions  | 04/06/2020 00:09:32 |  4 |  4
+ dgb17  | Sets           | Set Operations       | 04/06/2020 00:09:32 |  4 |  4
+ dgb17  | Sorting        | Key/Lambda Functions | 04/06/2020 00:09:32 |  4 |  4
+ dgb17  | Dictionaries   | Items                | 04/06/2020 01:06:51 |  1 |  4
+ dgb17  | Dictionaries   | Keys/Values          | 04/06/2020 01:06:51 |  4 |  4
+ dgb17  | Lists          | List Comprehensions  | 04/06/2020 01:06:51 |  4 |  4
+ dgb17  | Sets           | Set Operations       | 04/06/2020 01:06:51 |  3 |  4
+ dgb17  | Sorting        | Key/Lambda Functions | 04/06/2020 01:06:51 |  4 |  4
+ cas191 | Tuples         | Appending            | 04/06/2020 01:44:18 |  5 |  5
+ cas191 | Tuples         | Reassignment         | 04/06/2020 01:46:13 |  4 |  5
+ cas191 | Tuples         | Reassignment         | 04/06/2020 01:47:35 |  5 |  5
+ cas191 | While Loops    | Return/Print         | 04/06/2020 01:50:00 |  5 |  5
+ cas191 | While Loops    | Return/Print         | 04/06/2020 01:50:50 |  4 |  4
+ cas191 | Dictionaries   | Items                | 04/06/2020 01:57:42 |  3 |  5
+ cas191 | Dictionaries   | Items                | 04/06/2020 02:18:30 |  5 |  5
+ jej34  | Sets           | Set Operations       | 04/06/2020 02:18:57 |  3 |  5
+ cas191 | Dictionaries   | Items                | 04/06/2020 02:20:52 |  5 |  5
+ cas191 | Dictionaries   | Keys/Values          | 04/06/2020 02:23:03 |  5 |  5
+ cas191 | Dictionaries   | Keys/Values          | 04/06/2020 02:25:41 |  4 |  5
+ jej34  | Sets           | Set Operations       | 04/06/2020 02:29:04 |  5 |  5
+ cas191 | Lists          | List Comprehensions  | 04/06/2020 02:29:46 |  5 |  5
+ jej34  | Sets           | Set Operations       | 04/06/2020 02:34:43 |  1 |  5
+ cas191 | Sets           | Set Operations       | 04/06/2020 02:34:50 |  3 |  5
+ cas191 | Sets           | Set Operations       | 04/06/2020 02:42:56 |  5 |  5
+ cas191 | Sorting        | Key/Lambda Functions | 04/06/2020 02:44:54 |  4 |  5
+ jej34  | Sets           | Set Operations       | 04/06/2020 02:47:01 |  4 |  5
+ jej34  | Sets           | Set Operations       | 04/06/2020 02:49:12 |  4 |  5
+ cas191 | Sorting        | Key/Lambda Functions | 04/06/2020 02:53:26 |  3 |  5
+ cas191 | Sorting        | Key/Lambda Functions | 04/06/2020 02:55:59 |  4 |  5
+ cas191 | Sorting        | Key/Lambda Functions | 04/06/2020 03:05:45 |  4 |  5
+ cas191 | Sorting        | Key/Lambda Functions | 04/06/2020 03:08:19 |  5 |  5
+ cas191 | Sorting        | Key/Lambda Functions | 04/06/2020 03:09:48 |  5 |  5
+ cas191 | Tuples         | Appending            | 04/06/2020 03:11:49 |  2 |  2
+ cas191 | Tuples         | Reassignment         | 04/06/2020 03:11:49 |  2 |  2
+ cas191 | While Loops    | Return/Print         | 04/06/2020 03:11:49 |  2 |  2
+ cas191 | Dictionaries   | Items                | 04/06/2020 03:15:35 |  2 |  2
+ cas191 | Dictionaries   | Keys/Values          | 04/06/2020 03:15:35 |  2 |  2
+ cas191 | Lists          | List Comprehensions  | 04/06/2020 03:15:35 |  2 |  2
+ cas191 | Sets           | Set Operations       | 04/06/2020 03:15:35 |  1 |  2
+ cas191 | Sorting        | Key/Lambda Functions | 04/06/2020 03:15:35 |  2 |  2
+ daf46  | Dictionaries   | Items                | 04/06/2020 15:47:05 |  1 |  1
+ daf46  | Dictionaries   | Keys/Values          | 04/06/2020 15:47:05 |  1 |  1
+ daf46  | Lists          | List Comprehensions  | 04/06/2020 15:47:05 |  1 |  1
+ daf46  | Sets           | Set Operations       | 04/06/2020 15:47:05 |  1 |  1
+ daf46  | Sorting        | Key/Lambda Functions | 04/06/2020 15:47:05 |  1 |  1
+ feh7   | Lists          | List Comprehensions  | 04/06/2020 16:09:52 |  5 |  5
+ seg61  | Dictionaries   | Items                | 04/06/2020 16:13:10 |  3 |  5
+ feh7   | Lists          | List Comprehensions  | 04/06/2020 16:13:26 |  5 |  5
+ awc31  | Dictionaries   | Items                | 04/06/2020 16:13:27 |  0 |  1
+ awc31  | Dictionaries   | Keys/Values          | 04/06/2020 16:13:27 |  1 |  1
+ awc31  | Lists          | List Comprehensions  | 04/06/2020 16:13:27 |  1 |  1
+ awc31  | Sets           | Set Operations       | 04/06/2020 16:13:27 |  0 |  1
+ awc31  | Sorting        | Key/Lambda Functions | 04/06/2020 16:13:27 |  0 |  1
+ seg61  | Dictionaries   | Keys/Values          | 04/06/2020 16:21:37 |  1 |  4
+ lal62  | Dictionaries   | Items                | 04/06/2020 16:27:42 |  7 | 10
+ log4   | Dictionaries   | Items                | 04/06/2020 16:43:40 |  1 |  1
+ log4   | Dictionaries   | Keys/Values          | 04/06/2020 16:43:40 |  1 |  1
+ log4   | Lists          | List Comprehensions  | 04/06/2020 16:43:40 |  1 |  1
+ log4   | Sets           | Set Operations       | 04/06/2020 16:43:40 |  1 |  1
+ log4   | Tuples         | Appending            | 04/06/2020 16:43:40 |  1 |  1
+ log4   | Tuples         | Reassignment         | 04/06/2020 16:43:40 |  1 |  1
+ log4   | While Loops    | Return/Print         | 04/06/2020 16:43:40 |  2 |  2
+ lal62  | Dictionaries   | Keys/Values          | 04/06/2020 16:51:32 |  9 | 10
+ yl554  | Dictionaries   | Items                | 04/06/2020 16:58:46 |  2 |  2
+ yl554  | Dictionaries   | Keys/Values          | 04/06/2020 16:58:46 |  2 |  2
+ yl554  | Lists          | List Comprehensions  | 04/06/2020 16:58:46 |  2 |  2
+ yl554  | Sets           | Set Operations       | 04/06/2020 16:58:46 |  2 |  2
+ yl554  | Sorting        | Key/Lambda Functions | 04/06/2020 16:58:46 |  2 |  2
+ lal62  | Lists          | List Comprehensions  | 04/06/2020 17:02:59 |  9 | 10
+ lal62  | Sets           | Set Operations       | 04/06/2020 17:10:14 | 10 | 10
+ jsk69  | Dictionaries   | Items                | 04/06/2020 17:19:52 |  3 |  3
+ jsk69  | Dictionaries   | Keys/Values          | 04/06/2020 17:19:52 |  2 |  3
+ jsk69  | Lists          | List Comprehensions  | 04/06/2020 17:19:52 |  3 |  3
+ jsk69  | Sets           | Set Operations       | 04/06/2020 17:19:52 |  3 |  3
+ jsk69  | Sorting        | Key/Lambda Functions | 04/06/2020 17:19:52 |  3 |  3
+ lal62  | Sorting        | Key/Lambda Functions | 04/06/2020 17:24:01 |  6 | 10
+ jac159 | Dictionaries   | Items                | 04/06/2020 17:52:53 |  2 |  2
+ jac159 | Dictionaries   | Keys/Values          | 04/06/2020 17:52:53 |  1 |  2
+ jac159 | Lists          | List Comprehensions  | 04/06/2020 17:52:53 |  2 |  2
+ jac159 | Sets           | Set Operations       | 04/06/2020 17:52:53 |  2 |  2
+ jac159 | Sorting        | Key/Lambda Functions | 04/06/2020 17:52:53 |  2 |  2
+ aal44  | Lists          | Appending            | 04/06/2020 17:57:17 |  1 |  2
+ aal44  | Lists          | Pointers             | 04/06/2020 17:57:17 |  3 |  3
+ jac159 | Dictionaries   | Items                | 04/06/2020 17:57:44 |  1 |  2
+ jac159 | Dictionaries   | Keys/Values          | 04/06/2020 17:57:44 |  2 |  2
+ jac159 | Lists          | List Comprehensions  | 04/06/2020 17:57:44 |  1 |  2
+ jac159 | Sets           | Set Operations       | 04/06/2020 17:57:44 |  1 |  2
+ jac159 | Sorting        | Key/Lambda Functions | 04/06/2020 17:57:44 |  1 |  2
+ jaf94  | Dictionaries   | Items                | 04/06/2020 18:00:47 |  4 |  5
+ jaf94  | Dictionaries   | Keys/Values          | 04/06/2020 18:00:47 |  4 |  5
+ jac159 | Sets           | Set Operations       | 04/06/2020 18:04:47 |  9 | 10
+ jaf94  | Lists          | List Comprehensions  | 04/06/2020 18:18:59 |  3 |  3
+ jaf94  | Sets           | Set Operations       | 04/06/2020 18:18:59 |  3 |  3
+ jaf94  | Sorting        | Key/Lambda Functions | 04/06/2020 18:18:59 |  3 |  4
+ jaf94  | Dictionaries   | Items                | 04/06/2020 18:22:30 |  5 |  5
+ jaf94  | Dictionaries   | Keys/Values          | 04/06/2020 18:24:34 |  5 |  5
+ jaf94  | Lists          | List Comprehensions  | 04/06/2020 18:27:17 |  5 |  5
+ jaf94  | Sets           | Set Operations       | 04/06/2020 18:29:16 |  3 |  5
+ akn21  | Strings        | Index/Slice          | 04/06/2020 18:33:23 | 10 | 10
+ mm793  | Dictionaries   | Items                | 04/06/2020 18:34:18 | 14 | 15
+ akn21  | Strings        | Join                 | 04/06/2020 18:35:21 |  2 | 10
+ akn21  | Strings        | Join                 | 04/06/2020 18:37:15 | 10 | 10
+ jaf94  | Sets           | Set Operations       | 04/06/2020 18:41:37 |  5 |  5
+ akn21  | Strings        | Split                | 04/06/2020 18:42:25 | 10 | 10
+ mm793  | Dictionaries   | Keys/Values          | 04/06/2020 18:42:52 | 16 | 20
+ jaf94  | Sets           | Set Operations       | 04/06/2020 18:42:55 |  2 |  2
+ akn21  | Tuples         | Appending            | 04/06/2020 18:43:54 |  0 |  7
+ akn21  | Tuples         | Appending            | 04/06/2020 18:45:06 |  7 |  7
+ jaf94  | Sorting        | Key/Lambda Functions | 04/06/2020 18:45:09 |  5 |  5
+ mm793  | Lists          | List Comprehensions  | 04/06/2020 18:54:20 | 10 | 10
+ mm793  | Sets           | Set Operations       | 04/06/2020 18:58:16 | 10 | 10
+ mm793  | Sorting        | Key/Lambda Functions | 04/06/2020 19:00:54 |  7 | 10
+ mm793  | Sorting        | Key/Lambda Functions | 04/06/2020 19:00:55 |  7 | 10
+ akn21  | Tuples         | Reassignment         | 04/06/2020 19:13:07 |  7 |  7
+ akn21  | While Loops    | Return/Print         | 04/06/2020 19:17:05 |  3 |  8
+ akn21  | While Loops    | Return/Print         | 04/06/2020 19:20:08 |  7 |  7
+ seg61  | Lists          | List Comprehensions  | 04/06/2020 19:23:25 |  5 |  5
+ seg61  | Sets           | Set Operations       | 04/06/2020 19:25:31 |  1 |  5
+ dmh75  | Dictionaries   | Items                | 04/06/2020 19:32:36 |  1 |  2
+ dmh75  | Dictionaries   | Keys/Values          | 04/06/2020 19:32:36 |  1 |  2
+ dmh75  | Lists          | List Comprehensions  | 04/06/2020 19:32:36 |  2 |  2
+ dmh75  | Sets           | Set Operations       | 04/06/2020 19:32:36 |  2 |  2
+ dmh75  | Sorting        | Key/Lambda Functions | 04/06/2020 19:32:36 |  2 |  2
+ dmh75  | Dictionaries   | Items                | 04/06/2020 21:09:01 |  2 |  2
+ dmh75  | Dictionaries   | Keys/Values          | 04/06/2020 21:09:01 |  1 |  2
+ dmh75  | Lists          | List Comprehensions  | 04/06/2020 21:09:01 |  2 |  2
+ dmh75  | Sets           | Set Operations       | 04/06/2020 21:09:01 |  1 |  2
+ dmh75  | Sorting        | Key/Lambda Functions | 04/06/2020 21:09:01 |  2 |  2
+ dmh75  | Dictionaries   | Items                | 04/06/2020 22:14:49 |  1 |  2
+ dmh75  | Dictionaries   | Keys/Values          | 04/06/2020 22:14:49 |  1 |  2
+ dmh75  | Lists          | List Comprehensions  | 04/06/2020 22:14:49 |  2 |  2
+ dmh75  | Sets           | Set Operations       | 04/06/2020 22:14:49 |  2 |  2
+ dmh75  | Sorting        | Key/Lambda Functions | 04/06/2020 22:14:49 |  2 |  2
+ dmh75  | Lists          | List Comprehensions  | 04/06/2020 22:27:34 |  1 |  1
+ dmh75  | Sets           | Set Operations       | 04/06/2020 22:27:34 |  2 |  2
+ dmh75  | Sorting        | Key/Lambda Functions | 04/06/2020 22:27:34 |  2 |  2
+ snd25  | Dictionaries   | Items                | 04/06/2020 23:24:29 |  1 |  1
+ snd25  | Dictionaries   | Keys/Values          | 04/06/2020 23:24:29 |  1 |  1
+ snd25  | Lists          | List Comprehensions  | 04/06/2020 23:24:29 |  1 |  1
+ snd25  | Sets           | Set Operations       | 04/06/2020 23:24:29 |  1 |  1
+ snd25  | Sorting        | Key/Lambda Functions | 04/06/2020 23:24:29 |  0 |  1
+ dmh75  | Lists          | List Comprehensions  | 04/06/2020 23:25:44 |  3 |  3
+ dmh75  | Sets           | Set Operations       | 04/06/2020 23:25:44 |  3 |  3
+ dmh75  | Sorting        | Key/Lambda Functions | 04/06/2020 23:25:44 |  4 |  4
+ snd25  | Dictionaries   | Items                | 04/06/2020 23:30:24 |  1 |  1
+ snd25  | Dictionaries   | Keys/Values          | 04/06/2020 23:30:24 |  0 |  1
+ snd25  | Lists          | List Comprehensions  | 04/06/2020 23:30:24 |  0 |  1
+ snd25  | Sets           | Set Operations       | 04/06/2020 23:30:24 |  0 |  1
+ snd25  | Sorting        | Key/Lambda Functions | 04/06/2020 23:30:24 |  1 |  1
+ snd25  | Dictionaries   | Items                | 04/06/2020 23:33:04 |  1 |  1
+ snd25  | Dictionaries   | Keys/Values          | 04/06/2020 23:33:04 |  1 |  1
+ snd25  | Lists          | List Comprehensions  | 04/06/2020 23:33:04 |  1 |  1
+ snd25  | Sets           | Set Operations       | 04/06/2020 23:33:04 |  0 |  1
+ snd25  | Sorting        | Key/Lambda Functions | 04/06/2020 23:33:04 |  1 |  1
+ snd25  | Dictionaries   | Items                | 04/06/2020 23:36:39 |  1 |  1
+ snd25  | Dictionaries   | Keys/Values          | 04/06/2020 23:36:39 |  1 |  1
+ snd25  | Lists          | List Comprehensions  | 04/06/2020 23:36:39 |  1 |  1
+ snd25  | Sets           | Set Operations       | 04/06/2020 23:36:39 |  1 |  1
+ snd25  | Sorting        | Key/Lambda Functions | 04/06/2020 23:36:39 |  0 |  1
+ seh68  | Dictionaries   | Items                | 04/07/2020 00:00:50 |  1 |  1
+ seh68  | Dictionaries   | Keys/Values          | 04/07/2020 00:00:50 |  1 |  1
+ seh68  | Lists          | List Comprehensions  | 04/07/2020 00:00:50 |  1 |  1
+ seh68  | Sets           | Set Operations       | 04/07/2020 00:00:50 |  1 |  1
+ seh68  | Sorting        | Key/Lambda Functions | 04/07/2020 00:00:50 |  1 |  1
+ seh68  | Dictionaries   | Items                | 04/07/2020 00:03:11 |  1 |  1
+ seh68  | Dictionaries   | Keys/Values          | 04/07/2020 00:03:11 |  1 |  1
+ seh68  | Lists          | List Comprehensions  | 04/07/2020 00:03:11 |  1 |  1
+ seh68  | Sets           | Set Operations       | 04/07/2020 00:03:11 |  1 |  1
+ seh68  | Sorting        | Key/Lambda Functions | 04/07/2020 00:03:11 |  1 |  1
+ hso3   | Lists          | Adding               | 04/07/2020 00:06:19 |  1 |  1
+ hso3   | Lists          | Appending            | 04/07/2020 00:06:19 |  1 |  1
+ hso3   | Lists          | Pointers             | 04/07/2020 00:06:19 |  1 |  1
+ hso3   | Sorting        | Key/Lambda Functions | 04/07/2020 00:06:19 |  1 |  1
+ hso3   | Tuples         | Appending            | 04/07/2020 00:06:19 |  1 |  1
+ hso3   | Tuples         | Reassignment         | 04/07/2020 00:06:19 |  1 |  1
+ hso3   | While Loops    | Return/Print         | 04/07/2020 00:06:19 |  1 |  1
+ hso3   | Lists          | Adding               | 04/07/2020 00:10:20 |  1 |  1
+ hso3   | Lists          | Appending            | 04/07/2020 00:10:20 |  1 |  1
+ hso3   | Lists          | Pointers             | 04/07/2020 00:10:20 |  1 |  1
+ hso3   | Sorting        | Key/Lambda Functions | 04/07/2020 00:10:20 |  1 |  1
+ hso3   | Tuples         | Appending            | 04/07/2020 00:10:20 |  1 |  1
+ hso3   | Tuples         | Reassignment         | 04/07/2020 00:10:20 |  1 |  1
+ hso3   | While Loops    | Return/Print         | 04/07/2020 00:10:20 |  1 |  1
+ hso3   | Lists          | Adding               | 04/07/2020 00:12:22 |  1 |  1
+ hso3   | Lists          | Appending            | 04/07/2020 00:12:22 |  1 |  1
+ hso3   | Lists          | Pointers             | 04/07/2020 00:12:22 |  1 |  1
+ hso3   | Sorting        | Key/Lambda Functions | 04/07/2020 00:12:22 |  1 |  1
+ hso3   | Tuples         | Appending            | 04/07/2020 00:12:22 |  1 |  1
+ hso3   | Tuples         | Reassignment         | 04/07/2020 00:12:22 |  1 |  1
+ hso3   | While Loops    | Return/Print         | 04/07/2020 00:12:22 |  1 |  1
+ hso3   | Lists          | Adding               | 04/07/2020 00:16:54 |  1 |  1
+ hso3   | Lists          | Appending            | 04/07/2020 00:16:54 |  1 |  1
+ hso3   | Lists          | Pointers             | 04/07/2020 00:16:54 |  1 |  1
+ hso3   | Sorting        | Key/Lambda Functions | 04/07/2020 00:16:54 |  1 |  1
+ hso3   | Tuples         | Appending            | 04/07/2020 00:16:54 |  1 |  1
+ hso3   | Tuples         | Reassignment         | 04/07/2020 00:16:54 |  1 |  1
+ hso3   | While Loops    | Return/Print         | 04/07/2020 00:16:54 |  1 |  1
+ ssc60  | Dictionaries   | Items                | 04/07/2020 01:02:10 |  1 |  1
+ ssc60  | Dictionaries   | Keys/Values          | 04/07/2020 01:02:10 |  1 |  1
+ ssc60  | Lists          | List Comprehensions  | 04/07/2020 01:02:10 |  1 |  1
+ ssc60  | Sets           | Set Operations       | 04/07/2020 01:02:10 |  1 |  1
+ ssc60  | Sorting        | Key/Lambda Functions | 04/07/2020 01:02:10 |  1 |  1
+ ssc60  | Tuples         | Appending            | 04/07/2020 01:02:10 |  1 |  1
+ ssc60  | Tuples         | Reassignment         | 04/07/2020 01:02:10 |  2 |  2
+ ssc60  | While Loops    | Return/Print         | 04/07/2020 01:02:10 |  2 |  2
+ ssc60  | Dictionaries   | Items                | 04/07/2020 01:13:59 |  0 |  1
+ ssc60  | Dictionaries   | Keys/Values          | 04/07/2020 01:13:59 |  1 |  1
+ ssc60  | Lists          | List Comprehensions  | 04/07/2020 01:13:59 |  1 |  1
+ ssc60  | Sets           | Set Operations       | 04/07/2020 01:13:59 |  1 |  1
+ ssc60  | Sorting        | Key/Lambda Functions | 04/07/2020 01:13:59 |  1 |  1
+ ssc60  | Tuples         | Appending            | 04/07/2020 01:13:59 |  1 |  1
+ ssc60  | Tuples         | Reassignment         | 04/07/2020 01:13:59 |  2 |  2
+ ssc60  | While Loops    | Return/Print         | 04/07/2020 01:13:59 |  2 |  2
+ snd25  | Dictionaries   | Items                | 04/07/2020 01:16:57 |  1 |  1
+ snd25  | Dictionaries   | Keys/Values          | 04/07/2020 01:16:57 |  1 |  1
+ snd25  | Lists          | List Comprehensions  | 04/07/2020 01:16:57 |  1 |  1
+ snd25  | Sets           | Set Operations       | 04/07/2020 01:16:57 |  1 |  1
+ snd25  | Sorting        | Key/Lambda Functions | 04/07/2020 01:16:57 |  1 |  1
+ snd25  | Dictionaries   | Items                | 04/07/2020 01:19:48 |  1 |  1
+ snd25  | Dictionaries   | Keys/Values          | 04/07/2020 01:19:48 |  1 |  1
+ snd25  | Lists          | List Comprehensions  | 04/07/2020 01:19:48 |  1 |  1
+ snd25  | Sets           | Set Operations       | 04/07/2020 01:19:48 |  1 |  1
+ snd25  | Sorting        | Key/Lambda Functions | 04/07/2020 01:19:48 |  0 |  1
+ mco23  | Dictionaries   | Items                | 04/07/2020 02:11:47 |  1 |  2
+ mco23  | Dictionaries   | Keys/Values          | 04/07/2020 02:11:47 |  2 |  2
+ mco23  | Lists          | List Comprehensions  | 04/07/2020 02:11:47 |  3 |  3
+ mco23  | Sets           | Set Operations       | 04/07/2020 02:11:47 |  2 |  3
+ dm387  | Dictionaries   | Items                | 04/07/2020 02:19:24 |  2 |  6
+ dm387  | Dictionaries   | Keys/Values          | 04/07/2020 02:19:24 |  6 |  6
+ dm387  | Lists          | List Comprehensions  | 04/07/2020 02:19:24 |  6 |  6
+ dm387  | Sets           | Set Operations       | 04/07/2020 02:19:24 |  5 |  6
+ dm387  | Sorting        | Key/Lambda Functions | 04/07/2020 02:19:24 |  3 |  6
+ jbb70  | Dictionaries   | Items                | 04/07/2020 02:23:31 |  3 |  3
+ jbb70  | Dictionaries   | Keys/Values          | 04/07/2020 02:23:31 |  3 |  3
+ jbb70  | Lists          | List Comprehensions  | 04/07/2020 02:23:31 |  3 |  3
+ jbb70  | Sets           | Set Operations       | 04/07/2020 02:23:31 |  3 |  3
+ jbb70  | Sorting        | Key/Lambda Functions | 04/07/2020 02:23:31 |  3 |  3
+ sf218  | Dictionaries   | Items                | 04/07/2020 02:52:45 |  4 |  4
+ sf218  | Dictionaries   | Keys/Values          | 04/07/2020 02:52:45 |  4 |  4
+ sf218  | Lists          | List Comprehensions  | 04/07/2020 02:52:45 |  4 |  4
+ sf218  | Sets           | Set Operations       | 04/07/2020 02:52:45 |  4 |  4
+ sf218  | Sorting        | Key/Lambda Functions | 04/07/2020 02:52:45 |  4 |  4
+ bmh58  | Dictionaries   | Items                | 04/07/2020 03:10:12 |  3 |  3
+ bmh58  | Dictionaries   | Items                | 04/07/2020 03:13:18 |  1 |  3
+ bmh58  | Dictionaries   | Items                | 04/07/2020 03:14:19 |  1 |  3
+ bmh58  | Dictionaries   | Items                | 04/07/2020 03:27:10 |  0 |  1
+ bmh58  | Dictionaries   | Items                | 04/07/2020 03:28:45 |  1 |  2
+ bmh58  | Dictionaries   | Keys/Values          | 04/07/2020 03:28:45 |  2 |  3
+ bmh58  | Dictionaries   | Items                | 04/07/2020 03:30:05 |  2 |  2
+ bmh58  | Dictionaries   | Keys/Values          | 04/07/2020 03:30:05 |  3 |  3
+ bmh58  | Dictionaries   | Items                | 04/07/2020 03:38:09 |  1 |  1
+ bmh58  | Dictionaries   | Keys/Values          | 04/07/2020 03:38:09 |  1 |  1
+ bmh58  | Lists          | List Comprehensions  | 04/07/2020 03:38:09 |  1 |  1
+ bmh58  | Sets           | Set Operations       | 04/07/2020 03:38:09 |  0 |  1
+ bmh58  | Sorting        | Key/Lambda Functions | 04/07/2020 03:38:09 |  0 |  1
+ bmh58  | Dictionaries   | Items                | 04/07/2020 03:44:45 |  1 |  1
+ bmh58  | Dictionaries   | Keys/Values          | 04/07/2020 03:44:45 |  0 |  1
+ bmh58  | Lists          | List Comprehensions  | 04/07/2020 03:44:45 |  1 |  1
+ bmh58  | Sets           | Set Operations       | 04/07/2020 03:44:45 |  1 |  1
+ bmh58  | Sorting        | Key/Lambda Functions | 04/07/2020 03:44:45 |  1 |  1
+ bmh58  | Dictionaries   | Items                | 04/07/2020 03:46:51 |  1 |  1
+ bmh58  | Dictionaries   | Keys/Values          | 04/07/2020 03:46:51 |  1 |  1
+ bmh58  | Lists          | List Comprehensions  | 04/07/2020 03:46:51 |  1 |  1
+ bmh58  | Sets           | Set Operations       | 04/07/2020 03:46:51 |  1 |  1
+ bmh58  | Sorting        | Key/Lambda Functions | 04/07/2020 03:46:51 |  1 |  1
+ mas235 | Dictionaries   | Items                | 04/07/2020 03:49:27 |  2 |  4
+ mas235 | Dictionaries   | Keys/Values          | 04/07/2020 03:49:27 |  4 |  4
+ mas235 | Lists          | List Comprehensions  | 04/07/2020 03:49:27 |  3 |  4
+ mas235 | Sets           | Set Operations       | 04/07/2020 03:49:27 |  2 |  4
+ mas235 | Sorting        | Key/Lambda Functions | 04/07/2020 03:49:27 |  4 |  4
+ yl554  | Dictionaries   | Items                | 04/07/2020 03:56:04 |  1 |  2
+ yl554  | Dictionaries   | Keys/Values          | 04/07/2020 03:56:04 |  1 |  2
+ yl554  | Lists          | List Comprehensions  | 04/07/2020 03:56:04 |  3 |  3
+ yl554  | Sets           | Set Operations       | 04/07/2020 03:56:04 |  3 |  3
+ tjg29  | Dictionaries   | Items                | 04/07/2020 04:00:46 |  2 |  2
+ tjg29  | Dictionaries   | Keys/Values          | 04/07/2020 04:00:46 |  2 |  2
+ tjg29  | Lists          | List Comprehensions  | 04/07/2020 04:00:46 |  2 |  2
+ tjg29  | Sets           | Set Operations       | 04/07/2020 04:00:46 |  1 |  2
+ tjg29  | Sorting        | Key/Lambda Functions | 04/07/2020 04:00:46 |  2 |  2
+ tjg29  | Dictionaries   | Items                | 04/07/2020 04:05:26 |  2 |  2
+ tjg29  | Dictionaries   | Keys/Values          | 04/07/2020 04:05:26 |  2 |  2
+ tjg29  | Lists          | List Comprehensions  | 04/07/2020 04:05:26 |  2 |  2
+ tjg29  | Sets           | Set Operations       | 04/07/2020 04:05:26 |  2 |  2
+ tjg29  | Sorting        | Key/Lambda Functions | 04/07/2020 04:05:26 |  2 |  2
+ hz190  | Dictionaries   | Items                | 04/07/2020 04:07:07 |  8 | 10
+ hz190  | Tuples         | Appending            | 04/07/2020 04:24:29 | 10 | 10
+ hz190  | Tuples         | Reassignment         | 04/07/2020 04:29:24 |  5 |  5
+ su45   | Dictionaries   | Items                | 04/07/2020 06:52:23 |  4 |  5
+ su45   | Dictionaries   | Items                | 04/07/2020 06:55:41 |  3 |  5
+ su45   | Dictionaries   | Items                | 04/07/2020 06:58:38 |  4 |  5
+ su45   | Dictionaries   | Items                | 04/07/2020 07:00:43 |  5 |  5
+ su45   | Dictionaries   | Keys/Values          | 04/07/2020 07:05:39 |  4 |  5
+ su45   | Lists          | List Comprehensions  | 04/07/2020 07:08:18 |  5 |  5
+ su45   | Sets           | Set Operations       | 04/07/2020 07:09:51 |  5 |  5
+ su45   | Sorting        | Key/Lambda Functions | 04/07/2020 07:12:01 |  5 |  5
+ hz190  | While Loops    | Return/Print         | 04/07/2020 07:44:15 |  5 |  5
+ hz190  | Lists          | List Comprehensions  | 04/07/2020 07:51:39 |  5 |  5
+ hz190  | Sets           | Set Operations       | 04/07/2020 07:51:39 |  5 |  5
+ hz190  | Sorting        | Key/Lambda Functions | 04/07/2020 07:51:39 |  5 |  5
+ ndb24  | Dictionaries   | Items                | 04/07/2020 10:22:48 |  1 |  1
+ ndb24  | Dictionaries   | Keys/Values          | 04/07/2020 10:22:48 |  1 |  1
+ ndb24  | Lists          | Adding               | 04/07/2020 10:22:48 |  1 |  1
+ ndb24  | Lists          | Appending            | 04/07/2020 10:22:48 |  0 |  1
+ ndb24  | Lists          | List Comprehensions  | 04/07/2020 10:22:48 |  1 |  1
+ ndb24  | Lists          | Pointers             | 04/07/2020 10:22:48 |  1 |  1
+ ndb24  | Sets           | Set Operations       | 04/07/2020 10:22:48 |  1 |  1
+ ndb24  | Tuples         | Appending            | 04/07/2020 10:22:48 |  1 |  1
+ ndb24  | Tuples         | Reassignment         | 04/07/2020 10:22:48 |  0 |  1
+ ndb24  | While Loops    | Return/Print         | 04/07/2020 10:22:48 |  1 |  1
+ ndb24  | Dictionaries   | Items                | 04/07/2020 10:34:46 |  0 |  1
+ ndb24  | Dictionaries   | Keys/Values          | 04/07/2020 10:34:46 |  1 |  1
+ ndb24  | Lists          | List Comprehensions  | 04/07/2020 10:34:46 |  2 |  2
+ ndb24  | Sets           | Set Operations       | 04/07/2020 10:34:46 |  2 |  2
+ ndb24  | Strings        | Join                 | 04/07/2020 10:34:46 |  0 |  2
+ ndb24  | Strings        | Split                | 04/07/2020 10:34:46 |  2 |  2
+ ndb24  | Tuples         | Appending            | 04/07/2020 10:34:46 |  2 |  2
+ ndb24  | While Loops    | Return/Print         | 04/07/2020 10:34:46 |  2 |  2
+ hso3   | Math operators | Floor Division       | 04/07/2020 14:26:11 |  1 |  1
+ hso3   | Math operators | Mod                  | 04/07/2020 14:26:11 |  1 |  1
+ hso3   | Strings        | Concatenation        | 04/07/2020 14:26:11 |  1 |  1
+ hso3   | Strings        | Find                 | 04/07/2020 14:26:11 |  1 |  1
+ hso3   | Strings        | Index/Slice          | 04/07/2020 14:26:11 |  1 |  1
+ hso3   | Strings        | Join                 | 04/07/2020 14:26:11 |  1 |  1
+ hso3   | Strings        | Split                | 04/07/2020 14:26:11 |  1 |  1
+ hso3   | Tuples         | Appending            | 04/07/2020 14:26:11 |  1 |  1
+ hso3   | Tuples         | Reassignment         | 04/07/2020 14:26:11 |  1 |  1
+ hso3   | While Loops    | Return/Print         | 04/07/2020 14:26:11 |  1 |  1
+ hso3   | Math operators | Floor Division       | 04/07/2020 14:28:05 |  1 |  1
+ hso3   | Math operators | Mod                  | 04/07/2020 14:28:05 |  1 |  1
+ hso3   | Strings        | Concatenation        | 04/07/2020 14:28:05 |  1 |  1
+ hso3   | Strings        | Find                 | 04/07/2020 14:28:05 |  1 |  1
+ hso3   | Strings        | Index/Slice          | 04/07/2020 14:28:05 |  1 |  1
+ hso3   | Strings        | Join                 | 04/07/2020 14:28:05 |  1 |  1
+ hso3   | Strings        | Split                | 04/07/2020 14:28:05 |  1 |  1
+ hso3   | Tuples         | Appending            | 04/07/2020 14:28:05 |  1 |  1
+ hso3   | Tuples         | Reassignment         | 04/07/2020 14:28:05 |  0 |  1
+ hso3   | While Loops    | Return/Print         | 04/07/2020 14:28:05 |  1 |  1
+ pb166  | Dictionaries   | Items                | 04/07/2020 14:28:13 |  1 |  1
+ pb166  | Dictionaries   | Keys/Values          | 04/07/2020 14:28:13 |  1 |  1
+ pb166  | Lists          | List Comprehensions  | 04/07/2020 14:28:13 |  1 |  1
+ pb166  | Sets           | Set Operations       | 04/07/2020 14:28:13 |  1 |  2
+ hso3   | Math operators | Floor Division       | 04/07/2020 14:33:26 |  1 |  1
+ hso3   | Math operators | Mod                  | 04/07/2020 14:33:26 |  1 |  1
+ hso3   | Strings        | Concatenation        | 04/07/2020 14:33:26 |  1 |  1
+ hso3   | Strings        | Find                 | 04/07/2020 14:33:26 |  1 |  1
+ hso3   | Strings        | Index/Slice          | 04/07/2020 14:33:26 |  1 |  1
+ hso3   | Strings        | Join                 | 04/07/2020 14:33:26 |  1 |  1
+ hso3   | Strings        | Split                | 04/07/2020 14:33:26 |  1 |  1
+ hso3   | Tuples         | Appending            | 04/07/2020 14:33:26 |  1 |  1
+ hso3   | Tuples         | Reassignment         | 04/07/2020 14:33:26 |  1 |  1
+ hso3   | While Loops    | Return/Print         | 04/07/2020 14:33:26 |  1 |  1
+ hso3   | Math operators | Floor Division       | 04/07/2020 14:39:27 |  1 |  1
+ hso3   | Math operators | Mod                  | 04/07/2020 14:39:27 |  1 |  1
+ hso3   | Strings        | Concatenation        | 04/07/2020 14:39:27 |  1 |  1
+ hso3   | Strings        | Find                 | 04/07/2020 14:39:27 |  1 |  1
+ hso3   | Strings        | Index/Slice          | 04/07/2020 14:39:27 |  1 |  1
+ hso3   | Strings        | Join                 | 04/07/2020 14:39:27 |  0 |  1
+ hso3   | Strings        | Split                | 04/07/2020 14:39:27 |  1 |  1
+ hso3   | Tuples         | Appending            | 04/07/2020 14:39:27 |  1 |  1
+ hso3   | Tuples         | Reassignment         | 04/07/2020 14:39:27 |  1 |  1
+ hso3   | While Loops    | Return/Print         | 04/07/2020 14:39:27 |  0 |  1
+ orp    | Dictionaries   | Items                | 04/07/2020 15:19:43 |  3 |  3
+ orp    | Dictionaries   | Keys/Values          | 04/07/2020 15:19:43 |  1 |  3
+ orp    | Lists          | List Comprehensions  | 04/07/2020 15:19:43 |  4 |  4
+ orp    | Sets           | Set Operations       | 04/07/2020 15:19:43 |  1 |  4
+ orp    | Sorting        | Key/Lambda Functions | 04/07/2020 15:19:43 |  4 |  4
+ orp    | Tuples         | Appending            | 04/07/2020 15:19:43 |  4 |  4
+ orp    | Tuples         | Reassignment         | 04/07/2020 15:19:43 |  2 |  4
+ orp    | While Loops    | Return/Print         | 04/07/2020 15:19:43 |  4 |  4
+ orp    | Lists          | List Comprehensions  | 04/07/2020 15:26:21 |  2 |  2
+ orp    | Sets           | Set Operations       | 04/07/2020 15:26:21 |  2 |  2
+ orp    | Tuples         | Appending            | 04/07/2020 15:26:21 |  3 |  3
+ orp    | Tuples         | Reassignment         | 04/07/2020 15:26:21 |  3 |  3
+ orp    | Sets           | Set Operations       | 04/07/2020 15:30:00 |  9 | 10
+ feh7   | Dictionaries   | Keys/Values          | 04/07/2020 16:19:52 |  4 |  5
+ sdp47  | Dictionaries   | Items                | 04/07/2020 21:00:41 |  1 |  3
+ sdp47  | Dictionaries   | Keys/Values          | 04/07/2020 21:00:41 |  3 |  4
+ sdp47  | Lists          | List Comprehensions  | 04/07/2020 21:00:41 |  4 |  4
+ sdp47  | Sets           | Set Operations       | 04/07/2020 21:00:41 |  3 |  4
+ ia66   | Dictionaries   | Items                | 04/07/2020 22:17:33 |  3 |  3
+ ia66   | Dictionaries   | Keys/Values          | 04/07/2020 22:17:33 |  3 |  3
+ ia66   | Lists          | List Comprehensions  | 04/07/2020 22:17:33 |  2 |  3
+ ia66   | Sets           | Set Operations       | 04/07/2020 22:17:33 |  3 |  3
+ ia66   | Sorting        | Key/Lambda Functions | 04/07/2020 22:17:33 |  0 |  3
+ gbg8   | Tuples         | Appending            | 04/08/2020 01:05:03 |  3 |  5
+ gbg8   | Tuples         | Reassignment         | 04/08/2020 01:05:54 |  2 |  5
+ gbg8   | While Loops    | Return/Print         | 04/08/2020 01:07:13 |  2 |  2
+ gbg8   | While Loops    | Return/Print         | 04/08/2020 01:07:25 |  3 |  3
+ gbg8   | Dictionaries   | Items                | 04/08/2020 01:12:41 |  3 |  5
+ gbg8   | Dictionaries   | Keys/Values          | 04/08/2020 01:14:29 |  4 |  5
+ gbg8   | Lists          | List Comprehensions  | 04/08/2020 01:20:22 |  5 |  5
+ gbg8   | Sets           | Set Operations       | 04/08/2020 01:21:52 |  2 |  5
+ gbg8   | Sorting        | Key/Lambda Functions | 04/08/2020 01:24:25 |  5 |  5
+ akn21  | Sets           | Set Operations       | 04/08/2020 04:01:39 |  1 |  7
+ akn21  | Sets           | Set Operations       | 04/08/2020 04:05:12 |  6 |  7
+ jtr43  | Dictionaries   | Items                | 04/08/2020 07:48:32 |  1 |  1
+ jtr43  | Dictionaries   | Keys/Values          | 04/08/2020 07:48:32 |  1 |  1
+ jtr43  | Lists          | List Comprehensions  | 04/08/2020 07:48:32 |  1 |  1
+ jtr43  | Sets           | Set Operations       | 04/08/2020 07:48:32 |  1 |  1
+ jtr43  | Sorting        | Key/Lambda Functions | 04/08/2020 07:48:32 |  1 |  1
+ jtr43  | Dictionaries   | Items                | 04/08/2020 07:51:42 |  1 |  1
+ jtr43  | Dictionaries   | Keys/Values          | 04/08/2020 07:51:42 |  1 |  1
+ jtr43  | Lists          | List Comprehensions  | 04/08/2020 07:51:42 |  1 |  1
+ jtr43  | Sets           | Set Operations       | 04/08/2020 07:51:42 |  1 |  1
+ jtr43  | Sorting        | Key/Lambda Functions | 04/08/2020 07:51:42 |  1 |  1
+ su45   | Dictionaries   | Items                | 04/08/2020 11:42:48 |  4 |  5
+ akn21  | Sets           | Set Operations       | 04/08/2020 15:15:01 |  5 |  7
+ akn21  | Lists          | List Comprehensions  | 04/08/2020 15:24:19 |  3 |  4
+ akn21  | Lists          | List Comprehensions  | 04/08/2020 15:27:13 |  5 |  5
+ lal62  | Dictionaries   | Items                | 04/08/2020 16:31:15 |  4 |  5
+ lal62  | Dictionaries   | Keys/Values          | 04/08/2020 16:32:43 |  5 |  5
+ lal62  | Lists          | List Comprehensions  | 04/08/2020 16:35:05 |  5 |  5
+ lal62  | Dictionaries   | Items                | 04/08/2020 16:36:54 |  5 |  5
+ lal62  | Dictionaries   | Keys/Values          | 04/08/2020 16:38:04 |  5 |  5
+ lal62  | Lists          | List Comprehensions  | 04/08/2020 16:40:21 |  5 |  5
+ lal62  | Lists          | Pointers             | 04/08/2020 16:52:52 |  4 |  5
+ lal62  | Lists          | Pointers             | 04/08/2020 16:56:24 |  5 |  5
+ lal62  | Strings        | Concatenation        | 04/08/2020 16:57:35 |  5 |  5
+ lal62  | Strings        | Find                 | 04/08/2020 16:58:16 |  3 |  5
+ lal62  | Strings        | Index/Slice          | 04/08/2020 16:59:57 |  5 |  5
+ lal62  | Strings        | Join                 | 04/08/2020 17:02:23 |  5 |  5
+ lal62  | Strings        | Split                | 04/08/2020 17:03:48 |  5 |  5
+ lal62  | Tuples         | Appending            | 04/08/2020 17:04:56 |  5 |  5
+ lal62  | Tuples         | Reassignment         | 04/08/2020 17:06:34 |  3 |  5
+ lal62  | Tuples         | Reassignment         | 04/08/2020 17:07:29 |  4 |  5
+ lal62  | Tuples         | Reassignment         | 04/08/2020 17:08:20 |  3 |  5
+ lal62  | Tuples         | Reassignment         | 04/08/2020 17:10:35 |  5 |  5
+ lal62  | Tuples         | Reassignment         | 04/08/2020 17:11:08 |  4 |  5
+ lal62  | Tuples         | Reassignment         | 04/08/2020 17:11:50 |  5 |  5
+ lal62  | Tuples         | Reassignment         | 04/08/2020 17:12:28 |  5 |  5
+ lal62  | Strings        | Join                 | 04/08/2020 17:13:56 |  3 |  5
+ lal62  | Strings        | Join                 | 04/08/2020 17:14:57 |  5 |  5
+ lal62  | Strings        | Join                 | 04/08/2020 17:15:24 |  5 |  5
+ lal62  | Strings        | Join                 | 04/08/2020 17:15:53 |  5 |  5
+ lal62  | Strings        | Split                | 04/08/2020 17:18:15 |  5 |  5
+ lal62  | Strings        | Split                | 04/08/2020 17:18:57 |  5 |  5
+ lal62  | Strings        | Split                | 04/08/2020 17:19:48 |  5 |  5
+ lal62  | Sets           | Set Operations       | 04/08/2020 17:24:43 |  4 |  5
+ lal62  | Sets           | Set Operations       | 04/08/2020 17:28:27 |  4 |  5
+ lal62  | Sets           | Set Operations       | 04/08/2020 17:29:38 |  4 |  5
+ lal62  | Sets           | Set Operations       | 04/08/2020 17:30:55 |  3 |  5
+ lal62  | Sets           | Set Operations       | 04/08/2020 17:32:34 |  4 |  5
+ lal62  | Sets           | Set Operations       | 04/08/2020 17:34:35 |  5 |  5
+ lal62  | Sets           | Set Operations       | 04/08/2020 17:35:45 |  5 |  5
+ lal62  | Sets           | Set Operations       | 04/08/2020 17:36:28 |  4 |  5
+ lal62  | While Loops    | Return/Print         | 04/08/2020 17:38:36 |  1 |  5
+ lal62  | While Loops    | Return/Print         | 04/08/2020 17:42:29 |  3 |  5
+ lal62  | While Loops    | Return/Print         | 04/08/2020 17:43:19 |  4 |  5
+ lal62  | While Loops    | Return/Print         | 04/08/2020 17:50:27 |  5 |  5
+ lal62  | While Loops    | Return/Print         | 04/08/2020 17:51:10 |  4 |  5
+ lal62  | Dictionaries   | Items                | 04/08/2020 17:56:08 |  2 |  2
+ lal62  | Dictionaries   | Keys/Values          | 04/08/2020 17:56:08 |  1 |  2
+ lal62  | Lists          | List Comprehensions  | 04/08/2020 17:56:08 |  2 |  2
+ lal62  | Lists          | Pointers             | 04/08/2020 17:56:08 |  2 |  2
+ lal62  | Strings        | Join                 | 04/08/2020 17:56:08 |  2 |  2
+ lal62  | Strings        | Split                | 04/08/2020 17:56:08 |  2 |  2
+ lal62  | Tuples         | Appending            | 04/08/2020 17:56:08 |  2 |  2
+ lal62  | Tuples         | Reassignment         | 04/08/2020 17:56:08 |  2 |  2
+ lal62  | While Loops    | Return/Print         | 04/08/2020 17:56:08 |  2 |  2
+ lal62  | Dictionaries   | Items                | 04/08/2020 17:59:47 |  2 |  2
+ lal62  | Dictionaries   | Keys/Values          | 04/08/2020 17:59:47 |  2 |  2
+ lal62  | Lists          | List Comprehensions  | 04/08/2020 17:59:47 |  2 |  2
+ lal62  | Lists          | Pointers             | 04/08/2020 17:59:47 |  2 |  2
+ lal62  | Strings        | Join                 | 04/08/2020 17:59:47 |  2 |  2
+ lal62  | Strings        | Split                | 04/08/2020 17:59:47 |  2 |  2
+ lal62  | Tuples         | Appending            | 04/08/2020 17:59:47 |  2 |  2
+ lal62  | Tuples         | Reassignment         | 04/08/2020 17:59:47 |  2 |  2
+ lal62  | While Loops    | Return/Print         | 04/08/2020 17:59:47 |  2 |  2
+ fpd5   | Dictionaries   | Items                | 04/08/2020 18:32:08 |  1 |  2
+ fpd5   | Dictionaries   | Keys/Values          | 04/08/2020 18:32:08 |  2 |  3
+ fpd5   | Lists          | List Comprehensions  | 04/08/2020 19:20:32 |  2 |  2
+ fpd5   | Sets           | Set Operations       | 04/08/2020 19:20:32 |  2 |  3
+ fpd5   | Lists          | Adding               | 04/08/2020 19:23:07 |  3 |  3
+ fpd5   | Sorting        | Key/Lambda Functions | 04/08/2020 19:23:07 |  2 |  2
+ leo12  | Dictionaries   | Items                | 04/08/2020 20:18:48 |  5 |  5
+ leo12  | Dictionaries   | Keys/Values          | 04/08/2020 20:18:48 |  5 |  5
+ leo12  | Lists          | List Comprehensions  | 04/08/2020 20:23:55 |  9 | 10
+ leo12  | Sets           | Set Operations       | 04/08/2020 20:26:12 |  6 |  6
+ leo12  | Sorting        | Key/Lambda Functions | 04/08/2020 20:30:11 |  8 |  9
