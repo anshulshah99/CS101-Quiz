@@ -12,7 +12,7 @@
         {% autoescape false %}
             <li style= 'font-family:Courier New;'> {{i}}</li>
         {% endautoescape %}
-        <p>Your response: <u>{% autoescape false %}{{a[i]}}{% endautoescape %}</u><br><br>Correct response: <u>{% autoescape false %}{{c[i]}}{% endautoescape %}</u><br><br>You are <b><u>{{o[i]}}</u></b></p>
+        <p>Your response: <u>{% autoescape false %}{{q[i]}}{% endautoescape %}</u><br><br>Correct response: <u>{% autoescape false %}{{c[i]}}{% endautoescape %}</u><br><br>You are <b><u>{{o[i]}}</u></b></p>
             <br>
         {% endfor %}
     </ol>
@@ -21,6 +21,6 @@
 
 </form>
 <br>
-<p>Click <a href="{{ url_for('analyze_student') }}"> here</a> to analyze your own statistics!</p>
+<p>Click <a href="{{ url_for('analyze_self') }}"> here</a> to analyze your own statistics!</p>
 <br>
 <p>We would really appreciate any feedback you have on this study tool. Click <a href="https://docs.google.com/forms/d/e/1FAIpQLSd2Zfaya2YsaVcsnho9XXyIRKBO_WPe3SlArgKv28iKeLjtZw/viewform?usp=sf_link">here</a> to submit an optional feedback survey about your experience using this website.</p>

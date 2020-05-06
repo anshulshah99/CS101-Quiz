@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="298223d7-52a5-4def-8f75-60dba2a2d9ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Data Analysis/Data_Analysis.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Data_Analysis-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/Data_Analysis-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analyze.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis/Analyze.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BooleanQuestions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Question Generation/BooleanQuestions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Analysis.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DictionaryQuestions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Question Generation/DictionaryQuestions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenerateQuestions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Question Generation/GenerateQuestions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lists.py" beforeDir="false" afterPath="$PROJECT_DIR$/Question Generation/Lists.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MathOperators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Question Generation/MathOperators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StringQuestions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Question Generation/StringQuestions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strings-Yesenia.py" beforeDir="false" afterPath="$PROJECT_DIR$/Question Generation/Strings-Yesenia.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Question Generation/Strings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tuples.py" beforeDir="false" afterPath="$PROJECT_DIR$/Question Generation/Tuples.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/outdated_version.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dictionaries.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Question Uploads/dictionaries.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jacobs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Question Generation/jacobs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lists.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Question Uploads/lists.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lowerwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Question Generation/lowerwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/math.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Question Uploads/math.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pointers.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Question Uploads/pointers.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rolling_algorithm.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Data Analysis/rolling_algorithm.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Question Uploads/strings.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuples.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Question Uploads/tuples.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/while_loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/Question Generation/while_loops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/while_loops.sql" beforeDir="false" afterPath="$PROJECT_DIR$/Question Uploads/while_loops.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/concept.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/concept.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/results.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +16,7 @@
     <session id="1250644129">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -55,20 +28,20 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="6" />
+          <entry key="html" value="11" />
           <entry key="md" value="1" />
-          <entry key="py" value="22" />
+          <entry key="py" value="23" />
           <entry key="sql" value="8" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="6" />
+          <entry key="HTML" value="11" />
           <entry key="Markdown" value="1" />
           <entry key="OdpsQL" value="5" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="22" />
+          <entry key="Python" value="23" />
           <entry key="Scratch" value="5" />
         </counts>
       </usages-collector>
@@ -76,18 +49,18 @@
         <counts>
           <entry key="Python Console" value="480" />
           <entry key="dummy" value="16" />
-          <entry key="html" value="623" />
-          <entry key="py" value="11755" />
+          <entry key="html" value="632" />
+          <entry key="py" value="14710" />
           <entry key="sql" value="515" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="623" />
+          <entry key="HTML" value="632" />
           <entry key="OdpsQL" value="2" />
           <entry key="PLAIN_TEXT" value="21" />
-          <entry key="Python" value="12235" />
+          <entry key="Python" value="15190" />
           <entry key="Scratch" value="513" />
         </counts>
       </usages-collector>
@@ -95,99 +68,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/outdated_version.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/create.sql">
-          <provider selected="true" editor-type-id="OdpsQlEditor" />
-          <provider editor-type-id="OdpsQlGraph" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="30">
-                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/sql_commands.sql">
-          <provider selected="true" editor-type-id="OdpsQlEditor">
-            <state relative-caret-position="750">
-              <caret line="50" column="55" selection-start-line="50" selection-start-column="55" selection-end-line="50" selection-end-column="55" />
-            </state>
-          </provider>
-          <provider editor-type-id="OdpsQlGraph" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/analyze_student.html">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data Analysis/Analyze.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            <state relative-caret-position="389">
+              <caret line="372" column="41" lean-forward="true" selection-start-line="372" selection-start-column="41" selection-end-line="372" selection-end-column="41" />
               <folding>
-                <marker date="1585874441074" expanded="true" signature="283:528" ph="..." />
-                <marker date="1585874441074" expanded="true" signature="526:528" ph="..." />
+                <element signature="e#0#93#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Question Generation/DictionaryQuestions.py">
+        <entry file="file://$PROJECT_DIR$/templates/analyze.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="73" column="81" selection-start-line="73" selection-start-column="81" selection-end-line="73" selection-end-column="81" />
-              <folding>
-                <element signature="e#66#79#0" expanded="true" />
-                <marker date="1586031804259" expanded="true" signature="14108:14537" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Question Uploads/dictionaries.sql">
-          <provider selected="true" editor-type-id="OdpsQlEditor">
-            <state relative-caret-position="1425">
-              <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
-            </state>
-          </provider>
-          <provider editor-type-id="OdpsQlGraph" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Question Generation/MathOperators.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Question Generation/Lists.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="86" column="4" selection-start-line="86" selection-start-column="4" selection-end-line="86" selection-end-column="36" />
-            </state>
+            <state relative-caret-position="-44" />
           </provider>
         </entry>
       </file>
@@ -207,6 +103,8 @@
       <find>'14',</find>
       <find>list(d.items</find>
       <find>|    |</find>
+      <find>session['st</find>
+      <find>analyze</find>
     </findStrings>
     <replaceStrings>
       <replace>| 0 |</replace>
@@ -229,20 +127,20 @@
         <option value="$PROJECT_DIR$/rolling_algorithm.txt" />
         <option value="$PROJECT_DIR$/while_loops.py" />
         <option value="$PROJECT_DIR$/while_loops.sql" />
-        <option value="$PROJECT_DIR$/templates/results.html" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/sql_commands.sql" />
         <option value="$PROJECT_DIR$/Analyze.py" />
         <option value="$PROJECT_DIR$/Colors.py" />
         <option value="$PROJECT_DIR$/dictionaries.sql" />
         <option value="$PROJECT_DIR$/DictionaryQuestions.py" />
         <option value="$PROJECT_DIR$/templates/analyze_student.html" />
-        <option value="$PROJECT_DIR$/templates/concept.html" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/data.txt" />
+        <option value="$PROJECT_DIR$/templates/concept.html" />
+        <option value="$PROJECT_DIR$/templates/results.html" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="972" />
@@ -259,6 +157,11 @@
             <path>
               <item name="CS101-Quiz" type="b2602c69:ProjectViewProjectNode" />
               <item name="CS101-Quiz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CS101-Quiz" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CS101-Quiz" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CS101-Quiz" type="b2602c69:ProjectViewProjectNode" />
@@ -447,10 +350,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="972" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="970" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Project Explorer" order="2" weight="0.32971668" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -468,7 +371,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.33029613" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -539,30 +442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1185">
           <caret line="79" column="48" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/concept.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/results.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="34" column="84" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
-          <folding>
-            <element signature="e#0#93#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -670,6 +549,40 @@
             <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/concept.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="41" column="59" selection-start-line="41" selection-start-column="59" selection-end-line="41" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/quiz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1079" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/results.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/analyze.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="372" column="41" lean-forward="true" selection-start-line="372" selection-start-column="41" selection-end-line="372" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#93#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

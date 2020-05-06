@@ -22,8 +22,11 @@ cur = con.cursor()
 
 @app.route('/', methods = ["GET", "POST"])
 def concept():
-    email = flask.request.environ['REMOTE_USER']
-    uname = flask.request.environ['displayName']
+    """
+    This function sends the data to the concept.html file that displays all the options for students to choose from.
+    :return: exam2 = the list of concept-function pairs for midterm 2 content
+    exam1 = equivalent list for midterm 1 content
+    """
     uid = flask.request.environ['uid']
     session["uid"] = uid
     cur.execute("""SELECT netid FROM students;""")
@@ -52,6 +55,12 @@ def concept():
 
 @app.route('/quiz', methods = ["GET", "POST"])
 def quiz():
+    """
+    Randomly samples n total questions based on the input on the CONCEPT page and displays for the user
+    :return: q = a list of only the text of each question to be presented
+    o = a dictionary where each key corresponds to an element in list q, and each key is a list with answer choices, the correct answer, and the question id for a given key
+
+    """
     if request.method == "GET":
         types = session["question_type"]
         number = int(session["number_questions"])
@@ -104,6 +113,15 @@ def quiz():
 
 @app.route('/results', methods=["GET", 'POST'])
 def quiz_answers():
+    """
+    Corresponds to results.html, displays immediate feedback for the student after submitting a quiz
+    Displays question, answer chosen, and the correct answer
+
+
+    :return: q = a dictionary where the keys are questions and the answer choice a user has selected
+    c = a dictionary where the question is a key and the values are the correct answers
+    o = a dictionary where the question is a key and the values are whether or not the user was correct
+    """
     answers = OrderedDict()
     res = session["responses"]
     responses = OrderedDict()
@@ -123,10 +141,14 @@ def quiz_answers():
             return redirect(url_for("concept"))
         if 'stay' in next_dict.keys():
             return redirect(url_for("quiz", question_type = session["question_type"]))
-    return render_template('results.html', q = responses, c = answers, o = correctness, a = responses)
+    return render_template('results.html', q = responses, c = answers, o = correctness)
 
 @app.route('/instructor', methods=["GET", 'POST'])
 def instructor():
+    """
+    On the instructor page, the use can select to either add questions or analyze data; this function corresponds to that page
+    :return: Just the instructor.html page, no additional variables
+    """
     if request.method == "POST":
         next_dict = dict(request.form)
         if 'data' in next_dict.keys():
@@ -137,6 +159,14 @@ def instructor():
 
 @app.route('/analyze', methods=["GET", 'POST'])
 def analyze():
+    """
+    Sends basic descriptive data to the analyze.html template
+
+    :return: total is the total number of questions answered
+    counts is a list of tuples with the (concept-function) as one entry and the number of questions answered as the second entry
+    studs is the number of students who have used the site
+    (ALL DATA IS FORM SPRING 20 SEMESTER)
+    """
     cur.execute("""SELECT count(*) FROM responses WHERE semester = 'Spring 20';""")
     total = cur.fetchall()
     cur.execute("""SELECT count(distinct netid) FROM responses WHERE semester = 'Spring 20';""")
@@ -154,6 +184,11 @@ def analyze():
 
 @app.route('/lab', methods=["GET", 'POST'])
 def select_lab():
+    """
+    Selecting the lab section to analyze
+    :return: labs is a list of all the labs to choose from
+    concepts is the possible concepts to analyze
+    """
     options = ["Section " + str(i) for i in range(1, 13)]
     options.append("All")
     cur.execute("""Select Distinct(concept) FROM questions""")
@@ -169,6 +204,10 @@ def select_lab():
 
 @app.route('/analyze_lab', methods=["GET", 'POST'])
 def analyze_lab():
+    """
+    FUNCTION NOT WORKING IN CURRENT ITERATION OF APP
+    :return:
+    """
     cur.execute("""SELECT total_num.lab_section, total_num.concept, correct_num.total_correct, total_num.total_responses
     FROM
     /*total correct responses for a concept by lab section */
@@ -204,6 +243,11 @@ def analyze_lab():
 
 @app.route('/select_student', methods=["GET", 'POST'])
 def select_student():
+    """
+    Corresponds to select_student.html
+    Allows instructor to input student to analyze
+    :return:
+    """
     if request.method == "POST":
         student = dict(request.form)
         session["student"] = student['netid']
@@ -211,10 +255,18 @@ def select_student():
     return render_template("select_student.html")
 
 def rolling_avg(alpha, data):
+    """
+    Function to compute the 'mastery' level for a student given a number of quizzes for a specific concept-function pair
+    :param alpha: the alpha value to use (formula is (1-alpha) * first n-1 quizzes score + (alpha) * nth quiz score)
+    :param data: the past quizzes in chronological order of a students quizzes
+    :return: the mastery level
+    """
     if len(data) == 1:
         q_answered = sum([each[4] for each in data])
         if q_answered < 5:
             return (f"Too few answers ({q_answered})")
+        if data[0][3] is None:
+            return 0
         return data[0][3]/data[0][4]
     for i in range(len(data)):
         data[i] = list(data[i])
@@ -229,6 +281,12 @@ def rolling_avg(alpha, data):
 
 @app.route('/analyze_student', methods=["GET", 'POST'])
 def analyze_student():
+    """
+    Computes the mastery score for each concept for a certain student
+    Displays in a table
+    :return: nid is the netid for a student
+    student is the items of displayD, which shows the concept-function pairs along with their respective mastery scores
+    """
     student_netid = session['student']
     if type(student_netid) != str:
         student_netid = session['student'][0]
@@ -248,9 +306,14 @@ def analyze_student():
 
 @app.route('/analyze_self', methods=["GET", 'POST'])
 def analyze_self():
+    """
+    SAME AS analyze_student()
+    Only used as a different function because this function is linked through a student analyzing themselves, whereas the previous function is based on an input that an instructor wants to analyze
+    :return:
+    """
     student_netid = session['uid']
     if type(student_netid) != str:
-        student_netid = session['student'][0]
+        student_netid = session['uid'][0]
     cur.execute(f"""select * from
     (select concept, function, coalesce(count(*), 0) as c, timestamp from responses r, questions q where netid = '{student_netid}' and r.qid = q.qid and r.ans_choice = q.correct_ans
     group by concept, function, timestamp) as correct RIGHT JOIN 
@@ -267,6 +330,10 @@ def analyze_self():
 
 @app.route('/add_question', methods=["GET", 'POST'])
 def add_question():
+    """
+    FUNCTION NOT WORKING
+    :return:
+    """
     cur.execute("""Select Distinct concept FROM questions""")
     concepts = cur.fetchall()
     choices = [c[0] for c in concepts]
@@ -295,6 +362,10 @@ def add_question():
 
 @app.route('/confirm_add_question', methods=["GET", 'POST'])
 def confirm_add_question():
+    """
+    FUNCTION NOT WORKING
+    :return:
+    """
     if request.method == "POST":
         next_dict = dict(request.form)
         if 'add' in next_dict.keys():
